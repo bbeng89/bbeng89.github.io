@@ -1,0 +1,16 @@
+.post {
+
+    text-align: $post-alignment;
+
+    img {
+        display: $post-img-display;
+        margin: $post-img-margin;
+        width: $post-img-width;
+        @include img-fluid();
+    }
+
+    .insta {
+        max-width: $post-insta-width;
+        margin: $post-insta-margin;
+    }
+}

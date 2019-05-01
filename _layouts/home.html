@@ -1,0 +1,107 @@
+---
+layout: base
+---
+
+{% assign newest_post = site.posts.first %}
+{% assign total_miles = 0 %}
+
+{% for post in site.posts %}
+  {% assign total_miles = total_miles | plus: post.miles %}
+{% endfor %}
+
+<div class="container">
+    <h1 class="text-center mt-3">Blake is {{ newest_post.home_title }}</h1>
+    <h5 class="text-center">He's traveled {{ total_miles | floor }} miles so far</h3>
+    {{ content }}
+</div>
+
+<hr/>
+
+<div id="map"></div>
+
+<div class="container">
+    <div class="home-feed">
+        <h2 class="mt-5 mb-5">Updates</h2>
+    
+        {% for post in site.posts %}
+            <h3 class="card-title"><a href="{{ post.url}}">{{ post.title }}</a></h3>
+            <h6 class="card-subtitle text-muted mb-5">{{ post.date | date: "%A %B %e, %Y" }}</h4>
+        {% endfor %}
+    </div>
+</div>
+
+<script>
+        var map;
+        var markers = [];
+        var path = [];
+        var homeIconUrl = 'https://www.dropbox.com/s/mqr46szr6pom05p/home.png?raw=1';
+        var starIconUrl = 'https://www.dropbox.com/s/7y9k98t8dpxmloy/star.png?raw=1';
+        var locations = [
+            {% for post in site.posts %}
+                { 
+                    url: "{{ post.url }}",
+                    coords: { lat: {{ post.lat }}, lng: {{ post.lng }} } 
+                },
+            {% endfor %}
+        ];
+
+        // initialize path - only coordinates
+        for(var i = 0; i < locations.length; i++) {
+            path.push(locations[i].coords);
+        }
+
+        function initMap() {
+            var bounds = new google.maps.LatLngBounds();
+
+            map = new google.maps.Map(document.getElementById('map'), {
+                // options
+                gestureHandling: 'cooperative'
+            });
+
+            for(var i = 0; i < locations.length; i++) {
+                var location = locations[i];
+
+                var settings = {
+                    position: location.coords,
+                    map: map
+                };
+
+                // they go in reverse chronological order
+                if(i == 0) {
+                    settings.icon = starIconUrl;
+                }
+                else if(i == (locations.length - 1)) {
+                    settings.icon = homeIconUrl;
+                }
+
+                var marker = new google.maps.Marker(settings);
+                addClickHandlerToMarker(marker, location.url);
+
+                markers.push(marker);
+                bounds.extend(marker.position);
+            }
+
+            map.fitBounds(bounds);
+            setPath();
+        }
+
+        function addClickHandlerToMarker(marker, url) {
+            marker.addListener('click', function() {
+                window.location.href = url;
+            })
+        }
+
+        function setPath() {
+            var travelPath = new google.maps.Polyline({
+                path: path,
+                geodesic: true,
+                strokeColor: '#3266ba',
+                strokeOpacity: 0.5,
+                strokeWeight: 3
+            });
+
+            travelPath.setMap(map);
+        }
+        </script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDmAAJe34ANGnmTzf--hAkQsqmRpxEwDJc&callback=initMap"
+type="text/javascript"></script>
