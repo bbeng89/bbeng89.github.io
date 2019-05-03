@@ -5,10 +5,17 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="description" content="">
         <meta name="author" content="Blake Bengtson">
-        <title>{{ page.title }}</title>
+        {% if page.collection == 'posts' %}
+            <title>{{ page.title }} ({{ page.date | date:"%-m/%-d/%y" }}) | Where's Blake?</title>
+        {% elsif page.title %}
+            <title>{{ page.title }} | Where's Blake?</title>
+        {% else %}
+            <title>Where's Blake?</title>
+        {% endif %}
         <link rel="stylesheet" href="/assets/css/site.css">
     </head>
     <body>
+
         {{ content }}
 
         <footer class="container mt-5 mb-5">
