@@ -13,6 +13,20 @@
         max-width: $post-insta-width;
         margin: $post-insta-margin;
     }
+
+    .post-date {
+        @include font-size($small-font-size);
+        color: $gray-600;
+        font-style: italic;
+        margin: 30px 0 10px 0;
+
+        &:before {
+            content: '« ';
+        }
+        &:after {
+            content: ' »';
+        }
+    }
 }
 
 .post-banner {
