@@ -80,19 +80,22 @@ layout: base
 
         for(var i = 0; i < locations.length; i++) {
             var location = locations[i];
+            var label = null;
+
+            if(i == 0) {
+                // current location
+                label = '⭐';
+            }
+            else if (i == (locations.length - 1)) {
+                // first location
+                label = '🏠';
+            }
 
             var settings = {
+                label: label,
                 position: location.coords,
                 map: map
             };
-
-            // they go in reverse chronological order
-            if(i == 0) {
-                settings.icon = starIconUrl;
-            }
-            else if(i == (locations.length - 1)) {
-                settings.icon = homeIconUrl;
-            }
 
             var marker = new google.maps.Marker(settings);
             addClickHandlerToMarker(marker, location.url);
