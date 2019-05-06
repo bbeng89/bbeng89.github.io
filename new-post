@@ -1,0 +1,24 @@
+#!/bin/bash
+
+if [ -z "$1" ]
+  then
+    echo "Usage: ./new-post {slug-name-of-post}"
+    exit 1
+fi
+
+DATE=`date +%Y-%m-%d`
+FILE="_posts/$DATE-$1.html"
+
+touch $FILE
+
+echo "---" >> $FILE
+echo "layout: post" >> $FILE
+echo "title:  " >> $FILE
+echo "date: $DATE" >> $FILE
+echo "home_title: " >> $FILE
+echo "lat: " >> $FILE
+echo "lng: " >> $FILE
+echo "miles: " >> $FILE
+echo "photos: " >> $FILE
+echo "banner: " >> $FILE
+echo "---" >> $FILE

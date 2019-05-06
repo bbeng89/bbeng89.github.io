@@ -46,3 +46,6 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   - README.md
+  - serve
+  - new-post
+
