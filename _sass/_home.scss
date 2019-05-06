@@ -1,6 +1,8 @@
 #map {
     width: $map-width;
     height: $map-height;
+    border-top: 3px solid #333;
+    border-bottom: 3px solid #333;
 }
 
 .home-feed {

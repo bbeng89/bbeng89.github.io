@@ -2,10 +2,19 @@
 layout: base
 ---
 
-<div class="container">
-    <h1 class="text-center">{{ page.title }}</h1>
-    <h5 class="text-center">{{ page.date | date: "%A %B %e, %Y" }}</h5>
-    <hr/>
+{% capture page_date %}
+    {{ page.date | date: "%A %B %e, %Y" }}
+{% endcapture %}
+
+{% if page.banner %}
+    {% include header_banner.html banner=page.banner banner_font=page.banner_font line1=page.title line2=page_date %}
+{% else %}
+    {% include header_plain.html line1=page.title line2=page_date %}
+{% endif %}
+
+
+<div class="container mt-5">
+    
     <div class="post">
 
         {{ content }}
