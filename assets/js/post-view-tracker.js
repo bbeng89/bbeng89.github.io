@@ -2,7 +2,7 @@ var PostViewTracker = function(latestPostId, photoCount) {
     var self = this;
     self.latestPostId = latestPostId;
     self.photoCount = photoCount;
-    self.key = 'latestPost';
+    self.key = 'lastPostSeen';
 
     var updateLastPostSeen = function() {
         var post = {
