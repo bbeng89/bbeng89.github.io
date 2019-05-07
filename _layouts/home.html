@@ -49,12 +49,8 @@ layout: base
 </div>
 
 <script src="/assets/js/mapstyles.js"></script>
+<script src="/assets/js/travelmap.js"></script>
 <script>
-    var map;
-    var markers = [];
-    var path = [];
-    var homeIconUrl = 'http://bbeng89.github.io/assets/img/home.png';
-    var starIconUrl = 'http://bbeng89.github.io/assets/img/star.png';
     var locations = [
         {% for post in site.posts %}
             { 
@@ -64,67 +60,6 @@ layout: base
         {% endfor %}
     ];
 
-    // initialize path - only coordinates
-    for(var i = 0; i < locations.length; i++) {
-        path.push(locations[i].coords);
-    }
-
-    function initMap() {
-        var bounds = new google.maps.LatLngBounds();
-
-        map = new google.maps.Map(document.getElementById('map'), {
-            // options
-            gestureHandling: 'cooperative',
-            styles: mapstyles.WY
-        });
-
-        for(var i = 0; i < locations.length; i++) {
-            var location = locations[i];
-            var label = null;
-
-            if(i == 0) {
-                // current location
-                label = '⭐';
-            }
-            else if (i == (locations.length - 1)) {
-                // first location
-                label = '🏠';
-            }
-
-            var settings = {
-                label: label,
-                position: location.coords,
-                map: map
-            };
-
-            var marker = new google.maps.Marker(settings);
-            addClickHandlerToMarker(marker, location.url);
-
-            markers.push(marker);
-            bounds.extend(marker.position);
-        }
-
-        map.fitBounds(bounds);
-        setPath();
-    }
-
-    function addClickHandlerToMarker(marker, url) {
-        marker.addListener('click', function() {
-            window.location.href = url;
-        })
-    }
-
-    function setPath() {
-        var travelPath = new google.maps.Polyline({
-            path: path,
-            geodesic: true,
-            strokeColor: '#3266ba',
-            strokeOpacity: 0.5,
-            strokeWeight: 3
-        });
-
-        travelPath.setMap(map);
-    }
+    var travelMap = new TravelMap(locations);
 </script>
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDmAAJe34ANGnmTzf--hAkQsqmRpxEwDJc&callback=initMap"
-type="text/javascript"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDmAAJe34ANGnmTzf--hAkQsqmRpxEwDJc&callback=travelMap.init" type="text/javascript"></script>
