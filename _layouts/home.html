@@ -35,7 +35,7 @@ layout: base
                 <h6 class="card-subtitle text-muted">
                     {{ post.date | date: "%A, %B %e, %Y" }}
                 </h4>
-                <span class="badge badge-pill badge-light">
+                <span class="badge badge-pill badge-light" id="count-{{ post.id | slugify }}">
                     {{ post.photos }} 
                     {% if post.photos == 1 %}
                         photo
@@ -50,7 +50,10 @@ layout: base
 
 <script src="/assets/js/mapstyles.js"></script>
 <script src="/assets/js/travelmap.js"></script>
+<script src="/assets/js/post-view-tracker.js"></script>
 <script>
+    var newestPostId = '{{ newest_post.id }}';
+    var newestPostPhotoCount = {{ newest_post.photos }};
     var locations = [
         {% for post in site.posts %}
             { 
@@ -61,5 +64,12 @@ layout: base
     ];
 
     var travelMap = new TravelMap(locations);
+    var postViewTracker = new PostViewTracker(newestPostId, newestPostPhotoCount);
+
+    if(!postViewTracker.hasSeenAllLatestPostPhotos()) {
+        var badge = document.getElementById('count-{{ newest_post.id | slugify }}')
+        badge.classList.remove('badge-light');
+        badge.classList.add('badge-success');
+    }
 </script>
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDmAAJe34ANGnmTzf--hAkQsqmRpxEwDJc&callback=travelMap.init" type="text/javascript"></script>

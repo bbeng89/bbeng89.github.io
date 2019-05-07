@@ -55,5 +55,19 @@ layout: base
         </div>
 
         <script async src="//www.instagram.com/embed.js"></script>
+        <script src="/assets/js/post-view-tracker.js"></script>
+
+        {% assign newest_post = site.posts.first %}
+        
+        <script>
+            var thisPostId = '{{ page.id }}';
+            var newestPostId = '{{ newest_post.id }}';
+            var newestPostPhotoCount = {{ newest_post.photos }};
+            var postViewTracker = new PostViewTracker(newestPostId, newestPostPhotoCount);
+
+            if(thisPostId == newestPostId) {
+                postViewTracker.updateLastPostSeen();
+            }
+        </script>
     </div>
 </div>
