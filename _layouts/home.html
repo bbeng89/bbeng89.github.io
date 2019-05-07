@@ -67,6 +67,10 @@ layout: base
     var postViewTracker = new PostViewTracker(newestPostId, newestPostPhotoCount);
 
     if(!postViewTracker.hasSeenAllLatestPostPhotos()) {
+        notifyUserOfNewPhotos();
+    }
+
+    function notifyUserOfNewPhotos() {
         var badge = document.getElementById('count-{{ newest_post.id | slugify }}')
         badge.classList.remove('badge-light');
         badge.classList.add('badge-success');
