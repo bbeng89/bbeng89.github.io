@@ -12,12 +12,51 @@ layout: base
     {% include header_plain.html line1=page.title line2=page_date %}
 {% endif %}
 
+{% for post in site.categories.destinations %}
+    {% if post.url == page.url %}
+        {% assign post_index0 = forloop.index0 %}
+        {% assign post_index1 = forloop.index %}
+    {% endif %}
+{% endfor %}
+
+{% for post in site.categories.destinations %}
+    {% if post_index0 == forloop.index %}
+        {% assign next_destination = post %}
+    {% endif %}
+    {% if post_index1 == forloop.index0 %}
+        {% assign prev_destination = post %}
+    {% endif %}
+{% endfor %}
+
 
 <div class="container mt-5">
     
     <div class="post">
 
+        {% if prev_destination %}
+            <p>Traveled {{ page.miles | floor }} miles from <a href="{{ prev_destination.url }}">{{ prev_destination.title }}</a></p>
+        {% endif %}
+
         {{ content }}
+
+        {% if site.tags[page.update_tag] %}
+            <h2 class="mt-5 mb-5">Updates</h2>
+            {% assign asc_posts = site.tags[page.update_tag] | reverse %}
+            {% for post in asc_posts %}
+                <div class="card mb-4">
+                    <h3 class="card-title"><a href="{{ post.url}}">{{ post.title }}</a></h3>
+                    <h6 class="card-subtitle text-muted">
+                        {{ post.date | date: "%A, %B %e, %Y" }}
+                    </h4>
+                </div>
+            {% endfor %}
+        {% else %}
+            {% assign latest_destination = site.categories.destinations.first %}
+            {% if latest_destination.path == page.path %}
+                <h2 class="mt-5 mb-5">Updates</h2>
+                <p class="text-muted">No updates yet. Check back soon.</p>
+            {% endif %}
+        {% endif %}
 
         <nav class="mt-5">
             <ul class="pagination justify-content-center">
@@ -46,28 +85,6 @@ layout: base
                     </li> 
                 {% endif %}
             </ul>
-        </nav>
-
-        <div class="font-italic text-muted mt-5">
-            *Note - If an image has this arrow icon 
-            <img src="/assets/img/insta-arrow.png" style="width:23px; display:inline;"> 
-            on the right side then it is a gallery. Click the arrow or swipe to view additional photos.
-        </div>
-
-        <script async src="//www.instagram.com/embed.js"></script>
-        <script src="/assets/js/post-view-tracker.js"></script>
-
-        {% assign newest_post = site.posts.first %}
-        
-        <script>
-            var thisPostId = '{{ page.id }}';
-            var newestPostId = '{{ newest_post.id }}';
-            var newestPostPhotoCount = {{ newest_post.photos }};
-            var postViewTracker = new PostViewTracker(newestPostId, newestPostPhotoCount);
-
-            if(thisPostId == newestPostId) {
-                postViewTracker.updateLastPostSeen();
-            }
-        </script>
+        </nav
     </div>
 </div>

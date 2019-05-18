@@ -2,7 +2,7 @@
 
 if [ -z "$1" ]
   then
-    echo "Usage: ./new-post {slug-name-of-post}"
+    echo "Usage: ./new-destination {slug-name-of-destination}"
     exit 1
 fi
 
@@ -12,13 +12,16 @@ FILE="_posts/$DATE-$1.html"
 touch $FILE
 
 echo "---" >> $FILE
-echo "layout: post" >> $FILE
 echo "title:  " >> $FILE
 echo "date: $DATE" >> $FILE
+echo "category: destinations" >> $FILE
+echo "layout: destination" >> $FILE
+echo "update_tag: " >> $FILE
 echo "home_title: " >> $FILE
 echo "lat: " >> $FILE
 echo "lng: " >> $FILE
 echo "miles: " >> $FILE
-echo "photos: " >> $FILE
 echo "banner: " >> $FILE
 echo "---" >> $FILE
+
+vim $FILE

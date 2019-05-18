@@ -2,23 +2,23 @@
 layout: base
 ---
 
-{% assign newest_post = site.posts.first %}
+{% assign current_destination = site.categories.destinations.first %}
 {% assign total_miles = 0 %}
 
-{% for post in site.posts %}
+{% for post in site.categories.destinations %}
   {% assign total_miles = total_miles | plus: post.miles %}
 {% endfor %}
 
 {% capture header_line1 %}
-    Blake is {{ newest_post.home_title }}
+    Blake is {{ current_destination.home_title }}
 {% endcapture %}
 
 {% capture header_line2 %}
     He's traveled {{ total_miles | floor }} miles so far
 {% endcapture %}
 
-{% if newest_post.banner %}
-    {% include header_banner.html banner=newest_post.banner banner_font=newest_post.banner_font line1=header_line1 line2=header_line2 %}
+{% if current_destination.banner %}
+    {% include header_banner.html banner=current_destination.banner banner_font=current_destination.banner_font line1=header_line1 line2=header_line2 %}
 {% else %}
     {% include header_plain.html line1=header_line1 line2=header_line2 %}
 {% endif %}
@@ -31,18 +31,17 @@ layout: base
     
         {% for post in site.posts %}
             <div class="card mb-4">
-                <h3 class="card-title"><a href="{{ post.url}}">{{ post.title }}</a></h3>
+                <h3 class="card-title">
+                    {% if post.category == 'destinations' %}
+                        <i class="fas fa-campground text-muted"></i>
+                    {% endif %}
+                    <a href="{{ post.url}}">
+                        {{ post.title }}
+                    </a>
+                </h3>
                 <h6 class="card-subtitle text-muted">
                     {{ post.date | date: "%A, %B %e, %Y" }}
-                </h4>
-                <span class="badge badge-pill badge-light" id="count-{{ post.id | slugify }}">
-                    {{ post.photos }} 
-                    {% if post.photos == 1 %}
-                        photo
-                    {% else %}
-                        photos
-                    {% endif %}
-                </span>
+                </h6>
             </div>
         {% endfor %}
     </div>
@@ -50,12 +49,9 @@ layout: base
 
 <script src="/assets/js/mapstyles.js"></script>
 <script src="/assets/js/travelmap.js"></script>
-<script src="/assets/js/post-view-tracker.js"></script>
 <script>
-    var newestPostId = '{{ newest_post.id }}';
-    var newestPostPhotoCount = {{ newest_post.photos }};
     var locations = [
-        {% for post in site.posts %}
+        {% for post in site.categories.destinations %}
             { 
                 url: "{{ post.url }}",
                 coords: { lat: {{ post.lat }}, lng: {{ post.lng }} } 
@@ -64,16 +60,5 @@ layout: base
     ];
 
     var travelMap = new TravelMap(locations);
-    var postViewTracker = new PostViewTracker(newestPostId, newestPostPhotoCount);
-
-    if(!postViewTracker.hasSeenAllLatestPostPhotos()) {
-        notifyUserOfNewPhotos();
-    }
-
-    function notifyUserOfNewPhotos() {
-        var badge = document.getElementById('count-{{ newest_post.id | slugify }}')
-        badge.classList.remove('badge-light');
-        badge.classList.add('badge-success');
-    }
 </script>
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDmAAJe34ANGnmTzf--hAkQsqmRpxEwDJc&callback=travelMap.init" type="text/javascript"></script>
