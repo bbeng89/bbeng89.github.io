@@ -21,14 +21,18 @@ layout: base
 
         <h2 class="mt-5 mb-5">Updates</h2>
     
-        {% for post in site.tags[page.update_tag] %}
-            <div class="card mb-4">
-                <h3 class="card-title"><a href="{{ post.url}}">{{ post.title }}</a></h3>
-                <h6 class="card-subtitle text-muted">
-                    {{ post.date | date: "%A, %B %e, %Y" }}
-                </h4>
-            </div>
-        {% endfor %}
+        {% if site.tags[page.update_tag] %}
+            {% for post in site.tags[page.update_tag] %}
+                <div class="card mb-4">
+                    <h3 class="card-title"><a href="{{ post.url}}">{{ post.title }}</a></h3>
+                    <h6 class="card-subtitle text-muted">
+                        {{ post.date | date: "%A, %B %e, %Y" }}
+                    </h4>
+                </div>
+            {% endfor %}
+        {% else %}
+            <p class="text-muted">No updates yet. Check back soon.</p>
+        {% endif %}
 
         <nav class="mt-5">
             <ul class="pagination justify-content-center">

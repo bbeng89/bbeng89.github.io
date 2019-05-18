@@ -1,0 +1,22 @@
+#!/bin/bash
+
+if [ -z "$1" ]
+  then
+    echo "Usage: ./new-update {destination_tag} {slug-name-of-update}"
+    exit 1
+fi
+
+DATE=`date +%Y-%m-%d`
+FILE="_posts/$DATE-$2.html"
+
+touch $FILE
+
+echo "---" >> $FILE
+echo "title:  " >> $FILE
+echo "date: $DATE" >> $FILE
+echo "category: updates" >> $FILE
+echo "tags: $1" >> $FILE
+echo "layout: update" >> $FILE
+echo "---" >> $FILE
+
+vim $FILE
