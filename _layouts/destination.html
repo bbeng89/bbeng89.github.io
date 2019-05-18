@@ -12,10 +12,30 @@ layout: base
     {% include header_plain.html line1=page.title line2=page_date %}
 {% endif %}
 
+{% for post in site.categories.destinations %}
+    {% if post.url == page.url %}
+        {% assign post_index0 = forloop.index0 %}
+        {% assign post_index1 = forloop.index %}
+    {% endif %}
+{% endfor %}
+
+{% for post in site.categories.destinations %}
+    {% if post_index0 == forloop.index %}
+        {% assign next_destination = post %}
+    {% endif %}
+    {% if post_index1 == forloop.index0 %}
+        {% assign prev_destination = post %}
+    {% endif %}
+{% endfor %}
+
 
 <div class="container mt-5">
     
     <div class="post">
+
+        {% if prev_destination %}
+            <p>Traveled {{ page.miles | floor }} miles from <a href="{{ prev_destination.url }}">{{ prev_destination.title }}</a></p>
+        {% endif %}
 
         {{ content }}
 
