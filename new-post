@@ -22,3 +22,5 @@ echo "miles: " >> $FILE
 echo "photos: " >> $FILE
 echo "banner: " >> $FILE
 echo "---" >> $FILE
+
+vim $FILE

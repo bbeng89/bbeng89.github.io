@@ -2,12 +2,15 @@
 layout: base
 ---
 
+{% assign destinations = site.categories.destinations | where:"update_tag", page.tags.first %}
+{% assign destination = destinations.first %}
+
 {% capture page_date %}
     {{ page.date | date: "%A, %B %e, %Y" }}
 {% endcapture %}
 
-{% if page.banner %}
-    {% include header_banner.html banner=page.banner banner_font=page.banner_font line1=page.title line2=page_date %}
+{% if destination.banner %}
+    {% include header_banner.html banner=destination.banner banner_font=destination.banner_font line1=page.title line2=page_date %}
 {% else %}
     {% include header_plain.html line1=page.title line2=page_date %}
 {% endif %}
@@ -16,8 +19,12 @@ layout: base
 <div class="container mt-5">
     
     <div class="post">
-
         {{ content }}
+
+        <div class="update-destination">
+            <p><i class="fas fa-campground"></i> Camping Location</p>
+            <h3><a href="{{ destination.url }}">{{ destination.title }}</a></h3>
+        </div>
 
         <nav class="mt-5">
             <ul class="pagination justify-content-center">
@@ -55,19 +62,5 @@ layout: base
         </div>
 
         <script async src="//www.instagram.com/embed.js"></script>
-        <script src="/assets/js/post-view-tracker.js"></script>
-
-        {% assign newest_post = site.posts.first %}
-        
-        <script>
-            var thisPostId = '{{ page.id }}';
-            var newestPostId = '{{ newest_post.id }}';
-            var newestPostPhotoCount = {{ newest_post.photos }};
-            var postViewTracker = new PostViewTracker(newestPostId, newestPostPhotoCount);
-
-            if(thisPostId == newestPostId) {
-                postViewTracker.updateLastPostSeen();
-            }
-        </script>
     </div>
 </div>
