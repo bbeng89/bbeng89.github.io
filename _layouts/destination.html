@@ -41,7 +41,8 @@ layout: base
 
         {% if site.tags[page.update_tag] %}
             <h2 class="mt-5 mb-5">Updates</h2>
-            {% for post in site.tags[page.update_tag] %}
+            {% assign asc_posts = site.tags[page.update_tag] | reverse %}
+            {% for post in asc_posts %}
                 <div class="card mb-4">
                     <h3 class="card-title"><a href="{{ post.url}}">{{ post.title }}</a></h3>
                     <h6 class="card-subtitle text-muted">
