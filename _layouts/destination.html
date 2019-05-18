@@ -19,9 +19,8 @@ layout: base
 
         {{ content }}
 
-        <h2 class="mt-5 mb-5">Updates</h2>
-    
         {% if site.tags[page.update_tag] %}
+            <h2 class="mt-5 mb-5">Updates</h2>
             {% for post in site.tags[page.update_tag] %}
                 <div class="card mb-4">
                     <h3 class="card-title"><a href="{{ post.url}}">{{ post.title }}</a></h3>
@@ -31,7 +30,11 @@ layout: base
                 </div>
             {% endfor %}
         {% else %}
-            <p class="text-muted">No updates yet. Check back soon.</p>
+            {% assign latest_destination = site.categories.destinations.first %}
+            {% if latest_destination.path == page.path %}
+                <h2 class="mt-5 mb-5">Updates</h2>
+                <p class="text-muted">No updates yet. Check back soon.</p>
+            {% endif %}
         {% endif %}
 
         <nav class="mt-5">
