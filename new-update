@@ -17,6 +17,7 @@ echo "date: $DATE" >> $FILE
 echo "category: updates" >> $FILE
 echo "tags: $1" >> $FILE
 echo "layout: update" >> $FILE
+echo "banner: " >> $FILE
 echo "---" >> $FILE
 
 vim $FILE

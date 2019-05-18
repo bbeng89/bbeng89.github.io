@@ -9,10 +9,14 @@ layout: base
     {{ page.date | date: "%A, %B %e, %Y" }}
 {% endcapture %}
 
-{% if destination.banner %}
-    {% include header_banner.html banner=destination.banner banner_font=destination.banner_font line1=page.title line2=page_date %}
+{% if page.banner %}
+    {% include header_banner.html banner=page.banner banner_font=page.banner_font line1=page.title line2=page_date %}
 {% else %}
-    {% include header_plain.html line1=page.title line2=page_date %}
+    {% if destination.banner %}
+        {% include header_banner.html banner=destination.banner banner_font=destination.banner_font line1=page.title line2=page_date %}
+    {% else %}
+        {% include header_plain.html line1=page.title line2=page_date %}
+    {% endif %}
 {% endif %}
 
 
