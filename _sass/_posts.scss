@@ -7,6 +7,10 @@
         margin: $post-img-margin;
         width: $post-img-width;
         @include img-fluid();
+
+        &:not(.lightbox-ignore) {
+            cursor: pointer;
+        }
     }
 
     .insta {

@@ -15,6 +15,7 @@
         {% endif %}
         <link rel="stylesheet" href="/assets/css/site.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+        <link rel="stylesheet" href="/assets/css/simpleLightbox.min.css">
     </head>
     <body>
 
@@ -33,5 +34,11 @@
             </ul>
         </footer>
         <script async src="//www.instagram.com/embed.js"></script>
+        <script src="/assets/js/simpleLightbox.min.js"></script>
+        <script>
+            SimpleLightbox.defaults.showCaptions = false;
+            SimpleLightbox.defaults.urlAttribute = 'src';
+            new SimpleLightbox({elements: '.post img:not(.lightbox-ignore)'});
+        </script>
     </body>
 </html> 
