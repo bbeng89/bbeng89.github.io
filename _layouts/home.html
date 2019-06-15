@@ -3,6 +3,7 @@ layout: base
 ---
 
 {% assign current_destination = site.categories.destinations.first %}
+{% assign current_update = site.categories.updates.first %}
 {% assign total_miles = 0 %}
 
 {% for post in site.categories.destinations %}
@@ -17,7 +18,9 @@ layout: base
     He's traveled {{ total_miles | floor }} miles so far
 {% endcapture %}
 
-{% if current_destination.banner %}
+{% if current_update.override_home_banner %}
+    {% include header_banner.html banner=current_update.banner banner_font=current_update.banner_font line1=header_line1 line2=header_line2 %}
+{% elsif current_destination.banner %}
     {% include header_banner.html banner=current_destination.banner banner_font=current_destination.banner_font line1=header_line1 line2=header_line2 %}
 {% else %}
     {% include header_plain.html line1=header_line1 line2=header_line2 %}
