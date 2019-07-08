@@ -1,0 +1,15 @@
+#!/bin/bash
+
+if [ -z "$1" ]
+  then
+    echo "Usage: ./publish-draft {slug-name-of-draft}"
+    exit 1
+fi
+
+DATE=`date +%Y-%m-%d`
+DRAFTFILE="_drafts/$1.html"
+NEWFILE="_posts/$DATE-$1.html"
+
+mv "$DRAFTFILE" "$NEWFILE"
+
+sed -i '' -e "s/date: \[draft\]/date: $DATE/g" "$NEWFILE"

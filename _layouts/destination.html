@@ -58,33 +58,6 @@ layout: base
             {% endif %}
         {% endif %}
 
-        <nav class="mt-5">
-            <ul class="pagination justify-content-center">
-                {% if page.previous %}
-                    <li class="page-item">
-                        <a class="page-link" href="{{ page.previous.url }}" tabindex="-1">&larr; Prev</a>
-                    </li>
-                {% else %}
-                    <li class="page-item disabled">
-                        <a class="page-link" href="#" tabindex="-1" aria-disabled="true">&larr; Prev</a>
-                    </li> 
-                {% endif %}
-
-                
-                <li class="page-item">
-                    <a class="page-link" href="/">Home</a>
-                </li>
-                
-                {% if page.next %}
-                    <li class="page-item">
-                        <a class="page-link" href="{{ page.next.url }}" tabindex="-1">Next &rarr;</a>
-                    </li>
-                {% else %}
-                    <li class="page-item disabled">
-                        <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Next &rarr;</a>
-                    </li> 
-                {% endif %}
-            </ul>
-        </nav>
+        {% include pagination.html page=page %} 
     </div>
 </div>
