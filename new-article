@@ -23,8 +23,6 @@ echo "---" >> $FILE
 echo "title:  " >> $FILE
 if [ "$DRAFT" = false ]; then
   echo "date: $DATE" >> $FILE
-else
-  echo "date: [draft]" >> $FILE
 fi
 echo "category: articles" >> $FILE
 echo "layout: article" >> $FILE
