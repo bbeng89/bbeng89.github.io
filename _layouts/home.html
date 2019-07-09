@@ -29,42 +29,25 @@ layout: base
 <div id="map"></div>
 
 <div class="container">
-    <div class="row">
-        <div class="col-md-6 update-feed">
-            <h2 class="mt-5 mb-5">Updates</h2>
-            {% for post in site.posts %}
-                {% if post.category != 'articles' %}
-                    <div class="card mb-4">
-                        <h3 class="card-title">
-                            {% if post.category == 'destinations' %}
-                                <i class="fas fa-campground text-muted"></i>
-                            {% endif %}
-                            <a href="{{ post.url}}">
-                                {{ post.title }}
-                            </a>
-                        </h3>
-                        <h6 class="card-subtitle text-muted">
-                            {{ post.date | date: "%A, %B %e, %Y" }}
-                        </h6>
-                    </div>
-                {% endif %}
-            {% endfor %}
-        </div>
-        <div class="col-md-6 article-feed">
-            <h2 class="mt-5 mb-5">Articles</h2>
-            {% for post in site.categories.articles %}
-                <div class="card mb-4">
-                    <h3 class="card-title">
-                        <a href="{{ post.url}}">
-                            {{ post.title }}
-                        </a>
-                    </h3>
-                    <h6 class="card-subtitle text-muted">
-                        {{ post.date | date: "%A, %B %e, %Y" }}
-                    </h6>
-                </div>
-            {% endfor %}
-        </div>
+    <div class="home-feed">
+        <h2 class="mt-5 mb-5">Updates</h2>
+        {% for post in site.posts %}
+            <div class="card mb-4">
+                <h3 class="card-title">
+                    {% if post.category == 'destinations' %}
+                        <i class="fas fa-campground text-muted" title="Camping Location"></i>
+                    {% elsif post.category == 'articles' %}
+                        <i class="fas fa-edit text-muted" title="Article"></i> 
+                    {% endif %}
+                    <a href="{{ post.url}}">
+                        {{ post.title }}
+                    </a>
+                </h3>
+                <h6 class="card-subtitle text-muted">
+                    {{ post.date | date: "%A, %B %e, %Y" }}
+                </h6>
+            </div>
+        {% endfor %}
     </div>
 </div>
 
