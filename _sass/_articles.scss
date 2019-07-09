@@ -1,0 +1,33 @@
+.article {
+    text-align: $article-alignment;
+
+    img {
+        display: $article-img-display;
+        margin: $article-img-margin;
+        width: $article-img-width;
+        @include img-fluid();
+
+        &:not(.lightbox-ignore) {
+            cursor: pointer;
+        }
+    }
+
+    .insta {
+        max-width: $article-insta-width;
+        margin: $article-insta-margin;
+    }
+
+    .article-date {
+        @include font-size($small-font-size);
+        color: $gray-600;
+        font-style: italic;
+        margin: 30px 0 10px 0;
+
+        &:before {
+            content: '« ';
+        }
+        &:after {
+            content: ' »';
+        }
+    }
+}

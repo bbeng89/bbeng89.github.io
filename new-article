@@ -2,18 +2,18 @@
 
 if [ -z "$1" ]
   then
-    echo "Usage: ./new-update {destination_tag} {slug-name-of-update}"
+    echo "Usage: ./new-article {slug-name-of-article}"
     echo "Options: --draft"
     exit 1
 fi
 
 DATE=`date +%Y-%m-%d`
 
-if [ "$3" == "--draft" ]; then
-    FILE="_drafts/$2.html"
+if [ "$2" == "--draft" ]; then
+    FILE="_drafts/$1.html"
     DRAFT=true
 else
-    FILE="_posts/$DATE-$2.html"
+    FILE="_posts/$DATE-$1.html"
     DRAFT=false
 fi
 
@@ -24,9 +24,8 @@ echo "title:  " >> $FILE
 if [ "$DRAFT" = false ]; then
   echo "date: $DATE" >> $FILE
 fi
-echo "category: updates" >> $FILE
-echo "tags: $1" >> $FILE
-echo "layout: update" >> $FILE
+echo "category: articles" >> $FILE
+echo "layout: article" >> $FILE
 echo "banner: " >> $FILE
 echo "override_home_banner: false" >> $FILE
 echo "---" >> $FILE

@@ -31,12 +31,13 @@ layout: base
 <div class="container">
     <div class="home-feed">
         <h2 class="mt-5 mb-5">Updates</h2>
-    
         {% for post in site.posts %}
             <div class="card mb-4">
                 <h3 class="card-title">
                     {% if post.category == 'destinations' %}
-                        <i class="fas fa-campground text-muted"></i>
+                        <i class="fas fa-campground text-muted" title="Camping Location"></i>
+                    {% elsif post.category == 'articles' %}
+                        <i class="fas fa-edit text-muted" title="Article"></i> 
                     {% endif %}
                     <a href="{{ post.url}}">
                         {{ post.title }}
