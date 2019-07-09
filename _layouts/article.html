@@ -2,8 +2,7 @@
 layout: base
 ---
 
-{% assign destinations = site.categories.destinations | where:"update_tag", page.tags.first %}
-{% assign destination = destinations.first %}
+{% assign destination = site.categories.destinations.first %}
 
 {% capture page_date %}
     {{ page.date | date: "%A, %B %e, %Y" }}

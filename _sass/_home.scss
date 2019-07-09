@@ -5,6 +5,10 @@
     border-bottom: 3px solid #333;
 }
 
-.home-feed {
-    text-align: $home-feed-alignment;
+.update-feed {
+    text-align: $home-feed-updates-alignment;
+}
+
+.article-feed {
+    text-align: $home-feed-articles-alignment;
 }
