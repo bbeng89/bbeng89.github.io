@@ -23,18 +23,34 @@
 
         <footer class="container mt-5 mb-5">
             <hr/>
-            <small class="text-muted float-sm-left">Updated {{ site.time | date:"%B %e, %Y @ %l:%M %p" }}</small>
-            <ul class="social list-inline float-sm-right d-none d-sm-inline">
-                <li class="list-inline-item">
-                    <a href="https://github.com/bbeng89/bbeng89.github.io" target="_blank"><img src="/assets/img/github.png"></a>
-                </li>
-                <li class="list-inline-item">
-                    <a href="https://instagram.com/bbeng89" target="_blank"><img src="/assets/img/insta.png"></a>
-                </li>
-                <li class="list-inline-item">
-                    <a href="https://www.campendium.com/users/133315" target="_blank"><img src="/assets/img/campendium.png"></a>
-                </li>
-            </ul>
+            <div class="row">
+                <div class="col-lg-4">
+                    <ul class="list-inline text-center">
+                        <li class="list-inline-item"><a href="#">Camping Locations</a></li>
+                        <li class="list-inline-item">|</li>
+                        <li class="list-inline-item"><a href="#">Articles</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <ul class="list-inline text-center">
+                        <li class="list-inline-item"><small class="text-muted">Updated {{ site.time | date:"%B %e, %Y @ %l:%M %p" }}</small></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <ul class="social list-inline text-center">
+                        <li class="list-inline-item">
+                            <a href="https://github.com/bbeng89/bbeng89.github.io" target="_blank"><img src="/assets/img/github.png"></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://instagram.com/bbeng89" target="_blank"><img src="/assets/img/insta.png"></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.campendium.com/users/133315" target="_blank"><img src="/assets/img/campendium.png"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
         </footer>
         <script async src="//www.instagram.com/embed.js"></script>
         <script src="/assets/js/simpleLightbox.min.js"></script>
