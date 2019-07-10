@@ -4,20 +4,25 @@ layout: base
 
 {% assign destination = site.categories.destinations.first %}
 
+{% capture page_title %}
+    <i class="fas fa-edit"></i> {{ page.title }}
+{% endcapture %}
+
 {% capture page_date %}
     {{ page.date | date: "%A, %B %e, %Y" }}
 {% endcapture %}
 
-{% if page.banner %}
-    {% include header_banner.html banner=page.banner banner_font=page.banner_font line1=page.title line2=page_date %}
-{% else %}
-    {% if destination.banner %}
-        {% include header_banner.html banner=destination.banner banner_font=destination.banner_font line1=page.title line2=page_date %}
+<a class="banner-link" href="/">
+    {% if page.banner %}
+        {% include header_banner.html banner=page.banner banner_font=page.banner_font line1=page_title line2=page_date %}
     {% else %}
-        {% include header_plain.html line1=page.title line2=page_date %}
+        {% if destination.banner %}
+            {% include header_banner.html banner=destination.banner banner_font=destination.banner_font line1=page_title line2=page_date %}
+        {% else %}
+            {% include header_plain.html line1=page_title line2=page_date %}
+        {% endif %}
     {% endif %}
-{% endif %}
-
+</a>
 
 <div class="container mt-5">
     
