@@ -1,0 +1,38 @@
+---
+layout: base
+title: Articles
+---
+
+{% assign current_destination = site.categories.destinations.first %}
+{% assign current_update = site.categories.updates.first %}
+
+{% capture header_line1 %}
+    <i class="fas fa-edit" title="Articles"></i> {{ page.title }} 
+{% endcapture %}
+
+{% capture header_line2 %}
+{% endcapture %}
+
+{% if current_update.override_home_banner %}
+    {% include header_banner.html banner=current_update.banner banner_font=current_update.banner_font line1=header_line1 line2=header_line2 %}
+{% elsif current_destination.banner %}
+    {% include header_banner.html banner=current_destination.banner banner_font=current_destination.banner_font line1=header_line1 line2=header_line2 %}
+{% else %}
+    {% include header_plain.html line1=header_line1 line2=header_line2 %}
+{% endif %}
+
+
+<div class="container text-center mt-5 mb-5">
+    {% for post in site.categories.articles %}
+        <div class="card mb-4">
+            <h3 class="card-title">
+                <a href="{{ post.url}}">
+                    {{ post.title }}
+                </a>
+            </h3>
+            <h6 class="card-subtitle text-muted">
+                {{ post.date | date: "%A, %B %e, %Y" }}
+            </h6>
+        </div>
+    {% endfor %}
+</div>
