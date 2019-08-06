@@ -1,0 +1,14 @@
+---
+layout: checklist-app
+title: RV Teardown Checklist - Partial Hookups
+---
+
+{% capture jsonData %}
+[
+    {% for step in site.data.checklists.teardown.partial_hookups %}
+        '{{ step }}',
+    {% endfor %}
+]
+{% endcapture %}
+
+<Checklist list-name="Teardown - Partial Hookups" :default-items="{{ jsonData }}" />

@@ -1,6 +1,6 @@
 ---
 layout: checklist-app
-title: Setup Checklist - Full Hookups
+title: RV Setup Checklist - Full Hookups
 ---
 
 {% capture jsonData %}
@@ -11,4 +11,4 @@ title: Setup Checklist - Full Hookups
 ]
 {% endcapture %}
 
-<App list-name="setup-full-hookups" :default-items="{{ jsonData }}"></App>
+<Checklist list-name="Setup - Full Hookups" :default-items="{{ jsonData }}" />
