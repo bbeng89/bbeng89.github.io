@@ -25,8 +25,8 @@
             "Check pressure of all tires. Inflate if necessary",
             "Check trailer lights",
             "Final walkaround to lock all doors and check for anything out of place",
-            "Reset trip on odometer",
-            "Pull out tow mirrors"
+            "Pull out tow mirrors",
+            "Reset trip on odometer"
         ],
         "partial_hookups": [
             "Put away and secure all loose items inside and outside",
@@ -49,8 +49,8 @@
             "Check pressure of all tires. Inflate if necessary",
             "Check trailer lights",
             "Final walkaround to lock all doors and check for anything out of place",
-            "Reset trip on odometer",
             "Pull out tow mirrors",
+            "Reset trip on odometer",
             "Stop at dump station and dump black tank then rinse (if water available)",
             "Dump gray tank(s)",
             "Rinse off and stow sewer hose",
@@ -66,15 +66,16 @@
             "If unlevel side-to-side, pull up on leveling blocks until level",
             "Chock wheels",
             "Unhitch from truck and pull truck forward",
+            "Push in tow mirrors",
+            "Save hitch position with LevelMate Pro",
             "Level front-to-back using tongue jack",
             "Put down stabilizer jacks",
             "Hook up sewer hose",
             "Open gray valve(s)",
             "Hook up water and elecric",
             "Put out slides",
-            "Bring out items that were secured for transport",
             "Turn off LevelMate Pro",
-            "Push in tow mirrors"
+            "Bring out items that were secured for transport"
         ],
         "partial_hookups": [
             "Turn on LevelMate Pro",
@@ -84,13 +85,14 @@
             "If unlevel side-to-side, pull up on leveling blocks until level",
             "Chock wheels",
             "Unhitch from truck and pull truck forward",
+            "Push in tow mirrors",
+            "Save hitch position with LevelMate Pro",
             "Level front-to-back using tongue jack",
             "Put down stabilizer jacks",
             "Hook up water and elecric",
             "Put out slides",
-            "Bring out items that were secured for transport",
             "Turn off LevelMate Pro",
-            "Push in tow mirrors"
+            "Bring out items that were secured for transport"
         ]
     }
 }
