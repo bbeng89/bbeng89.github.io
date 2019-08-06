@@ -20,10 +20,12 @@
             <div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2">
                 <h3>Checklists</h3>
                 <div class="list-group">
-                    <a href="#setup-full-hookups" class="list-group-item list-group-item-action">Setup (Full Hookups)</a>
-                    <a href="#setup-partial-hookups" class="list-group-item list-group-item-action">Setup (Partial Hookups)</a>
-                    <a href="#teardown-full-hookups" class="list-group-item list-group-item-action">Teardown (Full Hookups)</a>
-                    <a href="#teardown-partial-hookups" class="list-group-item list-group-item-action">Teardown (Partial Hookups)</a>
+                    <a href="/apps/checklists/setup/full-hookups" class="list-group-item list-group-item-action {% if page.url == "/apps/checklists/setup/full-hookups/" %} active {% endif %}">
+                        Setup - Full Hookups
+                    </a>
+                    <a href="/apps/checklists/setup/partial-hookups" class="list-group-item list-group-item-action {% if page.url == "/apps/checklists/setup/partial-hookups/" %} active {% endif %}">Setup - Partial Hookups</a>
+                    <a href="/apps/checklists/teardown/full-hookups" class="list-group-item list-group-item-action {% if page.url == "/apps/checklists/teardown/full-hookups/" %} active {% endif %}">Teardown - Full Hookups</a>
+                    <a href="/apps/checklists/teardown/partial-hookups" class="list-group-item list-group-item-action {% if page.url == "/apps/checklists/teardown/partial-hookups/" %} active {% endif %}">Teardown - Partial Hookups</a>
                 </div>
             </div>
         </div>
