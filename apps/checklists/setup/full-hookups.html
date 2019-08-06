@@ -1,0 +1,14 @@
+---
+layout: checklist-app
+title: Setup Checklist - Full Hookups
+---
+
+{% capture jsonData %}
+[
+    {% for step in site.data.checklists.setup.full_hookups %}
+        '{{ step }}',
+    {% endfor %}
+]
+{% endcapture %}
+
+<App list-name="setup-full-hookups" :default-items="{{ jsonData }}"></App>

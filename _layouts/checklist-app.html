@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        {% include analytics.html %}
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="Blake Bengtson">
+        <title>{{ page.title }} | Where's Blake?</title>
+        <link rel="stylesheet" href="/assets/css/site.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+        <link rel="stylesheet" href="/assets/apps/checklist/css/app.css">
+    </head>
+    <body>
+
+        <div id="app">
+            {{ content }}
+        </div>
+
+        <footer class="container mt-5 mb-5">
+            <hr/>
+            <div class="row">
+                <div class="col-lg-4">
+                    <ul class="list-inline text-center">
+                        <li class="list-inline-item"><a href="/"><i class="fas fa-home"></i></a></li>
+                        <li class="list-inline-item">|</li>
+                        <li class="list-inline-item"><a href="/camping-locations"><i class="fas fa-campground"></i> Camping</a></li>
+                        <li class="list-inline-item">|</li>
+                        <li class="list-inline-item"><a href="/articles"><i class="fas fa-edit"></i> Articles</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <ul class="list-inline text-center">
+                        <li class="list-inline-item"><small class="text-muted">Updated {{ site.time | date:"%B %e, %Y @ %l:%M %p" }}</small></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <ul class="social list-inline text-center">
+                        <li class="list-inline-item">
+                            <a href="https://github.com/bbeng89/bbeng89.github.io" target="_blank"><img src="/assets/img/github.png"></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://instagram.com/bbeng89" target="_blank"><img src="/assets/img/insta.png"></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.campendium.com/users/133315" target="_blank"><img src="/assets/img/campendium.png"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <script src="/assets/apps/checklist/js/chunk-vendors.js"></script>
+        <script src="/assets/apps/checklist/js/app.js"></script>
+    </body>
+</html> 
