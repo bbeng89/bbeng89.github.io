@@ -51,8 +51,8 @@ layout: base
     </div>
 </div>
 
-<script src="/assets/js/mapstyles.js"></script>
-<script src="/assets/js/travelmap.js"></script>
+<script src="/assets/js/mapstyles.js?{{site.time | date: '%s%N'}}"></script>
+<script src="/assets/js/travelmap.js?{{site.time | date: '%s%N'}}"></script>
 <script>
     var locations = [
         {% for post in site.categories.destinations %}

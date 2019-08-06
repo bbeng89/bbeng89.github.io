@@ -7,14 +7,25 @@
         <meta name="description" content="">
         <meta name="author" content="Blake Bengtson">
         <title>{{ page.title }} | Where's Blake?</title>
-        <link rel="stylesheet" href="/assets/css/site.css">
+        <link rel="stylesheet" href="/assets/css/site.css?{{site.time | date: '%s%N'}}">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-        <link rel="stylesheet" href="/assets/apps/checklist/css/app.css">
+        <link rel="stylesheet" href="/assets/apps/checklist/css/app.css?{{site.time | date: '%s%N'}}">
     </head>
     <body>
 
         <div id="app">
             {{ content }}
+        </div>
+        <div class="row mt-5 mb-1 text-center">
+            <div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2">
+                <h3>Checklists</h3>
+                <div class="list-group">
+                    <a href="#setup-full-hookups" class="list-group-item list-group-item-action">Setup (Full Hookups)</a>
+                    <a href="#setup-partial-hookups" class="list-group-item list-group-item-action">Setup (Partial Hookups)</a>
+                    <a href="#teardown-full-hookups" class="list-group-item list-group-item-action">Teardown (Full Hookups)</a>
+                    <a href="#teardown-partial-hookups" class="list-group-item list-group-item-action">Teardown (Partial Hookups)</a>
+                </div>
+            </div>
         </div>
 
         <footer class="container mt-5 mb-5">
@@ -49,7 +60,7 @@
                 </div>
             </div>
         </footer>
-        <script src="/assets/apps/checklist/js/chunk-vendors.js"></script>
-        <script src="/assets/apps/checklist/js/app.js"></script>
+        <script src="/assets/apps/checklist/js/chunk-vendors.js?{{site.time | date: '%s%N'}}"></script>
+        <script src="/assets/apps/checklist/js/app.js?{{site.time | date: '%s%N'}}"></script>
     </body>
 </html> 
