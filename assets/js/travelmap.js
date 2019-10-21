@@ -4,8 +4,8 @@ var TravelMap = function(locations) {
     self.markers = [];
     self.path = [];
     self.locations = locations;
-    self.homeIcon = '🏠';
-    self.currentLocationIcon = '⭐';
+    //self.homeIcon = '🏠';
+    self.currentLocationIcon = '/assets/img/markers/bonfire.png';
 
     // create path by extracting coords from locations
     for(var i = 0; i < self.locations.length; i++) {
@@ -23,7 +23,7 @@ var TravelMap = function(locations) {
         var travelPath = new google.maps.Polyline({
             path: self.path,
             geodesic: true,
-            strokeColor: '#3266ba',
+            strokeColor: '#ccc',
             strokeOpacity: 0.5,
             strokeWeight: 3
         });
@@ -42,17 +42,19 @@ var TravelMap = function(locations) {
     
         for(var i = 0; i < self.locations.length; i++) {
             var location = self.locations[i];
+            var icon = location.pin;
+
+            if(i == 0) {
+                icon = self.currentLocationIcon;
+            }
+
             var settings = {
                 position: location.coords,
-                map: self.map
+                map: self.map,
+                icon: {
+                    url: icon
+                }
             };
-    
-            if(i == 0) {
-                settings.label = self.currentLocationIcon;
-            }
-            else if (i == (self.locations.length - 1)) {
-                settings.label = self.homeIcon;
-            }
     
             var marker = new google.maps.Marker(settings);
 

@@ -5,6 +5,16 @@
     border-bottom: 3px solid #333;
 }
 
+#map-legend {
+    background-color: #eee;
+    padding: 10px 0;
+
+    text-align: center;
+    .list-inline {
+        margin: 0;
+    }
+}
+
 .home-feed {
     text-align: $home-feed-alignment;
 }
