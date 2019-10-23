@@ -22,6 +22,8 @@ echo "lat: " >> $FILE
 echo "lng: " >> $FILE
 echo "miles: " >> $FILE
 echo "banner: " >> $FILE
+echo "tags:" >> $FILE
+echo "  - loop2" >> $FILE
 echo "---" >> $FILE
 
 vim $FILE
