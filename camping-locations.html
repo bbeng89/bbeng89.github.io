@@ -13,16 +13,18 @@ title: Camping Locations
 {% endcapture %}
 
 {% capture header_line2 %}
+    {{ site.categories.destinations | size }} campsites (so far)
 {% endcapture %}
 
-{% if current_update.override_home_banner %}
-    {% include header_banner.html banner=current_update.banner banner_font=current_update.banner_font line1=header_line1 line2=header_line2 %}
-{% elsif current_destination.banner %}
-    {% include header_banner.html banner=current_destination.banner banner_font=current_destination.banner_font line1=header_line1 line2=header_line2 %}
-{% else %}
-    {% include header_plain.html line1=header_line1 line2=header_line2 %}
-{% endif %}
-
+<a class="banner-link" href="/">
+    {% if current_update.override_home_banner %}
+        {% include header_banner.html banner=current_update.banner banner_font=current_update.banner_font line1=header_line1 line2=header_line2 %}
+    {% elsif current_destination.banner %}
+        {% include header_banner.html banner=current_destination.banner banner_font=current_destination.banner_font line1=header_line1 line2=header_line2 %}
+    {% else %}
+        {% include header_plain.html line1=header_line1 line2=header_line2 %}
+    {% endif %}
+</a>
 
 <div class="container text-center mt-5 mb-5">
     {% for post in site.categories.destinations %}
