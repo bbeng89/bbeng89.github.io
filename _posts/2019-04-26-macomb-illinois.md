@@ -11,6 +11,6 @@ state: Illinois
 miles: 0
 ---
 
-![photo1](https://i.imgur.com/iMM6c3l.jpg)
+![photo1](/assets/img/destinations/illinois/macomb-1.jpg)
 
-![photo2](https://i.imgur.com/Ny9hzCj.jpg)
+![photo2](/assets/img/destinations/illinois/macomb-2.jpg)
