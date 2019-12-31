@@ -4,7 +4,7 @@ date: 2019-05-25
 category: updates
 tags: durango
 layout: update
-banner: https://i.imgur.com/fEpyqRT.jpg
+banner: /assets/img/banners/colorado/banner-last-day-boondocking.jpg
 ---
 
 Today my buddy Josh took me fly fishing for the first time. I didn't catch anything, but it was still a great experience.

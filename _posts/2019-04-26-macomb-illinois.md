@@ -7,6 +7,7 @@ update_tag: macomb
 home_title: "in Macomb, IL"
 lat: 40.4756423
 lng: -90.7598207
+state: Illinois
 miles: 0
 ---
 
