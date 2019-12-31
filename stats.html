@@ -1,0 +1,79 @@
+---
+layout: base
+title: Stats
+---
+
+{% assign current_destination = site.categories.destinations.first %}
+{% assign current_update = site.categories.updates.first %}
+
+{% capture header_line1 %}
+    <i class="fas fa-chart-bar"></i>
+    <br/>
+    {{ page.title }} 
+{% endcapture %}
+
+<a class="banner-link" href="/">
+    {% if current_update.override_home_banner %}
+        {% include header_banner.html banner=current_update.banner banner_font=current_update.banner_font line1=header_line1 line2=header_line2 %}
+    {% elsif current_destination.banner %}
+        {% include header_banner.html banner=current_destination.banner banner_font=current_destination.banner_font line1=header_line1 line2=header_line2 %}
+    {% else %}
+        {% include header_plain.html line1=header_line1 line2=header_line2 %}
+    {% endif %}
+</a>
+
+{% assign num_miles = 0 %}
+{% for post in site.categories.destinations %}
+  {% assign num_miles = num_miles | plus: post.miles %}
+{% endfor %}
+
+{% assign all_states = site.categories.destinations | map: "state" %}
+{% assign unique_states = all_states | uniq | sort %}
+{% assign num_states = unique_states | size %}
+{% assign num_campsites = site.categories.destinations | size %}
+
+<div class="container text-center mt-5 mb-5">
+    <div class="row">
+        <div class="col">
+            <div class="stat mx-auto">
+                <h3>{{ num_campsites }}</h3>
+                <h5>Campsites</h5>
+            </div>
+        </div>
+        <div class="col">
+            <div class="stat mx-auto">
+                <h3>{{ num_states }}</h3>
+                <h5>States</h5>
+            </div>
+        </div>
+        <div class="col">
+            <div class="stat mx-auto">
+                <h3>{{ num_miles | floor }}</h3>
+                <h5>Miles</h5>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-5">
+        <div class="col-lg-4 offset-lg-4">
+            <table class="table table-default table-bordered">
+                <thead>
+                    <tr>
+                        <th>State</th>
+                        <th>Campsites</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for state in unique_states %}
+                        <tr>
+                            <td>{{ state }}</td>
+                            <td>
+                                {{ site.categories.destinations | where: "state", state | size }}
+                            </td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
