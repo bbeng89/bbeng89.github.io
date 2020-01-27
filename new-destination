@@ -20,6 +20,7 @@ echo "update_tag: " >> $FILE
 echo "home_title: " >> $FILE
 echo "lat: " >> $FILE
 echo "lng: " >> $FILE
+echo "state: " >> $FILE
 echo "miles: " >> $FILE
 echo "banner: " >> $FILE
 echo "tags:" >> $FILE
