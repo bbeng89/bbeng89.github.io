@@ -25,10 +25,11 @@ if [ "$DRAFT" = false ]; then
   echo "date: $DATE" >> $FILE
 fi
 echo "category: updates" >> $FILE
-echo "tags: $1" >> $FILE
 echo "layout: update" >> $FILE
 echo "banner: " >> $FILE
 echo "override_home_banner: false" >> $FILE
+echo "tags:" >> $FILE
+echo "  - $1" >> $FILE
 echo "---" >> $FILE
 
 vim $FILE
