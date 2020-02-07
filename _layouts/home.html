@@ -4,18 +4,15 @@ layout: base
 
 {% assign current_destination = site.categories.destinations.first %}
 {% assign current_update = site.categories.updates.first %}
-{% assign total_miles = 0 %}
 
-{% for post in site.categories.destinations %}
-  {% assign total_miles = total_miles | plus: post.miles %}
-{% endfor %}
+{% include data/stats.html %}
 
 {% capture header_line1 %}
     Blake is {{ current_destination.home_title }}
 {% endcapture %}
 
 {% capture header_line2 %}
-    He's traveled {{ total_miles | floor }} miles so far
+    He's traveled {% include number_with_commas.html number=rounded_miles %} miles so far
 {% endcapture %}
 
 {% if current_update.override_home_banner %}
@@ -36,6 +33,9 @@ layout: base
 </div>
 
 <div class="container">
+
+    {% include stats_circles.html %}
+
     <div class="home-feed">
         <h2 class="mt-5 mb-5">Updates</h2>
         {% for post in site.posts %}
