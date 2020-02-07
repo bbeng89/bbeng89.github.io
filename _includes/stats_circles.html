@@ -1,0 +1,92 @@
+{% include data/stats.html %}
+
+<!-- design from https://bootsnipp.com/snippets/Kr32V -->
+
+<!-- Single row of stats - visible on md and larger -->
+<div class="row mt-5 d-none d-sm-none d-md-flex">
+
+    <div class="col-md-3">
+        <div class="circle-tile ">
+            <div class="circle-tile-heading dark-blue"><i class="fas fa-campground fa-fw fa-2x"></i></div>
+            <div class="circle-tile-content dark-blue">
+                <div class="circle-tile-description text-faded"> Campsites</div>
+                <div class="circle-tile-number text-faded ">{{ num_campsites }}</div>
+            </div>
+        </div>
+    </div>
+        
+    <div class="col-md-3">
+        <div class="circle-tile ">
+            <div class="circle-tile-heading red"><i class="fas fa-map-marked-alt fa-fw fa-3x"></i></div>
+            <div class="circle-tile-content red">
+                <div class="circle-tile-description text-faded"> States</div>
+                <div class="circle-tile-number text-faded ">{{ num_states }}</div>
+            </div>
+        </div>
+    </div> 
+
+    <div class="col-md-3">
+        <div class="circle-tile ">
+            <div class="circle-tile-heading green"><i class="fas fa-tree fa-fw fa-3x"></i></div>
+            <div class="circle-tile-content green">
+                <div class="circle-tile-description text-faded"> National Parks</div>
+                <div class="circle-tile-number text-faded ">{{ num_nat_parks }}</div>
+            </div>
+        </div>
+    </div> 
+
+    <div class="col-md-3">
+        <div class="circle-tile ">
+            <div class="circle-tile-heading yellow"><i class="fas fa-road fa-fw fa-3x"></i></div>
+            <div class="circle-tile-content yellow">
+                <div class="circle-tile-description text-faded"> Miles</div>
+                <div class="circle-tile-number text-faded ">{% include number_with_commas.html number=rounded_miles %}</div>
+            </div>
+        </div>
+    </div> 
+</div>
+
+<!-- Two rows of stats - visible on sm and smaller -->
+<div class="row mt-5 d-flex d-md-none">
+    <div class="col-6">
+        <div class="circle-tile ">
+            <div class="circle-tile-heading dark-blue"><i class="fas fa-campground fa-fw fa-2x"></i></div>
+            <div class="circle-tile-content dark-blue">
+                <div class="circle-tile-description text-faded"> Campsites</div>
+                <div class="circle-tile-number text-faded ">{{ num_campsites }}</div>
+            </div>
+        </div>
+    </div>
+        
+    <div class="col-6">
+        <div class="circle-tile ">
+            <div class="circle-tile-heading red"><i class="fas fa-map-marked-alt fa-fw fa-3x"></i></div>
+            <div class="circle-tile-content red">
+                <div class="circle-tile-description text-faded"> States</div>
+                <div class="circle-tile-number text-faded ">{{ num_states }}</div>
+            </div>
+        </div>
+    </div> 
+</div>
+
+<div class="row mt-5 d-flex d-md-none">
+    <div class="col-6">
+        <div class="circle-tile ">
+            <div class="circle-tile-heading green"><i class="fas fa-tree fa-fw fa-3x"></i></div>
+            <div class="circle-tile-content green">
+                <div class="circle-tile-description text-faded"> Nat. Parks</div>
+                <div class="circle-tile-number text-faded ">{{ num_nat_parks }}</div>
+            </div>
+        </div>
+    </div> 
+
+    <div class="col-6">
+        <div class="circle-tile ">
+            <div class="circle-tile-heading yellow"><i class="fas fa-road fa-fw fa-3x"></i></div>
+            <div class="circle-tile-content yellow">
+                <div class="circle-tile-description text-faded"> Miles</div>
+                <div class="circle-tile-number text-faded ">{% include number_with_commas.html number=rounded_miles %}</div>
+            </div>
+        </div>
+    </div> 
+</div>
