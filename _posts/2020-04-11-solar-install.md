@@ -18,7 +18,7 @@ I decided to flat-mount the panels on the roof just for simplicity. Climbing up 
 
 ![roof dimensions](/assets/img/articles/solar-install/02-roof-drawing.jpg)
 
-I then had to place about 10 orders on Amazon for wires, tools, etc. and had them all shipped to Lee's house in Phoenix. I met him in a Home Depot parking lot and picking up the panels and all the Amazon boxes, and took them out to Las Cruces the next morning. 
+I then had to place about 10 orders on Amazon for wires, tools, etc. and had them all shipped to Lee's house in Phoenix. I met him in a Home Depot parking lot and picked up the panels and all the Amazon boxes, and took them out to Las Cruces the next morning. 
 
 ## Testing
 
