@@ -40,7 +40,7 @@ layout: base
     <div class="post">
 
         {% if prev_destination %}
-            <p>Traveled {{ page.miles | floor }} miles from <a href="{{ prev_destination.url }}">{{ prev_destination.title }}</a></p>
+            <p>Traveled {{ page.miles | floor }} miles from <a href="{{ prev_destination.url }}">{{ prev_destination.city }}, {{ prev_destination.state }}</a></p>
         {% endif %}
 
         {{ content }}

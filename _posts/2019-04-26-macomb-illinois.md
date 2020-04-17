@@ -1,12 +1,12 @@
 ---
-title: "Macomb, IL"
+title: Macomb, Illinois
 date: 2019-04-26
 category: destinations
 layout: destination
 update_tag: macomb
-home_title: "in Macomb, IL"
 lat: 40.4756423
 lng: -90.7598207
+city: Macomb
 state: Illinois
 miles: 0
 ---
