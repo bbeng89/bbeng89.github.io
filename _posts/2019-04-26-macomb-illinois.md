@@ -9,6 +9,11 @@ lng: -90.7598207
 city: Macomb
 state: Illinois
 miles: 0
+campground:
+hookups: 
+nights: 0
+cost: 0
+review: 
 ---
 
 ![photo1](/assets/img/destinations/illinois/macomb-1.jpg)

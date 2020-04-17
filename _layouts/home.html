@@ -39,8 +39,8 @@ layout: base
     <div class="home-feed">
         <h2 class="mt-5 mb-5">Updates</h2>
         {% for post in site.posts %}
-            <div class="card mb-4">
-                <h3 class="card-title">
+            <div class="mb-4">
+                <h3>
                     {% if post.category == 'destinations' %}
                         <i class="fas fa-campground text-muted" title="Camping Location"></i>
                     {% elsif post.category == 'articles' %}
@@ -50,7 +50,7 @@ layout: base
                         {{ post.title }}
                     </a>
                 </h3>
-                <h6 class="card-subtitle text-muted">
+                <h6 class="text-muted">
                     {{ post.date | date: "%A, %B %e, %Y" }}
                 </h6>
             </div>
