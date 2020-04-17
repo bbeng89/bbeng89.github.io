@@ -2,7 +2,7 @@
 title: Last Day Boondocking
 date: 2019-05-25
 category: updates
-tags: durango
+tags: mancos
 layout: update
 banner: /assets/img/banners/colorado/banner-last-day-boondocking.jpg
 ---

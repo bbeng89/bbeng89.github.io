@@ -30,13 +30,13 @@ title: Camping Locations
 
 <div class="container text-center mt-5 mb-5">
     {% for post in site.categories.destinations %}
-        <div class="card mb-4">
-            <h3 class="card-title">
+        <div class="mb-4">
+            <h3>
                 <a href="{{ post.url}}">
                     {{ post.title }}
                 </a>
             </h3>
-            <h6 class="card-subtitle text-muted">
+            <h6 class="text-muted">
                 {{ post.date | date: "%A, %B %e, %Y" }}
             </h6>
         </div>

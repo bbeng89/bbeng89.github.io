@@ -40,18 +40,25 @@ layout: base
     <div class="post">
 
         {% if prev_destination %}
-            <p>Traveled {{ page.miles | floor }} miles from <a href="{{ prev_destination.url }}">{{ prev_destination.title }}</a></p>
+            <p>Traveled {{ page.miles | floor }} miles from <a href="{{ prev_destination.url }}">{{ prev_destination.city }}, {{ prev_destination.state }}</a></p>
         {% endif %}
 
         {{ content }}
+
+        
+        {% if site.categories.destinations.first.path != page.path %}
+            {% if page.campground or page.hookups or page.nights or page.cost or page.review %}
+                {% include campground_info.html %}        
+            {% endif %}
+        {% endif %}
 
         {% if site.tags[page.update_tag] %}
             <h2 class="mt-5 mb-5">Updates</h2>
             {% assign asc_posts = site.tags[page.update_tag] | reverse %}
             {% for post in asc_posts %}
-                <div class="card mb-4">
-                    <h3 class="card-title"><a href="{{ post.url}}">{{ post.title }}</a></h3>
-                    <h6 class="card-subtitle text-muted">
+                <div class="mb-4">
+                    <h3><a href="{{ post.url}}">{{ post.title }}</a></h3>
+                    <h6 class="text-muted">
                         {{ post.date | date: "%A, %B %e, %Y" }}
                     </h4>
                 </div>

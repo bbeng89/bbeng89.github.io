@@ -1,28 +1,35 @@
 #!/bin/bash
 
-if [ -z "$1" ]
+if [[ -z "$1" || -z "$2" ]]
   then
-    echo "Usage: ./new-destination {slug-name-of-destination}"
+    echo "Usage: ./new-destination {city} {state}"
     exit 1
 fi
 
+LC_CITY=$(echo "$1" | tr '[:upper:]' '[:lower:]')
+LC_STATE=$(echo "$2" | tr '[:upper:]' '[:lower:]')
 DATE=`date +%Y-%m-%d`
-FILE="_posts/$DATE-$1.html"
+FILE="_posts/$DATE-$LC_CITY-$LC_STATE.md"
 
 touch $FILE
 
 echo "---" >> $FILE
-echo "title:  " >> $FILE
+echo "title:  $1, $2" >> $FILE
 echo "date: $DATE" >> $FILE
 echo "category: destinations" >> $FILE
 echo "layout: destination" >> $FILE
 echo "update_tag: " >> $FILE
-echo "home_title: " >> $FILE
 echo "lat: " >> $FILE
 echo "lng: " >> $FILE
-echo "state: " >> $FILE
+echo "city: $1" >> $FILE
+echo "state: $2" >> $FILE
 echo "miles: " >> $FILE
 echo "banner: " >> $FILE
+echo "campground: " >> $FILE
+echo "hookups: " >> $FILE
+echo "nights: " >> $FILE
+echo "cost: " >> $FILE
+echo "review: " >> $FILE
 echo "tags:" >> $FILE
 echo "  - loop2" >> $FILE
 echo "---" >> $FILE
