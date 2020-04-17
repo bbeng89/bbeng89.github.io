@@ -1,6 +1,11 @@
 {% assign num_miles = 0 %}
+{% assign num_nights = 0 %}
+{% assign total_cost = 0 %}
+
 {% for post in site.categories.destinations %}
     {% assign num_miles = num_miles | plus: post.miles %}
+    {% assign num_nights = num_nights | plus: post.nights %}
+    {% assign total_cost = total_cost | plus: post.cost %}
 {% endfor %}
 
 {% assign rounded_miles = num_miles | floor %}
