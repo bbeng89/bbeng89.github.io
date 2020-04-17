@@ -15,6 +15,8 @@ hookups: Full
 nights: 15
 cost: 368.20
 review: https://www.campendium.com/carrouth-haven-rv-park
+tags:
+  - loop1
 ---
 
 ![Cortez CO](/assets/img/destinations/colorado/cortez.jpg)
