@@ -8,7 +8,7 @@ lat: 40.4756423
 lng: -90.7598207
 city: Macomb
 state: Illinois
-miles: 0
+miles: 105
 tags:
   - loop1
 ---
