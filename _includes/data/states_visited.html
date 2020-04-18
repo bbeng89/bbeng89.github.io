@@ -1,11 +1,9 @@
 {% include data/stats.html %}
-<script>
-    var STATES_VISITED = [
-        {% for state in unique_states %}
-        {
-            "state": "{{ state }}",
-            "campsite_count": {{ site.categories.destinations | where: "state", state | size }}
-        },
-        {% endfor %}
-    ];
-</script>
+[
+    {% for state in unique_states %}
+    {
+        "state": "{{ state }}",
+        "count": {{ site.categories.destinations | where: "state", state | size }}
+    },
+    {% endfor %}
+]

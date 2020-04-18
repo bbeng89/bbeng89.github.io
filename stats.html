@@ -27,7 +27,7 @@ title: Stats
 
     <div class="col-lg-8 offset-lg-2">
         <div class="card mb-3 mt-3">
-        <div class="card-header">Travel and Camping Stats</div>
+            <div class="card-header">Travel and Camping Stats</div>
             <table class="table stats-table">
                 <tr>
                     <td>Miles</td>
@@ -69,28 +69,29 @@ title: Stats
         </div>
     </div>
 
-    <div class="row">
-        <div class="col-lg-6">
-            <div class="card">
+        <div class="col-lg-8 offset-lg-2">
+            <div class="card mb-3 mt-3">
                 <div class="card-header">Campsites by State</div>
-                <div class="card-body">
-                    <canvas id="statesChart" width="400" height="400"></canvas>
+                <div class="card-body" id="app">
+                    <camping-map :state-data='{% include data/states_visited.html %}' />
                 </div>
             </div>
         </div>
-        <div class="col-lg-6">
-            <div class="card">
+
+        <div class="col-lg-8 offset-lg-2">
+            <div class="card mb-3 mt-3">
                 <div class="card-header">Nights by Hookup Type</div>
                 <div class="card-body">
-                    <canvas id="hookupChart" width="400" height="400"></canvas>
+                    <div style="max-width: 600px; max-height: 600px">
+                        <canvas id="hookupChart"></canvas>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
     
 </div>
+
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
-{% include data/states_visited.html %}
 {% include data/camping_nights.html %}
 <script>
     function getRandomColor() {
@@ -109,14 +110,6 @@ title: Stats
         return randomColors;
     }
 
-    var statesVisitedData = {
-        datasets: [{
-            data: STATES_VISITED.map(s => s.campsite_count),
-            backgroundColor: randomColors(STATES_VISITED.length)
-        }],
-        labels: STATES_VISITED.map(s => s.state),
-    };
-
     var hookupData = {
         datasets: [{
             data: [CAMPING_NIGHTS.none, CAMPING_NIGHTS.partial, CAMPING_NIGHTS.full],
@@ -128,17 +121,11 @@ title: Stats
     var defaultOptions = {
         legend: {
             display: true,
-            position: 'bottom',
-            align: 'start'
+            position: 'right',
+            align: 'center'
         }
     };
 
-    statesCanvas = document.getElementById('statesChart').getContext('2d');
-    var statesChart = new Chart(statesCanvas, {
-        type: 'pie',
-        data: statesVisitedData,
-        options: defaultOptions
-    });
     hookupCanvas = document.getElementById('hookupChart').getContext('2d');
     var hookupChart = new Chart(hookupCanvas, {
         type: 'pie',
