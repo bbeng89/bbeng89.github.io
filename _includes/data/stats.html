@@ -1,16 +1,38 @@
 {% assign num_miles = 0 %}
 {% assign num_nights = 0 %}
 {% assign total_cost = 0 %}
+{% assign boondocking_nights = 0 %}
+{% assign no_hookup_nights = 0 %}
+{% assign partial_hookup_nights = 0 %}
+{% assign full_hookup_nights = 0 %}
 
 {% for post in site.categories.destinations %}
     {% assign num_miles = num_miles | plus: post.miles %}
     {% assign num_nights = num_nights | plus: post.nights %}
     {% assign total_cost = total_cost | plus: post.cost %}
+
+    {% if post.tags contains "boondocking" %}
+        {% assign boondocking_nights = boondocking_nights | plus: post.nights %}
+    {% endif %}
+
+    {% if post.hookups == "None" %} 
+        {% assign no_hookup_nights = no_hookup_nights | plus: post.nights %}
+    {% elsif post.hookups == "Partial" %}
+        {% assign partial_hookup_nights = partial_hookup_nights | plus: post.nights %}
+    {% elsif post.hookups == "Full" %}
+        {% assign full_hookup_nights = full_hookup_nights | plus: post.nights %}
+    {% endif %}
 {% endfor %}
 
+
 {% assign rounded_miles = num_miles | floor %}
+{% assign rounded_cost = total_cost | floor %}
 {% assign all_states = site.categories.destinations | map: "state" %}
 {% assign unique_states = all_states | uniq | sort %}
 {% assign num_states = unique_states | size %}
 {% assign num_campsites = site.categories.destinations | size %}
 {% assign num_nat_parks = site.tags.national-park | size %}
+{% assign avg_cost_per_night = total_cost | divided_by: num_nights %}
+{% assign nights_float = num_nights | times: 1.0 %}
+{% assign campsites_float = num_campsites | times: 1.0 %}
+{% assign avg_nights_per_campsite = nights_float | divided_by: campsites_float | round: 3 %}

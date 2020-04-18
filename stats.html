@@ -23,29 +23,126 @@ title: Stats
 </a>
 
 <div class="container text-center mt-5 mb-5">
-    
-    {% include stats_circles.html %}
+    {% include data/stats.html %}
 
-    <div class="row mt-5">
-        <div class="col-lg-4 offset-lg-4">
-            <table class="table table-default table-bordered">
-                <thead>
-                    <tr>
-                        <th>State</th>
-                        <th>Campsites</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {% for state in unique_states %}
-                        <tr>
-                            <td>{{ state }}</td>
-                            <td>
-                                {{ site.categories.destinations | where: "state", state | size }}
-                            </td>
-                        </tr>
-                    {% endfor %}
-                </tbody>
+    <div class="col-lg-8 offset-lg-2">
+        <div class="card mb-3 mt-3">
+        <div class="card-header">Travel and Camping Stats</div>
+            <table class="table stats-table">
+                <tr>
+                    <td>Miles</td>
+                    <td>{% include number_with_commas.html number=rounded_miles %}</td>
+                </tr>
+                <tr>
+                    <td>Campsites</td>
+                    <td>{{ num_campsites }}</td>
+                </tr>
+                <tr>
+                    <td>Total Nights</td>
+                    <td>{{ num_nights }}</td>
+                </tr>
+                <tr>
+                    <td>Avg. Nights Per Campsite</td>
+                    <td>{{ avg_nights_per_campsite }}</td>
+                </tr>
+                <tr>
+                    <td>Total Camping Cost</td>
+                    <td>${% include number_with_commas.html number=rounded_cost %}</td>
+                </tr>
+                <tr>
+                    <td>Avg. Cost Per Night</td>
+                    <td>${{ avg_cost_per_night | round: 2 }}</td>
+                </tr>
+                <tr>
+                    <td>States</td>
+                    <td>{{ num_states }}</td>
+                </tr>
+                <tr>
+                    <td>National Parks</td>
+                    <td>{{ num_nat_parks }}</td>
+                </tr>
+                <tr>
+                    <td>Boondocking Nights</td>
+                    <td>{{ boondocking_nights }}</td>
+                </tr>
             </table>
         </div>
     </div>
+
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="card">
+                <div class="card-header">Campsites by State</div>
+                <div class="card-body">
+                    <canvas id="statesChart" width="400" height="400"></canvas>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="card">
+                <div class="card-header">Nights by Hookup Type</div>
+                <div class="card-body">
+                    <canvas id="hookupChart" width="400" height="400"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+    
 </div>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+{% include data/states_visited.html %}
+{% include data/camping_nights.html %}
+<script>
+    function getRandomColor() {
+        return Math.floor(Math.random()*16777215).toString(16);
+    }
+    function randomColors(count) {
+        var randomColors = [];
+        for(var i = 0; i < count; i++) {
+            var color = getRandomColor();
+            while(randomColors.includes(color))
+            {
+                color = getRandomColor();
+            }
+            randomColors.push('#'+color);
+        }
+        return randomColors;
+    }
+
+    var statesVisitedData = {
+        datasets: [{
+            data: STATES_VISITED.map(s => s.campsite_count),
+            backgroundColor: randomColors(STATES_VISITED.length)
+        }],
+        labels: STATES_VISITED.map(s => s.state),
+    };
+
+    var hookupData = {
+        datasets: [{
+            data: [CAMPING_NIGHTS.none, CAMPING_NIGHTS.partial, CAMPING_NIGHTS.full],
+            backgroundColor: randomColors(3)
+        }],
+        labels: ["No Hookups", "Partial Hookups", "Full Hookups"]
+    };
+    
+    var defaultOptions = {
+        legend: {
+            display: true,
+            position: 'bottom',
+            align: 'start'
+        }
+    };
+
+    statesCanvas = document.getElementById('statesChart').getContext('2d');
+    var statesChart = new Chart(statesCanvas, {
+        type: 'pie',
+        data: statesVisitedData,
+        options: defaultOptions
+    });
+    hookupCanvas = document.getElementById('hookupChart').getContext('2d');
+    var hookupChart = new Chart(hookupCanvas, {
+        type: 'pie',
+        data: hookupData,
+        options: defaultOptions
+    });
+</script>

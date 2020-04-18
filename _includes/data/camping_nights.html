@@ -1,0 +1,9 @@
+{% include data/stats.html %}
+<script>
+    var CAMPING_NIGHTS = {
+        "total": {{ num_nights }},
+        "none": {{ no_hookup_nights }},
+        "partial": {{ partial_hookup_nights }},
+        "full": {{ full_hookup_nights }}
+    };
+</script>
