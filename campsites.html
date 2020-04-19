@@ -1,0 +1,74 @@
+---
+layout: base
+title: Campsites
+---
+
+{% assign current_destination = site.categories.destinations.first %}
+{% assign current_update = site.categories.updates.first %}
+{% assign all_states = site.categories.destinations | map: "state" %}
+
+{% capture header_line1 %}
+    <i class="fas fa-campground" title="Campsites"></i>
+    <br/>
+    {{ page.title }} 
+{% endcapture %}
+
+{% capture header_line2 %}
+    {{ site.categories.destinations | size }} campsites in 
+    {{ all_states | uniq | size }} states (so far)
+{% endcapture %}
+
+<a class="banner-link" href="/">
+    {% if current_update.override_home_banner %}
+        {% include header_banner.html banner=current_update.banner banner_font=current_update.banner_font line1=header_line1 line2=header_line2 %}
+    {% elsif current_destination.banner %}
+        {% include header_banner.html banner=current_destination.banner banner_font=current_destination.banner_font line1=header_line1 line2=header_line2 %}
+    {% else %}
+        {% include header_plain.html line1=header_line1 line2=header_line2 %}
+    {% endif %}
+</a>
+
+<div class="container mt-5 mb-5">
+    {% for post in site.categories.destinations %}
+    {% if post.banner %}
+        {% assign bg_color = "rgba(0, 0, 0, 0.3)" %}
+        {% assign text_style = "color: white" %}
+        {% assign button_attrs = 'class="btn btn-outline-light"' %}
+    {% else %}
+        {% assign bg_color = "" %}
+        {% assign text_style = "" %}
+        {% assign button_attrs = 'class="btn btn-outline-primary"' %}
+    {% endif %}
+    
+    <div class="card mt-3 mb-3" style="border: none; background-image: url({{ post.banner }}); background-size:cover; min-height: 210px">
+        <div class="card-header clearfix" style="background-color: {{ bg_color }};">
+            <h3 class="float-left"><a href="{{ post.url}}" style="{{ text_style }}">{{ post.title }}</a></h3>
+            <small class="float-right" style="{{ text_style }}"><em>{{ post.date | date: "%A, %B %e, %Y" }}</em></small>
+          </div>
+        <div class="card-body" style="background-color: {{ bg_color }}; ">
+            <div class="row">
+                <div class="col-lg-10">
+                    <h5 style="{{ text_style }}">{{ post.campground }} </h5>
+                    {% if post.nights %} 
+                        <p style="{{ text_style }}">
+                            <small>
+                                {{ post.nights }} {% if post.nights == 1 %}Night{% else %}Nights{% endif %} | 
+                                {% if post.hookups == 'None' %}No{% else %}{{ post.hookups }}{% endif %} hookups
+                            </small>
+                        </p>
+                    {% endif %}
+                </div>
+                <div class="col-lg-2">
+                    <a href="{{ post.url }}" {{ button_attrs }}>Read More &raquo;</a>
+                </div>
+            </div>
+            
+        </div>
+        <div class="card-footer" style="background-color: {{ bg_color }}; ">
+            {% for tag in post.tags %}
+                <span class="badge badge-secondary">{{ tag }}</span> 
+            {% endfor %}
+        </div>
+    </div>
+    {% endfor %}
+</div>

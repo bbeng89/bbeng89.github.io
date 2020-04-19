@@ -1,21 +1,17 @@
 ---
 layout: base
-title: Camping Locations
+title: National Parks
 ---
 
 {% assign current_destination = site.categories.destinations.first %}
 {% assign current_update = site.categories.updates.first %}
-{% assign all_states = site.categories.destinations | map: "state" %}
 
 {% capture header_line1 %}
-    <i class="fas fa-campground" title="Camping Location"></i>
-    <br/>
-    {{ page.title }} 
+    <i class="fas fa-tree" title="National Parks"></i> <br/> {{ page.title }} 
 {% endcapture %}
 
 {% capture header_line2 %}
-    {{ site.categories.destinations | size }} campsites in 
-    {{ all_states | uniq | size }} states (so far)
+    {{ site.tags.national-park | size }} National Parks Visited (so far)
 {% endcapture %}
 
 <a class="banner-link" href="/">
@@ -29,7 +25,7 @@ title: Camping Locations
 </a>
 
 <div class="container text-center mt-5 mb-5">
-    {% for post in site.categories.destinations %}
+    {% for post in site.tags.national-park %}
         <div class="mb-4">
             <h3>
                 <a href="{{ post.url}}">
