@@ -9,7 +9,7 @@ lng: -108.5111761
 city: Cortez
 state: Colorado
 miles: 20.1
-banner:
+banner: /assets/img/banners/colorado/banner-cortez.jpg
 campground: Carrouth Haven RV Park
 hookups: Full
 nights: 15
