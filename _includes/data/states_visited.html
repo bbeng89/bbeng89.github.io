@@ -1,9 +1,15 @@
 {% include data/stats.html %}
+
 [
     {% for state in unique_states %}
-    {
-        "state": "{{ state }}",
-        "count": {{ site.categories.destinations | where: "state", state | size }}
-    },
+        {% assign total_nights = 0 %}
+        {% assign state_destinations = site.categories.destinations | where: "state", state %}
+        {% for state_dest in state_destinations %}
+            {% assign total_nights = total_nights | plus: state_dest.nights %}
+        {% endfor %}
+        {
+            "state": "{{ state }}",
+            "count": {{ total_nights }}
+        },
     {% endfor %}
 ]
