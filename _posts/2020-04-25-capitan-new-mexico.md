@@ -16,6 +16,7 @@ nights:
 cost: 0
 review: 
 tags:
+  - covid19
   - boondocking
   - loop2
 ---
