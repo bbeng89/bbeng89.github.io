@@ -7,8 +7,8 @@ if [ -z "$1" ]
 fi
 
 DATE=`date +%Y-%m-%d`
-DRAFTFILE="_drafts/$1.html"
-NEWFILE="_posts/$DATE-$1.html"
+DRAFTFILE="_drafts/$1.md"
+NEWFILE="_posts/$DATE-$1.md"
 
 awk -v n=3 -v s="date: $DATE" 'NR == n {print s} {print}' "$DRAFTFILE" > "$NEWFILE"
 rm -f "$DRAFTFILE"

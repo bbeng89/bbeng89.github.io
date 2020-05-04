@@ -1,5 +1,6 @@
 ---
 title: One Year on the Road
+date: 2020-05-04
 category: articles
 layout: article
 banner: /assets/img/banners/articles/banner-one-year.jpg
@@ -46,7 +47,7 @@ Surprisingly, this blog and my Instagram account have also been really valuable 
 
 On a deeper level, I feel that this journey has fundamentally changed me for the better. The bitterness, fear, and negativity that were my constant companions before are now gone and replaced with optimism and an excitement for life. I see the good in people now rather than immediately assuming the worst. Those core principles of stoicism, self-reliance, and liberty are stronger in me now than ever. I try to live simply and focus on creating new experiences with the things I have rather than always wanting for something else. I've become more confident and willing to try things for myself and take risks. I don't know how long I'll live on the road, and that's okay because these days I am perfectly content. This doesn't mean that I don't have goals and aspirations for my life, because I certainly do. But my goals are now my own, not anyone else's. 
 
-I think the most important thing I've learned from this whole journey is that any situation in life becomes whatever you make of it. A terrible tragedy can break you, or it can cause a rebirth. There are external things that can and will happen to you and are completely out of your control. But what you can control is how you react to them. As Marcus Aurelius said in Meditations, "Accept whatever comes to you woven in the pattern of your destiny, for what could more aptly fit your needs?" 
+I think the most important thing I've learned from this whole journey is that any situation in life becomes whatever you make of it. A terrible tragedy can break you, or it can cause a rebirth. There are external things that can and will happen to you and are completely out of your control. What you can control is your reaction to them. As Marcus Aurelius said in Meditations, "Accept whatever comes to you woven in the pattern of your destiny, for what could more aptly fit your needs?" 
 
 ---
 
