@@ -14,7 +14,7 @@ campground: West Mesa Dispersed - BLM
 hookups: None
 nights: 14
 cost: 0
-review: 
+review: https://www.campendium.com/west-mesa-road-dispersed
 tags:
   - covid19
   - boondocking
