@@ -12,7 +12,7 @@ miles: 144
 banner: /assets/img/banners/new-mexico/banner-edgewood.jpg
 campground: Torrance County Park
 hookups: None
-nights: 
+nights: 15
 cost: 0
 review: 
 tags:
