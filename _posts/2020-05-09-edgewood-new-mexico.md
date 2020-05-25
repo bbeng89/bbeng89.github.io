@@ -14,7 +14,7 @@ campground: Torrance County Park
 hookups: None
 nights: 15
 cost: 0
-review: 
+review: https://www.campendium.com/torrance-county-park
 tags:
   - boondocking
   - covid19
