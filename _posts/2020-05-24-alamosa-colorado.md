@@ -9,7 +9,7 @@ lng: -105.59346
 city: Alamosa
 state: Colorado
 miles: 218
-banner: /assets/img/banners/colorado/banner-alamosa.jpg
+banner: /assets/img/banners/colorado/banner-alamosa-2.jpg
 campground: Sacred White Shell Mountain - BLM
 hookups: None
 nights: 
