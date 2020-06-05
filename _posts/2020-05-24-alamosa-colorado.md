@@ -12,7 +12,7 @@ miles: 218
 banner: /assets/img/banners/colorado/banner-alamosa-2.jpg
 campground: Sacred White Shell Mountain - BLM
 hookups: None
-nights: 
+nights: 13
 cost: 0
 review: 
 tags:
