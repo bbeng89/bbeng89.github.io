@@ -20,7 +20,7 @@ tags:
 ---
 
 <p class="text-justify">
-I decided I'm going to make the journey back to the Midwest so that I can visit family and friends and do some maintenance on the rig. My goal for today was to get to Dodge City, Kansas, but when I checked the weather forecast I saw they were predicting 70mph winds throughout all of Southeastern Colorado, which was basically my entire route. After being out here a couple weeks I noticed that the mornings are calm and the wind picks up throughout the day, so I decided to completely pack everything and hitch up last night, so that this morning all I would have to do is pull the slide in and then take off. My dad's side of the family is notorious for leaving extremely early in the morning, so I channeled my inner Bengtson and managed to get out on the road by 4:45 AM. 
+I decided I'm going to make the journey back to the Midwest so that I can visit family and friends and do some maintenance on the rig. My goal for today was to get to Dodge City, Kansas, but when I checked the weather forecast I saw they were predicting 70mph winds throughout all of Southeastern Colorado, which was basically my entire route. After being out here a couple weeks I noticed that the mornings are calm and the wind picks up throughout the day, so I decided to completely pack everything and hitch up last night, so that this morning all I would have to do is pull the slide in and then take off. My family is notorious for leaving extremely early in the morning, so I channeled my inner Bengtson and managed to get out on the road by 4:45 AM. 
 </p>
 
 <p class="text-justify">
