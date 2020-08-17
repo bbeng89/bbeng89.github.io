@@ -14,7 +14,7 @@ campground: Gunsmoke RV Park
 hookups: Full
 nights: 1
 cost: 41
-review: 
+review: https://www.campendium.com/gunsmoke-rv-park
 tags:
   - loop2
 ---
