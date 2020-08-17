@@ -14,7 +14,7 @@ campground: Sacred White Shell Mountain - BLM
 hookups: None
 nights: 13
 cost: 0
-review: 
+review: https://www.campendium.com/sacred-white-shell-mountain
 tags:
   - boondocking
   - loop2
