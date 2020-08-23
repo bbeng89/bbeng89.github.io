@@ -31,7 +31,7 @@ echo "nights: " >> $FILE
 echo "cost: " >> $FILE
 echo "review: " >> $FILE
 echo "tags:" >> $FILE
-echo "  - loop2" >> $FILE
+echo "  - loop3" >> $FILE
 echo "---" >> $FILE
 
 vim $FILE
