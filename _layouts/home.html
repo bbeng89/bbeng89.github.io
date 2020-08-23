@@ -68,6 +68,8 @@ layout: base
                 coords: { lat: {{ post.lat }}, lng: {{ post.lng }} },
                 {% if post.tags contains 'loop2' %}
                 pin: "{{ site.url }}/assets/img/markers/pin-blue.png"
+                {% elsif post.tags contains 'loop3' %}
+                pin: "{{ site.url }}/assets/img/markers/pin-green.png"
                 {% else %}
                 pin: "{{ site.url }}/assets/img/markers/pin-red.png"
                 {% endif %}
