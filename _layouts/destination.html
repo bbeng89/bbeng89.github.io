@@ -40,7 +40,7 @@ layout: base
     <div class="post">
 
         {% if prev_destination %}
-            <p>Traveled {{ page.miles | floor }} miles from <a href="{{ prev_destination.url }}">{{ prev_destination.city }}, {{ prev_destination.state }}</a></p>
+            <p class="text-center">Traveled {{ page.miles | floor }} miles from <a href="{{ prev_destination.url }}">{{ prev_destination.city }}, {{ prev_destination.state }}</a></p>
         {% endif %}
 
         {{ content }}
@@ -67,7 +67,7 @@ layout: base
             {% assign latest_destination = site.categories.destinations.first %}
             {% if latest_destination.path == page.path %}
                 <h2 class="mt-5 mb-5">Updates</h2>
-                <p class="text-muted">No updates yet. Check back soon.</p>
+                <p class="text-center text-muted">No updates yet. Check back soon.</p>
             {% endif %}
         {% endif %}
 

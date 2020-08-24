@@ -2,6 +2,10 @@
 
     text-align: $post-alignment;
 
+    p {
+        text-align: $post-text-alignment;
+    }
+
     img {
         display: $post-img-display;
         margin: $post-img-margin;
