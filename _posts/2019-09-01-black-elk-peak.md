@@ -2,10 +2,12 @@
 title: Black Elk Peak
 date: 2019-09-01
 category: updates
-tags: custer
 layout: update
 banner: /assets/img/banners/south-dakota/banner-black-elk-peak.jpg
 override_home_banner: false
+tags:
+  - custer
+  - hiking
 ---
 
 <div class="insta">

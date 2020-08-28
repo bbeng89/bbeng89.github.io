@@ -8,6 +8,7 @@ override_home_banner: false
 tags:
   - badlands
   - national-park
+  - hiking
 ---
 
 <div class="insta">

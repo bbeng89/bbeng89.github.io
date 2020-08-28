@@ -7,6 +7,7 @@ banner: /assets/img/banners/new-mexico/banner-sandia-mountains.jpg
 override_home_banner: false
 tags:
   - edgewood
+  - hiking
 ---
 
 <div class="insta">

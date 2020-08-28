@@ -2,10 +2,12 @@
 title: Uinta-Wasatch-Cache National Forest
 date: 2019-07-28
 category: updates
-tags: provo
 layout: update
 banner: /assets/img/banners/utah/banner-uinta.jpg
 override_home_banner: false
+tags:
+  - provo
+  - hiking
 ---
 
 <div class="insta">

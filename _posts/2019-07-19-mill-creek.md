@@ -2,10 +2,12 @@
 title: Mill Creek
 date: 2019-07-19
 category: updates
-tags: moab
 layout: update
 banner: /assets/img/banners/utah/banner-mill-creek.jpg
 override_home_banner: true
+tags:
+  - moab
+  - hiking
 ---
 
 <div class="insta">

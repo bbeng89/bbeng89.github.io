@@ -17,6 +17,7 @@ cost: 60
 review: https://www.campendium.com/spring-lake-park
 tags:
   - loop1
+  - rv-park
 ---
 
 ![Spring Lake 1](/assets/img/destinations/illinois/spring-lake-1.jpg)

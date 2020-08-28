@@ -2,10 +2,12 @@
 title: Morrell Falls
 date: 2019-08-18
 category: updates
-tags: seeley-lake
 layout: update
 banner: 
 override_home_banner: false
+tags:
+  - seeley-lake
+  - hiking
 ---
 
 <div class="insta">

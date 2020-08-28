@@ -16,8 +16,8 @@ nights: 2
 cost: 0
 review: https://www.campendium.com/beas-lewis-flat
 tags:
-  - boondocking
   - loop1
+  - boondocking
 ---
 
 <div class="insta">

@@ -16,7 +16,8 @@ nights: 4
 cost: 0
 review:
 tags:
-- loop1
+  - loop1
+  - family-friend
 ---
 
 <p>Spending a couple nights with my aunt and uncle in Franklin, Minnesota.</p>

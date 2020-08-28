@@ -17,6 +17,7 @@ cost: 208.65
 review: https://www.campendium.com/driftwaters-resort
 tags:
   - loop1
+  - rv-park
 ---
 
 <img src="/assets/img/destinations/montana/cameron-campsite.jpg" />

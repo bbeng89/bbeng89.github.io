@@ -2,9 +2,11 @@
 title: "Cloudcroft, NM"
 date: 2019-05-08
 category: updates
-tag: alamogordo
 layout: update
 banner: /assets/img/banners/new-mexico/banner-cloudcroft.jpg
+tags: 
+  - alamogordo
+  - hiking
 ---
 
 <img src="/assets/img/updates/new-mexico/cloudcroft-sign.jpg">

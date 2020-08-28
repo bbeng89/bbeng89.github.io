@@ -8,6 +8,7 @@ override_home_banner: true
 tags:
   - presidio
   - national-park
+  - hiking
 ---
 
 <div class="insta">

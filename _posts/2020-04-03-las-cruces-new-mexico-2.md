@@ -16,9 +16,8 @@ nights: 11
 cost: 0
 review: https://www.campendium.com/sierra-vista-campground
 tags:
-  - boondocking
   - loop2
-  - covid19
+  - boondocking
 ---
 
 <img src="/assets/img/destinations/new-mexico/las-cruces-2.jpg">

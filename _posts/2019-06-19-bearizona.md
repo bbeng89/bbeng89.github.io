@@ -2,9 +2,10 @@
 title: Bearizona
 date: 2019-06-19
 category: updates
-tags: williams
 layout: update
 banner: 
+tags:
+  - williams
 ---
 
 <div class="insta">

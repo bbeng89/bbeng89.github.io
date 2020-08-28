@@ -17,6 +17,7 @@ cost: 126.00
 review: https://www.campendium.com/gilbert-ray-campground
 tags:
   - loop2
+  - county-park
 ---
 
 <img src="/assets/img/destinations/arizona/tucson.jpg" />

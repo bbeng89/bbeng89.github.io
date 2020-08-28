@@ -2,10 +2,12 @@
 title: Ogeechee River
 date: 2019-11-20
 category: updates
-tags: savannah
 layout: update
 banner: /assets/img/banners/georgia/banner-ogeechee.jpg
 override_home_banner: true
+tags:
+  - savannah
+  - kayaking
 ---
 
 <div class="insta">

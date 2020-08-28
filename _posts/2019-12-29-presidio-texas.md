@@ -17,6 +17,7 @@ cost: 280.00
 review: https://www.campendium.com/loma-paloma-rv-park
 tags:
   - loop2
+  - rv-park
 ---
 
 <div class="insta">

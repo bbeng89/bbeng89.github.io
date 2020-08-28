@@ -7,6 +7,7 @@ banner: /assets/img/banners/colorado/banner-great-sand-dunes-3.jpg
 override_home_banner: false
 tags:
   - national-park
+  - hiking
   - alamosa
 ---
 

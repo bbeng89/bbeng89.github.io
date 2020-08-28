@@ -16,9 +16,8 @@ nights: 11
 cost: 0
 review: https://www.campendium.com/dog-canyon
 tags:
-  - boondocking
   - loop2
-  - covid19
+  - boondocking
 ---
 
 <img src="/assets/img/destinations/new-mexico/alamogordo-2-1.jpg">

@@ -17,6 +17,7 @@ cost: 0
 review:
 tags:
   - loop1
+  - family-friend
 ---
 
 <div class="insta">

@@ -17,6 +17,7 @@ cost: 200.00
 review: https://www.campendium.com/savannah-oaks-rv-resort
 tags:
   - loop2
+  - rv-park
 ---
 
 <img src="/assets/img/destinations/georgia/savannah.jpg">

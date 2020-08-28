@@ -2,9 +2,11 @@
 title: Red Canyon 
 date: 2019-07-06
 category: updates
-tags: bryce
 layout: update
 banner: /assets/img/banners/utah/banner-red-canyon.jpg
+tags:
+  - bryce
+  - hiking
 ---
 
 <div class="insta">

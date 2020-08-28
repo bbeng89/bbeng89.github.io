@@ -7,6 +7,7 @@ banner: /assets/img/banners/colorado/banner-mesa-verde.jpg
 tags:
   - cortez
   - national-park
+  - hiking
 ---
 
 <div class="insta">

@@ -16,9 +16,8 @@ nights: 13
 cost: 0
 review: https://www.campendium.com/sacred-white-shell-mountain
 tags:
-  - boondocking
   - loop2
-  - covid19
+  - boondocking
 ---
 
 <div class="insta">

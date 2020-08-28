@@ -2,8 +2,10 @@
 title: "El Malpais National Monument"
 date: 2019-05-15
 category: updates
-tags: albuquerque
 layout: update
+tags:
+  - albuquerque
+  - hiking
 ---
 
 <div class="insta">
