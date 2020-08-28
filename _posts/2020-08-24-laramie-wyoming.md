@@ -9,7 +9,7 @@ lng: -105.3862
 city: Laramie
 state: Wyoming
 miles: 291
-banner: /assets/img/banners/wyoming/banner-laramie.jpg
+banner: /assets/img/banners/wyoming/banner-laramie-2.jpg
 campground: Pole Mountain Area
 hookups: None
 nights: 
