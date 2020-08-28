@@ -5,6 +5,7 @@ category: articles
 layout: article
 banner: 
 override_home_banner: false
+description: "A quick how-to for adding a second battery to your RV"
 ---
 
 <p>My battery was on the way out and it was time to get a new one. I decided to replace it with two batteries so that they will last longer when I'm boondocking.</p>

@@ -5,6 +5,7 @@ category: articles
 layout: article
 banner: 
 override_home_banner: false
+description: "Introducing some new updates that have been made to the blog"
 ---
 
 <p>I've made a lot of changes to the blog and figured I might as well point them out. I'm kind of a nerd when it comes to data, so I've been keeping a bunch of stats in a spreadsheet about my travels. I decided I might as well move all of this into the blog so that everyone can see it.</p>

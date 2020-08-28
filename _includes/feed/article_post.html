@@ -1,7 +1,18 @@
-<div class="card mt-2 mb-2">
+<!-- <div class="card mt-2 mb-2">
     <div class="card-body">
-      <h5 class="card-title">{{ post.title }}</h5>
-      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
+      <h4 class="card-title">{{ post.title }}</h4>
+      <p class="card-text">{{ post.description }}</p>
+      <a href="{{ post.url }}" class="btn btn-sm btn-primary">Read More &raquo;</a>
     </div>
+    <div class="card-footer text-muted">
+        <small>Posted {{ post.date | date: "%A, %B %e, %Y" }}</small>
+    </div>
+  </div> -->
+
+  <div class="mb-5">
+    <h4 class="card-title">{{ post.title }}</h4>
+    <p class="text-muted"><small>Posted {{ post.date | date: "%A, %B %e, %Y" }}</small></p>
+    <p class="card-text">{{ post.description }}</p>
+    <a href="{{ post.url }}" class="btn btn-sm btn-primary">Read More &raquo;</a> 
+    <hr/>
   </div>

@@ -5,6 +5,7 @@ category: articles
 layout: article
 banner: 
 override_home_banner: false
+description: "Read about some of my favorite gear and modifications I've made to my RV"
 ---
 
 <p>Over time I've found a lot of gear, as well as modifications I've been able to make, that have made my life full-timing a lot easier. The following is a list of some of the gear and changes I've made that have made the biggest difference for me.</p>

@@ -5,6 +5,7 @@ category: articles
 layout: article
 banner: /assets/img/banners/articles/banner-electrical-upgrade.jpg
 override_home_banner: false
+description: "A walkthrough of my DIY installation of an inverter, battery monitor, and battery disconnect switch"
 ---
 
 <h2>The Problem</h2>

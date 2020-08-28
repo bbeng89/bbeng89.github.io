@@ -5,6 +5,7 @@ category: articles
 layout: article
 banner: 
 override_home_banner: false
+description: "All of the setup and teardown checklists I use, including links to interactive checklist apps you can customize and use yourself"
 ---
 
 <p>

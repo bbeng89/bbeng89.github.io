@@ -4,6 +4,7 @@ category: articles
 layout: article
 banner: /assets/img/banners/articles/banner-solar-install.jpg
 override_home_banner: false
+description: "A step-by-step recap of my DIY 800W solar install"
 ---
 
 After [installing an inverter]({% post_url 2019-10-14-electrical-upgrades %}), I decided the next electrical upgrade for my rig was adding solar panels to the roof. I knew this was going to be an expensive upgrade, so I held off on it for quite a while, however, the perfect opportunity came up while I was in Phoenix. I have a relative, Lee, that lives there and sells solar equipment and he told me he could get me a good deal on panels. He ended up finding me some 265W panels for $75 each, which is an amazing deal. At the same time, the COVID-19 crisis was in full swing, so I decided to meet up with my friends Matt and Kelsey. Matt had offered to help me with this install, and since there was nothing else to do it seemed like a perfect time to pick up these panels and work on them together. I decided to leave California and head back to Phoenix to pick up the panels, then meet Matt and Kelsey at a BLM boondocking spot in Las Cruces, NM.
