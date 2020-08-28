@@ -1,0 +1,17 @@
+
+{% assign articles = site.posts | where: "category", "articles" %}
+
+<div>
+    {% if include.limit %}
+        {% for post in articles limit:include.limit %}
+            {% include feed/article_post.html %} 
+        {% endfor %}
+        <div>
+            <a href="#">View Older Posts &raquo;</a>
+        </div>
+    {% else %}
+        {% for post in articles %}
+            {% include feed/article_post.html %} 
+        {% endfor %} 
+    {% endif %}
+</div>

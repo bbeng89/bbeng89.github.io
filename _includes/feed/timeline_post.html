@@ -24,7 +24,7 @@
     {% assign hint = 'Day Trip' %}
 {% endif %}
 
-<li>
+<li {% if include.inverted %} class="timeline-inverted" {% endif %}>
     <div class="timeline-badge {{ color }}">
         <i class="{{ icon }}" title="{{ hint }}"></i>
     </div>
