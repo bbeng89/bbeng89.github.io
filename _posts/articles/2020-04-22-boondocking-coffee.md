@@ -8,7 +8,7 @@ override_home_banner: false
 description: "Read about my quest to find the best method of brewing coffee while boondocking"
 ---
 
-As I started boondocking more, I needed to start finding other ways of doing things that required electric appliances. Making coffee was at the top of that list. In the past I just used a basic drip coffee maker, however, this required me to run the generator every time I wanted to make coffee. It turns out that people camped around you don't like when you run a generator at 7AM, and going out in the cold to start it up isn't very fun anyway. 
+As I started boondocking more, I needed to start finding other ways of doing things that required electric appliances, and naturally making coffee was at the top of that list. In the past I just used a basic drip coffee maker, however, this required me to run the generator every time I wanted to make coffee. It turns out that people camped around you don't like when you run a generator at 7AM, and going out in the cold to start it up isn't very fun anyway. 
 
 The first method I tried when going "non-electric" with my coffee was Starbucks Via packets. I use these a lot when I go backpacking because they don't take up any space and are about the easiest possible way to make coffee. All you do is boil some water and dump the packet in. The downside to this method is that the coffee isn't great and the packets are really expensive (about a dollar each). 
 
