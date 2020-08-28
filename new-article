@@ -10,10 +10,10 @@ fi
 DATE=`date +%Y-%m-%d`
 
 if [ "$2" == "--draft" ]; then
-    FILE="_drafts/$1.md"
+    FILE="_drafts/articles/$1.md"
     DRAFT=true
 else
-    FILE="_posts/$DATE-$1.md"
+    FILE="_posts/articles/$DATE-$1.md"
     DRAFT=false
 fi
 
