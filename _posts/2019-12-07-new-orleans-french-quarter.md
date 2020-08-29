@@ -2,10 +2,11 @@
 title: French Quarter
 date: 2019-12-07
 category: updates
-tags: new-orleans
 layout: update
 banner: 
 override_home_banner: false
+tags:
+  - new-orleans
 ---
 
 <div class="insta">

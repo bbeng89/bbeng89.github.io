@@ -17,6 +17,7 @@ cost: 174.00
 review: https://www.campendium.com/crosswinds-campground
 tags:
   - loop2
+  - state-park
 ---
 
 <img src="/assets/img/destinations/north-carolina/chapel-hill.jpg">

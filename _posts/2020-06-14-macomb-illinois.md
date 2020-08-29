@@ -17,6 +17,7 @@ cost: 0
 review: 
 tags:
   - loop2
+  - family-friend
 ---
 
 ![macomb](/assets/img/destinations/illinois/macomb-3.jpg)

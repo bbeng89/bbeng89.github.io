@@ -17,6 +17,7 @@ cost: 84.00
 review: https://www.campendium.com/sand-hollow-state-park
 tags:
   - loop1
+  - state-park
 ---
 
 <div class="insta">

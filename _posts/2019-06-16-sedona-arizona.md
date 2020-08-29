@@ -2,9 +2,11 @@
 title: Sedona, Arizona
 date: 2019-06-16
 category: updates
-tags: williams
 layout: update
 banner: /assets/img/banners/arizona/banner-sedona.jpg
+tags:
+  - williams
+  - hiking
 ---
 
 <div class="insta">

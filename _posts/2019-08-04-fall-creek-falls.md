@@ -2,10 +2,12 @@
 title: Fall Creek Falls
 date: 2019-08-04
 category: updates
-tags: rigby
 layout: update
 banner: /assets/img/banners/idaho/banner-fall-creek-falls.jpg
 override_home_banner: false
+tags:
+  - rigby
+  - hiking
 ---
 
 <div class="insta">

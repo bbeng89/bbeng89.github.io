@@ -2,10 +2,12 @@
 title: Splinter Hill Bog
 date: 2019-11-26
 category: updates
-tags: mobile
 layout: update
 banner: /assets/img/banners/alabama/banner-splinter-hill-bog.jpg
 override_home_banner: false
+tags:
+  - mobile
+  - hiking
 ---
 
 <div class="insta">

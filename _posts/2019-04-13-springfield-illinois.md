@@ -17,6 +17,7 @@ cost: 40
 review: https://www.campendium.com/sangchris-lake-state-park
 tags:
   - loop1
+  - state-park
 ---
 
 ![Sangchris Lake State Park](/assets/img/destinations/illinois/springfield-sangchris-1.jpg)

@@ -7,6 +7,8 @@ banner: /assets/img/banners/illinois/banner-ha-ha-tonka-1.jpg
 override_home_banner: false
 tags:
   - macomb3
+  - hiking
+  - backpacking
 ---
 
 <div class="insta">

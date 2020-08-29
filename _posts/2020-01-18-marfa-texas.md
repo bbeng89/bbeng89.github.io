@@ -2,10 +2,11 @@
 title: Marfa, Texas
 date: 2020-01-18
 category: updates
-tags: presidio
 layout: update
 banner: 
 override_home_banner: false
+tags:
+  - presidio
 ---
 
 <div class="insta">

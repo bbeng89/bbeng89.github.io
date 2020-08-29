@@ -16,8 +16,8 @@ nights: 10
 cost: 0
 review: https://www.campendium.com/garland-prairie-road
 tags:
-  - boondocking
   - loop1
+  - boondocking
 ---
 
 <div class="insta">

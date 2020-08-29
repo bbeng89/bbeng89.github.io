@@ -2,10 +2,11 @@
 title: Mount Horeb
 date: 2019-09-19
 category: updates
-tags: dodgeville
 layout: update
 banner: 
 override_home_banner: false
+tags:
+  - dodgeville
 ---
 
 <div class="insta">

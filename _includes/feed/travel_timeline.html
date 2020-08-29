@@ -1,0 +1,59 @@
+<!-- Thank you to https://bootsnipp.com/snippets/RX5Er and https://bootsnipp.com/snippets/OzQj for this timeline design -->
+
+<div class="{% if include.alternating %} timeline-alternating {% else %} timeline-left {% endif %}">
+    <ul class="timeline">
+        {% if include.limit %}
+            {% assign count = 0 %}
+            {% for post in site.posts %}
+                {% if post.category == 'destinations' or post.category == 'updates' %}
+                    {% assign inverted = include.alternating and post.category == 'updates' %}
+
+                    {% include feed/timeline_post.html inverted=inverted %} 
+
+                    {% assign count = count | plus: 1 %}
+
+                    {% if count == include.limit %}
+                        {% break %}
+                    {% endif %}
+                {% endif %}
+            {% endfor %}
+
+            {% assign dest_count = site.posts | where: "category", "destinations" | size %}
+            {% assign update_count = site.posts | where: "category", "updates" | size %}
+            {% assign dest_and_update_count = dest_count | plus: update_count %}
+            {% assign more_posts_count = dest_and_update_count | minus: include.limit %}
+            <li>
+                <div class="timeline-badge text-muted">
+                    <i class="fas fa-ellipsis-h"></i>
+                </div>
+                <div class="timeline-panel">
+                    <div class="timeline-body text-muted">
+                        <p class="mt-1"><em>+{{ more_posts_count }} more posts</em></p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="timeline-badge text-muted">
+                    <i class="fas fa-chevron-down" title="View More"></i>
+                </div>
+                <div class="timeline-panel">
+                    <div class="timeline-body">
+                        <p class="mt-1">
+                            <a href="/timeline">See Full Timeline</a>
+                        </p>
+                    </div>
+                </div>
+            </li>
+        {% else %}
+            {% for post in site.posts %}
+                {% if post.category == 'destinations' or post.category == 'updates' %}
+                    {% if include.alternating and post.category == 'updates' %}
+                        {% include feed/timeline_post.html inverted=true %}  
+                    {% else %}
+                        {% include feed/timeline_post.html inverted=false %}  
+                    {% endif %}
+                {% endif %}
+            {% endfor %} 
+        {% endif %}
+    </ul>
+</div>

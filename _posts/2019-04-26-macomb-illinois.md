@@ -9,8 +9,14 @@ lng: -90.7598207
 city: Macomb
 state: Illinois
 miles: 105
+campground: Family Member's House
+hookups: Partial
+nights: 
+cost: 0
+review:
 tags:
   - loop1
+  - family-friend
 ---
 
 ![photo1](/assets/img/destinations/illinois/macomb-1.jpg)

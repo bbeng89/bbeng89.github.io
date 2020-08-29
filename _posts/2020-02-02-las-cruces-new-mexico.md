@@ -17,6 +17,7 @@ cost: 152.30
 review: https://www.campendium.com/las-cruces-koa
 tags:
   - loop2
+  - rv-park
 ---
 
 <hr/>

@@ -1,0 +1,46 @@
+{% assign loop2_miles = 0 %}
+{% assign loop2_nights = 0 %}
+{% assign loop2_states = site.tags.loop2 | map: "state" %}
+{% assign loop2_unique_states = loop2_states | uniq | sort %}
+{% assign loop2_num_states = loop2_unique_states | size %}
+{% assign loop2_boondocking_nights = 0 %}
+{% assign loop2_cost = 0%}
+
+{% for post in site.tags.loop2 %}
+    {% assign loop2_miles = loop2_miles | plus: post.miles %}
+    {% assign loop2_nights = loop2_nights | plus: post.nights %}
+    {% assign loop2_cost = loop2_cost | plus: post.cost %}
+
+    {% if post.tags contains "boondocking" %}
+        {% assign loop2_boondocking_nights = loop2_boondocking_nights | plus: post.nights %}
+    {% endif %}
+{% endfor %}
+
+{% assign loop2_miles = loop2_miles | floor %}
+{% assign loop2_cost = loop2_cost | floor %}
+{% assign loop2_avg_night_cost = loop2_cost | divided_by: loop2_nights %}
+
+<div class="row mt-5 mb-5">
+    <div class="col-xl-4 col-lg-5 col-md-6 col-sm-12">
+        <table class="table">
+            <tbody>
+                <tr>
+                    <td><strong>Total Towing Miles</strong></td>
+                    <td>{% include number_with_commas.html number=loop2_miles %}</td>
+                </tr>
+                <tr>
+                    <td><strong>Total Nights</strong></td> 
+                    <td>{{ loop2_nights }}</td>
+                </tr>
+                <tr>
+                    <td><strong>Boondocking Nights</strong></td>
+                    <td>{{ loop2_boondocking_nights }}</td>
+                </tr>
+                <tr>
+                    <td><strong>States Camped In</strong></td>
+                    <td>{{ loop2_num_states }}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

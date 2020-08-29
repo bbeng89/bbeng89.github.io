@@ -17,6 +17,7 @@ cost: 139.75
 review: https://www.campendium.com/governor-dodge-state-park
 tags:
   - loop1
+  - state-park
 ---
 
 <img src="/assets/img/destinations/wisconsin/dodgeville-wisconsin.jpg">

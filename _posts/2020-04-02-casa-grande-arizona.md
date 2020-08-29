@@ -17,7 +17,7 @@ cost: 20.00
 review: https://www.campendium.com/pinal-county-fairgrounds
 tags:
   - loop2
-  - covid19
+  - county-fairgrounds
 ---
 
 <p class="text-justify">I decided to head back to Las Cruces, New Mexico, so I can join some friends that are camped there. My first stop today was in Phoenix where I met up with some family members and also picked up some gear for a new solar install that I'm going to be working on. From there I wanted to at least get out of the city before crashing somewhere for the night, so I ended up staying in Casa Grande. Planning to head out early in the morning so I didn't even bother to unhitch.</p>

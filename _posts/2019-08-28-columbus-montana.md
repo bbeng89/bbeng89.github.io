@@ -16,6 +16,7 @@ nights: 2
 cost: 0
 review: https://www.campendium.com/itch-kep-pe-park
 tags:
+  - loop1
   - boondocking
 ---
 

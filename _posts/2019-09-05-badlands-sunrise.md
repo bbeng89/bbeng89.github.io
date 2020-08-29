@@ -2,10 +2,11 @@
 title: Sunrise
 date: 2019-09-05
 category: updates
-tags: badlands
 layout: update
 banner: /assets/img/banners/south-dakota/banner-badlands-sunrise.jpg
 override_home_banner: true
+tags:
+  - badlands
 ---
 
 <div class="insta">

@@ -16,9 +16,8 @@ nights: 15
 cost: 0
 review: https://www.campendium.com/torrance-county-park
 tags:
-  - boondocking
-  - covid19
   - loop2
+  - boondocking
 ---
 
 ![edgewood campsite](/assets/img/destinations/new-mexico/edgewood.jpg)

@@ -16,8 +16,8 @@ nights: 6
 cost: 0
 review: https://www.campendium.com/nomad-view
 tags:
-  - boondocking
   - loop1
+  - boondocking
 ---
 
 <img src="/assets/img/banners/south-dakota/banner-badlands-1.jpg" />

@@ -2,10 +2,11 @@
 title: USS Alabama
 date: 2019-11-28
 category: updates
-tags: mobile
 layout: update
 banner: /assets/img/banners/alabama/banner-uss-alabama.jpg
 override_home_banner: true
+tags:
+  - mobile
 ---
 
 <div class="insta">

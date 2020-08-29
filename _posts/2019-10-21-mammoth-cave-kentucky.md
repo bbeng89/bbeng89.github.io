@@ -17,6 +17,7 @@ cost: 40.00
 review: https://www.campendium.com/mammoth-cave-campground
 tags: 
   - loop2
+  - national-park-cg
 ---
 
 <img src="/assets/img/destinations/kentucky/mammoth-cave.jpg">

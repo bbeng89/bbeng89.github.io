@@ -17,6 +17,7 @@ cost: 155.00
 review: https://www.campendium.com/lake-powhatan-campground
 tags:
   - loop2
+  - national-forest-cg
 ---
 
 <img src="/assets/img/destinations/north-carolina/asheville.jpg">

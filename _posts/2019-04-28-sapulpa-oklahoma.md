@@ -15,8 +15,8 @@ nights: 1
 cost: 0
 review: 
 tags:
-  - boondocking
   - loop1
+  - boondocking
 ---
 
 <div class="insta">

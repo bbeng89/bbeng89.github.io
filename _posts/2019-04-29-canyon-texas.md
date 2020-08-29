@@ -17,4 +17,5 @@ cost: 75.40
 review: https://www.campendium.com/palo-duro-rim-rv-campground
 tags:
   - loop1
+  - rv-park
 ---

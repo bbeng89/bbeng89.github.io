@@ -17,6 +17,7 @@ cost: 175.62
 review: https://www.campendium.com/enchanted-trails-rv-park-trading-post
 tags:
   - loop1
+  - rv-park
 ---
 
 <p class="post-date">Sunday, May 12, 2019</p>

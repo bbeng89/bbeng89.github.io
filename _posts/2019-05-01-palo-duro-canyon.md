@@ -2,8 +2,10 @@
 title: "Palo Duro Canyon"
 date: 2019-05-01
 category: updates
-tags: canyon
 layout: update
+tags: 
+  - canyon
+  - hiking
 ---
 
 <div class="insta">

@@ -17,6 +17,7 @@ cost: 212.00
 review: https://www.campendium.com/the-roost-resort
 tags:
   - loop1
+  - rv-park
 ---
 
 <img src="/assets/img/destinations/south-dakota/custer-1.jpg">

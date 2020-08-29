@@ -7,6 +7,7 @@ banner:
 override_home_banner: false
 tags:
   - borrego-springs
+  - hiking
 ---
 
 <div class="insta">

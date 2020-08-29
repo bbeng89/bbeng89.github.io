@@ -2,9 +2,10 @@
 title: The Hoover Dam
 date: 2019-06-22
 category: updates
-tags: vegas
 layout: update
 banner: /assets/img/banners/nevada/banner-hoover-dam.jpg
+tags:
+  - vegas
 ---
 
 <div class="insta">

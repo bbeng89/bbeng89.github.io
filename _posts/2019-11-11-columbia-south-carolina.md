@@ -17,6 +17,7 @@ cost: 166.88
 review: https://www.campendium.com/sesquicentennial-state-park
 tags:
   - loop2
+  - state-park
 ---
 
 <img src="/assets/img/destinations/south-carolina/columbia.jpg">

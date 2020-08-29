@@ -17,6 +17,7 @@ cost: 132.67
 review: https://www.campendium.com/bayou-segnette-state-park
 tags:
   - loop2
+  - state-park
 ---
 
 <img src="/assets/img/destinations/louisiana/new-orleans.jpg">

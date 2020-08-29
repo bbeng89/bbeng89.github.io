@@ -2,10 +2,12 @@
 title: Pisgah National Forest
 date: 2019-11-03
 category: updates
-tags: asheville
 layout: update
 banner: /assets/img/banners/north-carolina/banner-pisgah.jpg
 override_home_banner: false
+tags:
+  - asheville
+  - hiking
 ---
 
 <div class="insta">

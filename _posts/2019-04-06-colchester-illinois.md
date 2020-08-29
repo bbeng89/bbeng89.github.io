@@ -17,6 +17,7 @@ cost: 80
 review: https://www.campendium.com/argyle-lake-state-park
 tags:
   - loop1
+  - state-park
 ---
 
 <div class="insta">

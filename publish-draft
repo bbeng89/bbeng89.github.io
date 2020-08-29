@@ -2,7 +2,7 @@
 
 if [ -z "$1" ]
   then
-    echo "Usage: ./publish-draft {slug-name-of-draft}"
+    echo "Usage: ./publish-draft {slug-name-of-draft} (include subdirectories in your argument)"
     exit 1
 fi
 

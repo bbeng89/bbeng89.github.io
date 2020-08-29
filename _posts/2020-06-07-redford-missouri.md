@@ -17,6 +17,7 @@ cost: 0
 review: 
 tags:
   - loop2
+  - family-friend
 ---
 
 ![camper in driveway](/assets/img/destinations/missouri/redford-2.jpg)

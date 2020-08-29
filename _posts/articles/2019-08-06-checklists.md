@@ -5,15 +5,13 @@ category: articles
 layout: article
 banner: 
 override_home_banner: false
+description: "All of the setup and teardown checklists I use, including links to interactive checklist apps you can customize and use yourself"
 ---
 
-<p>
-    The following are the checklists I run through each time I set up and tear down. I know these lists are long and verbose, but in my experience it's the small details that you forget.
-    Also, parts of these lists are going to be specific to my setup. I'm using a LevelMate Pro with Beech Lane (Andersen style) levelers. I also have a bumper-pull with an Equal-i-zer hitch.
-</p>
-<p>
-    Each list can be loaded in an interactive checklist app that will let you check items off on your smartphone as you're setting up or tearing down. The apps will let you customize the lists to your own needs if your setup is different than mine (customizations will only be saved to the specific device you're using). Bookmark each list to get back to them quickly in the future.
-</p>
+The following are the checklists I run through each time I set up and tear down. I know these lists are long and verbose, but in my experience it's the small details that you forget.
+Also, parts of these lists are going to be specific to my setup. I'm using a LevelMate Pro with Beech Lane (Andersen style) levelers. I also have a bumper-pull with an Equal-i-zer hitch.
+
+Each list can be loaded in an interactive checklist app that will let you check items off on your smartphone as you're setting up or tearing down. The apps will let you customize the lists to your own needs if your setup is different than mine (customizations will only be saved to the specific device you're using). Bookmark each list to get back to them quickly in the future.
 
 <div class="row mt-5 mb-5">
     <div class="col-lg-5 col-md-8">

@@ -17,6 +17,7 @@ cost: 158.00
 review: https://www.campendium.com/utah-lake-state-park
 tags:
   - loop1
+  - state-park
 ---
 
 <img src="/assets/img/destinations/utah/provo-campsite.jpg">

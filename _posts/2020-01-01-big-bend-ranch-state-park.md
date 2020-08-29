@@ -2,10 +2,12 @@
 title: Big Bend Ranch State Park
 date: 2020-01-01
 category: updates
-tags: presidio
 layout: update
 banner: /assets/img/banners/texas/banner-big-bend-sp-1.jpg
 override_home_banner: false
+tags:
+  - presidio
+  - hiking
 ---
 
 <div class="insta">

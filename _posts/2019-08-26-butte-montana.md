@@ -16,8 +16,8 @@ nights: 2
 cost: 0
 review: https://www.campendium.com/homestake-pass
 tags:
-  - boondocking
   - loop1
+  - boondocking
 ---
 
 <div class="insta">

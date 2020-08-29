@@ -2,10 +2,11 @@
 title: FM170, Lajitas, and Terlingua
 date: 2020-01-03
 category: updates
-tags: presidio
 layout: update
 banner: /assets/img/banners/texas/banner-terlingua.jpg
 override_home_banner: true
+tags:
+  - presidio
 ---
 
 <div class="insta">

@@ -17,6 +17,7 @@ cost: 20
 review: 
 tags:
   - loop3
+  - county-park
 ---
 
 Loop 3 begins! This time I am kind of winging it and don't really have much of a plan at all. Looking at my [state map](/stats/#campsites-by-state) I realized I hadn't camped in Iowa, Nebraska, or Wyoming (though I did drive through and visit Wyoming several times) so I figured I might as well head through those states and check them off the list. From there I'm not sure where we'll go. I'd like to spend more time in Idaho and see Oregon, so our tentative route is to just keep heading straight West.

@@ -17,6 +17,7 @@ cost: 189.00
 review: https://www.campendium.com/huntsville-state-park
 tags:
   - loop2
+  - state-park
 ---
 
 <img src="/assets/img/destinations/texas/huntsville.jpg" />

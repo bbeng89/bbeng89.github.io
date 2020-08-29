@@ -2,9 +2,10 @@
 title: Last Day Boondocking
 date: 2019-05-25
 category: updates
-tags: mancos
 layout: update
 banner: /assets/img/banners/colorado/banner-last-day-boondocking.jpg
+tags:
+  - mancos
 ---
 
 Today my buddy Josh took me fly fishing for the first time. I didn't catch anything, but it was still a great experience.

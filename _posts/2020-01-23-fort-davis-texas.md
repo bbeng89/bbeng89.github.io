@@ -2,10 +2,11 @@
 title: Fort Davis, Texas
 date: 2020-01-23
 category: updates
-tags: presidio
 layout: update
 banner: /assets/img/banners/texas/banner-fort-davis.jpg
 override_home_banner: false
+tags:
+  - presidio
 ---
 
 <div class="insta">

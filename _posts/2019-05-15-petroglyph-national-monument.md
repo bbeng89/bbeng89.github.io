@@ -2,9 +2,11 @@
 title: "Petroglyph National Monument"
 date: 2019-05-15
 category: updates
-tags: albuquerque
 layout: update
 banner: /assets/img/banners/new-mexico/banner-petroglyph.jpg
+tags:
+  - albuquerque
+  - hiking
 ---
 
 <div class="insta">

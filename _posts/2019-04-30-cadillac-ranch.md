@@ -2,8 +2,9 @@
 title: "Cadillac Ranch"
 date: 2019-04-30
 category: updates
-tags: canyon
 layout: update
+tags: 
+  - canyon
 ---
 
 <div class="insta">

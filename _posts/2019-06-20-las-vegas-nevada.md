@@ -17,6 +17,7 @@ cost: 259.20
 review: https://www.campendium.com/canyon-trail-rv-park
 tags:
   - loop1
+  - rv-park
 ---
 
 <p>Just landed near vegas. It's over 100 degrees here. I'm staying a couple nights at an RV park with full hookups, then finding a boondocking site for the rest of my stay here.</p>

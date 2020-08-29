@@ -17,6 +17,7 @@ cost: 156.00
 review: https://www.campendium.com/mckinney-falls-state-park
 tags:
   - loop2
+  - state-park
 ---
 
 <hr/>

@@ -2,10 +2,13 @@
 title: Brian Head, Utah
 date: 2019-07-01
 category: updates
-tags: cedar-city
 layout: update
 banner: /assets/img/banners/utah/banner-brian-head.jpg
 override_home_banner: true
+tags:
+  - cedar-city
+  - hiking
+  - 4x4
 ---
 
 <img src="/assets/img/updates/utah/brian-head.jpg">

@@ -16,9 +16,8 @@ nights: 14
 cost: 0
 review: https://www.campendium.com/west-mesa-road-dispersed
 tags:
-  - covid19
-  - boondocking
   - loop2
+  - boondocking
 ---
 
 <div class="insta">

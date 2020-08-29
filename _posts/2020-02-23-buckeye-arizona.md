@@ -17,6 +17,7 @@ cost: 140.00
 review: https://www.campendium.com/skyline-regional-park
 tags:
   - loop2
+  - regional-park
 ---
 
 <img src="/assets/img/destinations/arizona/buckeye.jpg">
