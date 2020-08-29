@@ -8,7 +8,7 @@
                     {% assign inverted = include.alternating and post.category == 'updates' %}
                     {% include feed/timeline_post.html inverted=inverted %} 
                 {% endif %}
-                {% if forloop.index == include.limit %}
+                {% if forloop.index0 == include.limit %}
                     {% break %}
                 {% endif %}
             {% endfor %}
