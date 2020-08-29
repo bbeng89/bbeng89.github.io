@@ -1,0 +1,33 @@
+{% assign loop2_miles = 0 %}
+{% assign loop2_nights = 0 %}
+{% assign loop2_states = site.tags.loop2 | map: "state" %}
+{% assign loop2_unique_states = loop2_states | uniq | sort %}
+{% assign loop2_num_states = loop2_unique_states | size %}
+
+{% for post in site.tags.loop2 %}
+    {% assign loop2_miles = loop2_miles | plus: post.miles %}
+    {% assign loop2_nights = loop2_nights | plus: post.nights %}
+{% endfor %}
+
+{% assign loop2_miles = loop2_miles | floor %}
+
+<div class="row mt-5 mb-5">
+    <div class="col-xl-4 col-lg-5 col-md-6 col-sm-12">
+        <table class="table">
+            <tbody>
+                <tr>
+                    <td><strong>Total Miles</strong></td>
+                    <td>{% include number_with_commas.html number=loop2_miles %}</td>
+                </tr>
+                <tr>
+                    <td><strong>Total Nights</strong></td> 
+                    <td>{{ loop2_nights }}</td>
+                </tr>
+                <tr>
+                    <td><strong>Total States Camped In</strong></td>
+                    <td>{{ loop2_num_states }}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
