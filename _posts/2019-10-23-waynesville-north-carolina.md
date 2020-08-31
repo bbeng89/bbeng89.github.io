@@ -17,6 +17,7 @@ cost: 306.00
 review: https://www.campendium.com/pride-rv-resort
 tags:
   - loop2
+  - rv-park
 ---
 
 <img src="/assets/img/destinations/north-carolina/waynesville.jpg">

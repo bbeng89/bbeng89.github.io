@@ -2,9 +2,10 @@
 title: Road Trip to Denver
 date: 2019-06-08
 category: updates
-tags: cortez
 layout: update
 banner: /assets/img/banners/colorado/banner-denver-road-trip.jpg
+tags:
+  - cortez
 ---
 
 <p>I decided to trade my truck in for a bigger, 3/4 ton, and had to drive to Denver to pick it up.</p>

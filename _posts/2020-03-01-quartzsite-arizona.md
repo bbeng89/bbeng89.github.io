@@ -17,7 +17,6 @@ cost: 0
 review: https://www.campendium.com/dome-rock-mountain
 tags:
   - loop2
-  - covid19
   - boondocking
 ---
 

@@ -2,9 +2,10 @@
 title: Red Rock Canyon
 date: 2019-06-24
 category: updates
-tags: vegas
 layout: update
 banner: /assets/img/banners/nevada/banner-red-rock.jpg
+tags:
+  - vegas
 ---
 
 <div class="insta">

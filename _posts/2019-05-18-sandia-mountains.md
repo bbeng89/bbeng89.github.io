@@ -2,9 +2,11 @@
 title: Sandia Mountains, Cibola National Forest
 date: 2019-05-18
 category: updates
-tags: albuquerque
 layout: update
 banner: /assets/img/banners/new-mexico/banner-sandia.jpg
+tags:
+  - albuquerque
+  - hiking
 ---
 
 <p class="mb-5">

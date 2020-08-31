@@ -2,10 +2,12 @@
 title: Glacier National Park (Day 3)
 date: 2019-08-24
 category: updates
-tags: hungry-horse
 layout: update
 banner: /assets/img/banners/montana/banner-glacier-2.jpg
 override_home_banner: false
+tags:
+  - hungry-horse
+  - hiking
 ---
 
 <div class="insta">

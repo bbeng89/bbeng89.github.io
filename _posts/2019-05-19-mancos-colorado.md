@@ -16,8 +16,8 @@ nights: 7
 cost: 0
 review: https://www.campendium.com/madden-peak-road
 tags: 
-  - boondocking
   - loop1
+  - boondocking
 ---
 
 <div class="insta">

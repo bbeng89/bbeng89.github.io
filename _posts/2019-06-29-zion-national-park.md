@@ -7,6 +7,7 @@ banner: /assets/img/banners/utah/banner-zion.jpg
 tags:
   - hurricane
   - national-park
+  - hiking
 ---
 
 <div class="insta">

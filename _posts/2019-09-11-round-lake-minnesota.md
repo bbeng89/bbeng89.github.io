@@ -16,9 +16,9 @@ nights: 1
 cost: 0
 review:
 tags: 
+  - loop1
   - boondocking
   - harvest-hosts
-  - loop1
 ---
 
 <div class="insta">

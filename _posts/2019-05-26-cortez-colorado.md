@@ -17,6 +17,7 @@ cost: 368.20
 review: https://www.campendium.com/carrouth-haven-rv-park
 tags:
   - loop1
+  - rv-park
 ---
 
 ![Cortez CO](/assets/img/destinations/colorado/cortez.jpg)

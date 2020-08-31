@@ -16,8 +16,8 @@ nights: 1
 cost: 0
 review: https://www.campendium.com/cabelas-mitchell-sd
 tags:
-  - boondocking
   - loop1
+  - boondocking
 ---
 
 <p>Boondocking at Cabela's tonight. I'm slowly working my way through South Dakota and already starting to miss the mountains.</p>

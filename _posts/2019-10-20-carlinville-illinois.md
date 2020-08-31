@@ -17,6 +17,7 @@ cost: 60.00
 review: https://www.campendium.com/beaver-dam-state-park
 tags: 
   - loop2
+  - state-park
 ---
 
 <div class="insta">

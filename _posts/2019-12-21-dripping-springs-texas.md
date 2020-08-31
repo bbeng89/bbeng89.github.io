@@ -17,6 +17,7 @@ cost: 280.00
 review: https://www.campendium.com/henly-rv-park
 tags:
   - loop2
+  - rv-park
 ---
 
 <hr/>

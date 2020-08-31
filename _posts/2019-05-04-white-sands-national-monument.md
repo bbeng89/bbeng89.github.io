@@ -7,6 +7,7 @@ banner: /assets/img/banners/new-mexico/banner-alamagordo.jpg
 tags: 
   - alamogordo
   - national-park
+  - hiking
 ---
 
 <div class="insta">

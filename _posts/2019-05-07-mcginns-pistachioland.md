@@ -2,8 +2,9 @@
 title: "McGinn's PistachioLand"
 date: 2019-05-07
 category: updates
-tag: alamogordo
 layout: update
+tags:
+  - alamogordo
 ---
 
 <div class="insta">

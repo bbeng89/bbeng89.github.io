@@ -8,6 +8,7 @@ override_home_banner: false
 tags:
   - tucson
   - national-park
+  - hiking
 ---
 
 <div class="insta">

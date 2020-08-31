@@ -8,6 +8,8 @@ override_home_banner: true
 tags:
   - moab
   - national-park
+  - hiking
+  - 4x4
 ---
 
 <div class="insta">

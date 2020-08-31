@@ -2,10 +2,11 @@
 title: Gulf Shores Beach
 date: 2019-12-02
 category: updates
-tags: gulf-shores
 layout: update
 banner: /assets/img/banners/alabama/banner-gulf-shores-beach.jpg
 override_home_banner: true
+tags:
+  - gulf-shores
 ---
 
 <div class="insta">

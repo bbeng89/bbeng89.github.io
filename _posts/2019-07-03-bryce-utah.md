@@ -16,8 +16,8 @@ nights: 12
 cost: 0
 review: https://www.campendium.com/georges-gift
 tags:
-  - boondocking
   - loop1
+  - boondocking
 ---
 
 <p>I'm boondocking again, this time near Bryce Canyon National Park. I got an awesome spot in Dixie National Forest less than a mile from the entrance of the park.</p>

@@ -17,6 +17,7 @@ cost: 41
 review: https://www.campendium.com/gunsmoke-rv-park
 tags:
   - loop2
+  - rv-park
 ---
 
 <p class="text-justify">

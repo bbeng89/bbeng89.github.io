@@ -2,9 +2,11 @@
 title: Canyon of the Ancients
 date: 2019-05-30
 category: updates
-tags: cortez
 layout: update
 banner: /assets/img/banners/colorado/banner-canyon-of-the-ancients.jpg
+tags:
+  - cortez
+  - hiking
 ---
 
 <p>I'm still staying in the Cortez, CO area and will actually be here for another week.</p> 

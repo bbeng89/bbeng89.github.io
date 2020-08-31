@@ -17,6 +17,7 @@ cost: 169.78
 review: https://www.campendium.com/gulf-state-park
 tags:
   - loop2
+  - state-park
 ---
 
 <img src="/assets/img/destinations/alabama/gulf-shores.jpg">

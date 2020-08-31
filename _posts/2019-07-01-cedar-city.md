@@ -17,6 +17,7 @@ cost: 75.00
 review: https://www.campendium.com/indian-peaks-rv-park
 tags:
   - loop1
+  - rv-park
 ---
 
 <img src="/assets/img/destinations/utah/cedar-city.jpg">

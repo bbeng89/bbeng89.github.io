@@ -17,6 +17,7 @@ cost: 156.00
 review: https://www.campendium.com/springfield-koa
 tags:
   - loop1
+  - rv-park
 ---
 
 ![Springfield KOA](/assets/img/destinations/illinois/springfield-koa.jpg)

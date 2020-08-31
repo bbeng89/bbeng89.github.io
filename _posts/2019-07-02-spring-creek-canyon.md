@@ -2,9 +2,11 @@
 title: Spring Creek Canyon
 date: 2019-07-02
 category: updates
-tags: cedar-city
 layout: update
 banner: 
+tags:
+  - cedar-city
+  - hiking
 ---
 
 <div class="insta">

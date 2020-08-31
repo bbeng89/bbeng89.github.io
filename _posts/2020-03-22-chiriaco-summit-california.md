@@ -18,7 +18,6 @@ review: https://www.campendium.com/joshua-tree-south
 tags:
   - loop2
   - boondocking
-  - covid19
 ---
 
 <p class="text-justify">I reached out to some other full-timer friends and they invited me to come stay with them on BLM land outside Joshua Tree. They have a pretty large group (about 10) and have been here for a couple weeks now. Since I just came in off the road they are having me do a 14 day quarantine where I have to keep my distance from the rest of the group. These are tough times and everyone is scared, so I completely understand their caution.</p>

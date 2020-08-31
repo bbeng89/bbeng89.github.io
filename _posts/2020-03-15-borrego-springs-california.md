@@ -18,7 +18,6 @@ review:
 tags:
   - loop2
   - boondocking
-  - covid19
 ---
 
 <div class="insta">

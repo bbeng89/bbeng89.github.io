@@ -17,6 +17,7 @@ cost: 157.68
 review: https://www.campendium.com/aspen-grove-inn-rv-camp
 tags:
   - loop1
+  - rv-park
 ---
 
 <img src="/assets/img/destinations/idaho/rigby-campsite.jpg" />
