@@ -1,5 +1,6 @@
 ---
 title: Organize Your Life With a Bullet Journal
+date: 2020-09-03
 category: articles
 layout: article
 banner:
