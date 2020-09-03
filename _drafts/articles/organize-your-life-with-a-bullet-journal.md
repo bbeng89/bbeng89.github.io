@@ -2,21 +2,24 @@
 title: Organize Your Life With a Bullet Journal
 category: articles
 layout: article
-banner: 
+banner:
 override_home_banner: false
+description: "Life can be chaotic, especially when you work and travel in an RV full-time. I'll show you how I use a pen and paper journal to tame the chaos"
 ---
 
-## Why would I need a journal? 
+## Why do I need a journal? 
 
-I started using a paper journal about 4 years ago and it has been one of the most positive habits that I've picked up so far in my life. I don't use my journal in the typical "Dear diary..." kind of way. My journal is a hybrid of equal parts calendar, planner, to-do list, goal tracker, scrapbook, and record keeper. I believe that making a habit of using my journal has been a big factor in getting to where I am now and keeping my life in order now that I'm balancing traveling in an RV and working full-time.
+I started using a paper journal about 4 years ago and it has been one of the most positive habits I've picked up so far in my life. I don't use my journal in the typical "Dear diary..." kind of way. My journal is a hybrid of equal parts calendar, planner, to-do list, goal tracker, scrapbook, and record keeper. I believe that making a habit of using my journal has been a big factor in getting to where I am now and keeping my life in order now that I'm balancing traveling in an RV and working full-time.
 
-I depended on my journal heavily during all the months I was planning my transition to RV living, including selling my house and many of my belongs. It helped me to set goals and stick to them for every step of the process. It also helped me to stay organized and always focused on a manageable set of tasks each day without getting overwhelmed by the big picture. Today it keeps me organized with my travel plans, maintenance, and all of my day-to-day work for my job. At this point I honestly don't know how I'd even survive without it. 
+I depended on my journal heavily during all the months I was planning my transition to RV living, including selling my house and many of my belongs, and shopping for an RV. It helped me to set goals and stick to them for every step of the process. It also helped me to stay organized and always focused on a manageable set of tasks each day without getting overwhelmed by the big picture. Today it keeps me organized with my travel plans, maintenance, and all of my day-to-day work for my job. At this point I'm not sure if I could even survive without it. 
 
 ## Okay, but what is a bullet journal?
 
-Having a journal without a structure has never been helpful for me. Blank pages that you jot notes on becomes chaotic and over time I always gave up on it. On the other hand, I always found that a planner that already has everything laid out is too structured for me. I felt constrained and didn't like that I had to work within the predefined space of each day/week. 
+Having a journal without a structure has never been helpful for me. Blank pages that you jot notes on becomes chaotic and over time I always gave up on it. On the other hand, I found that a planner that already has everything laid out is too structured for me. I felt constrained and didn't like that I had to work within the predefined space of each day/week. 
 
-Eventually I discovered the answer to my problems, and that is a system called Bullet Journaling. Over the years I've tailored the system a bit to my own specific needs, but overall I stay pretty close to the original design. The thing that I like most about this system is that it can change and evolve over time. You never work ahead in a bullet journal, you always take it one day at a time, leaving all future pages blank. This ensures that each day you can use as much space as you need. This hybrid of flexibility and structure was exactly what I was looking for. 
+Eventually I discovered a methodology that uses blank notebooks and allows for free-form writing, while at the same time providing you with structure and a framework to work within. That system is called Bullet Journaling. 
+
+Over the years I've tailored the system a bit to my own specific needs, but overall I stay pretty close to the original design. The thing that I like most about this system is that it can change and evolve over time. You never work ahead in a bullet journal, you always take it one day at a time, leaving all future pages blank. This ensures that each day you can use as much space as you need. This hybrid of flexibility and structure was exactly what I was looking for. 
 
 ## Isn't a paper notebook old fashioned though? 
 
@@ -51,7 +54,7 @@ You really only need two things for a bullet journal: a notebook (any notebook) 
 
 ### Choosing a notebook
 
-While you're free to use any notebook you like, a good notebook can make a big difference. At the very least you will want to make sure it's durable since it will likely be with you all day every day for about a year. For this reason, and others I'll cover below, my notebook of choice is the Leuchtturm 1917. 
+While you're free to use any notebook you like, a good notebook can make a big difference. At the very least you will want to make sure it's durable since it will likely be with you all day every day for about a year. For this reason, and others I'll cover below, my notebook of choice is the [Leuchtturm 1917](https://www.amazon.com/gp/product/B002TSIMW4). 
 
 ![leuchtturm 1917 notebook](/assets/img/articles/bullet-journal/notebook.jpg)
 
@@ -68,7 +71,7 @@ This notebook is perfect for bullet journaling for a number of reasons.
 
 ### Pens
 
-The pen you use just comes down to personal preference. I like the Pilot G-2 .38mm because it has a push-button so I don't have to worry about losing the cap, and the .38mm is extremely fine-point, which makes writing in small print much easier.
+The pen you use just comes down to personal preference. I like the [Pilot G2 .38mm](https://www.amazon.com/gp/product/B0017TMMLS) because it has a push-button so I don't have to worry about losing the cap, and the .38mm is extremely fine-point, which makes writing in small print much easier.
 
 ### Ruler
 
@@ -96,8 +99,8 @@ My key looks like the following:
 - A bullet represents a task
 - When a task is complete, mark an `X` through the bullet
 - If you cancel a task, strike it out
-- A right arrow `>` over a task means it's been migrated. 
-- A left arrow `<` over a task means it's been rescheduled.
+- A right arrow `>` over a bullet means the task has been migrated. 
+- A left arrow `<` over a bullet means the task has been rescheduled.
 - An open circle represents an event
 - A dash represents a thought or idea
 - Since I track a lot of birthdays in my bullet journal, I mark those with a star
@@ -124,7 +127,7 @@ Once all the months are created, I go through and add all my tasks and events fo
 
 ### Collections
 
-Collections can appear anywhere in your bullet journal, as long as you make sure to update your table of contents so that you're able to easily find them later. In creating this new journal I already know of several collections I want to create right off the bat, so I'm going to go ahead and add them after the future log, then update my table of contents. 
+Collections can appear anywhere in your bullet journal, just make sure to add them to your table of contents so that you can easily find them later. In creating this new journal I already know of several collections I want to create right off the bat, so I'm going to go ahead and add them after the future log, then update my table of contents. 
 
 ![table of contents with collections](/assets/img/articles/bullet-journal/5-full-toc.jpg)
 
@@ -132,19 +135,19 @@ You can see I added a couple collections for keeping track of various types of m
 
 ## The Monthly Log
 
-With the future log complete, now we need to set up the first monthly log. I always use two pages for the monthly log. On the left page I write the days of the month in one column down the left side, and then I refer back to my future log to write in any tasks or events next to their dates. I also find this is a good location for me to keep track of where I'm camping so I split this page and on the right side keep track of all my campsites for the month. 
+With the future log complete, now we need to set up the first monthly log. I always use two pages for the monthly log. On the left page I write the days of the month in one column down the left side, then I refer back to my future log to write in any tasks or events next to their dates. This is also a good spot for me to keep track of where I'm camping so I split this page and on the right side keep track of all my campsites for the month. 
 
 ![monthly log](/assets/img/articles/bullet-journal/6-month-log.jpg)
 
-Here you can see another example from an older journal where I logged quite a few campsites for the month:
+Here you can see another example from an older journal where I logged all my campsites for the month:
 
 ![travel timeline](/assets/img/articles/bullet-journal/7-month-travel-timeline.jpg)
 
-On the second page I have a list of tasks for the month. These are things that don't necessarily belong on a particular day but are tasks and goals that I want to try to accomplish that month. I also like to split this into two columns: "Personal" and "Work". Setting some realistic goals here is a really good way to knock those thing out that you know you need to do eventually but keep putting off. 
+On the second page I have a list of tasks for the month. These are things that don't necessarily belong on a particular day but are tasks and goals that I want to try to accomplish that month. I also like to split this into two columns: "Personal" and "Work". Setting some realistic goals here is a good way to knock out those tasks you know you need to do eventually but keep putting off. 
 
 ![monthly log tasks](/assets/img/articles/bullet-journal/8-full-month-log.jpg)
 
-Setting up this monthly log is something that you will do at the beginning of each month. You'll sit down and copy all the tasks over from the future log, then migrate any incomplete tasks from the previous month, making sure to update the previous months bullets with a right arrow (>) to indicate they've been migrated. 
+Setting up the monthly log is something that you will do at the beginning of each month. You'll sit down and copy all the tasks over from the future log, then migrate any incomplete tasks from the previous month, making sure to update the previous months bullets with a right arrow (>) to indicate they've been migrated. 
 
 I know this process sounds time consuming and redundant, but that is part of the point. Once it becomes habit it goes pretty quickly but still gives you the benefit of always being aware of what you have to do for the month.
 
@@ -157,7 +160,7 @@ I mentioned earlier that one thing I liked about the Leuchtturm 1917 notebook is
 
 Drilling down from the monthly log, we have the weekly and daily logs. Every Monday morning I open to the next page of my journal and break it up into sections for each day of the week. I then look at all my tasks for that week in the monthly log and fill them in on my weekly log. This is also a good time to assess the tasks you wrote on the right side of your monthly log that don't have a due date, but that you might be able to knock out that week.
 
-The weekly log is something that I didn't start out with, and isn't mentioned in the original bullet journal system, but I incorporated it once I realized that all kinds of things would pop up that needed to be scheduled during the week and I needed a little more space than the monthly log provided. 
+I didn't start out using a weekly log, and isn't mentioned in the original bullet journal system, but I incorporated it once I realized that all kinds of things would pop up that needed to be scheduled during the week and I needed more space than the monthly log provided. 
 
 ![weekly and daily log](/assets/img/articles/bullet-journal/9-week-daily-log.jpg)
 
@@ -190,4 +193,4 @@ Once you fill up a notebook, you can use a sticker (the Leuchtturm notebook come
 
 The internet is full of bullet journaling ideas. The original website, [bulletjournal.org](https://bulletjournal.com/), is a great resource to learn more about the system. You can also find tons of videos on YouTube to help you get ideas and inspiration for your own journal. Personally I like to keep things short and simple, but some people like to go all out with decorating their journals and tracking everything you can imagine. The great thing about it is that you can set it up however you like and then change it until you figure out works best for you. 
 
-Journaling may not be for everyone, but personally it has improved my life. If you feel like you're getting overwhelmed by the chaos of day-to-day life and are having trouble keeping up with everything, I think you'd be doing yourself a favor to give it a shot.
+Journaling may not be for everyone, but it has definitely improved my life. If you feel like you're getting overwhelmed by the chaos of day-to-day life and are having trouble keeping up with everything, I think you'd be doing yourself a favor to give it a shot.
