@@ -6,7 +6,7 @@ layout: update
 banner: /assets/img/banners/wyoming/banner-curt-gowdy.jpg
 override_home_banner: false
 tags:
-  - laramie
+  - buford
   - hiking
 ---
 

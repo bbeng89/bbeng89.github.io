@@ -1,20 +1,20 @@
 ---
-title:  Laramie, Wyoming
+title:  Buford, Wyoming
 date: 2020-08-24
 category: destinations
 layout: destination
-update_tag: laramie
+update_tag: buford
 lat: 41.2107
 lng: -105.3862
-city: Laramie
+city: Buford
 state: Wyoming
 miles: 291
-banner: /assets/img/banners/wyoming/banner-laramie-2.jpg
+banner: /assets/img/banners/wyoming/banner-buford-2.jpg
 campground: Pole Mountain Area
 hookups: None
-nights: 
+nights: 12
 cost: 0
-review: 
+review: https://www.campendium.com/pole-mountain-area
 tags:
   - loop3
   - boondocking
@@ -24,11 +24,11 @@ We're finally boondocking again! We're staying outside Laramie, Wyoming in the M
 
 The area I'm camping in is massive and I had trouble picking out a site, mostly because there were so many choices. I ended up picking one that's in a great location but isn't exactly a great RV site. It's large but incredibly unlevel. I ended up having to put blocks on the back tires to raise the rear end up so that I could drop the tongue jack all the way to the ground. It looks goofy but it gets the job done.
 
-![leveling](/assets/img/destinations/wyoming/laramie/laramie-leveling.jpg)
+![leveling](/assets/img/destinations/wyoming/buford/buford-leveling.jpg)
 
 I've already noticed this is going to be a really good spot for viewing wildlife. There's a group of four cows that have been just wandering around my campsite. I've also heard there are moose in this area so I'm hoping to see one of those. I've already started to see tons of new birds that I've never seen before, like this Clark's Nutcracker.
 
-![clarks nutcracker](/assets/img/destinations/wyoming/laramie/clarks-nutcracker-1.jpg)
+![clarks nutcracker](/assets/img/destinations/wyoming/buford/clarks-nutcracker-1.jpg)
 
 There's definitely going to be a lot to explore here! 
 
