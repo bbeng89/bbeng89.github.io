@@ -4,8 +4,8 @@ date: 2020-08-24
 category: destinations
 layout: destination
 update_tag: buford
-lat: 41.2107
-lng: -105.3862
+lat: 41.206142
+lng: -105.38841
 city: Buford
 state: Wyoming
 miles: 291
