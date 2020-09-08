@@ -14,7 +14,7 @@ campground: Yellow Banks County Park
 hookups: Partial
 nights: 1
 cost: 20
-review: 
+review: https://www.campendium.com/yellow-banks-county-park
 tags:
   - loop3
   - county-park
