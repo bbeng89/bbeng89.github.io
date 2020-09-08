@@ -14,7 +14,7 @@ campground: Lafayette Park Campground
 hookups: Partial
 nights: 1
 cost: 25
-review: 
+review: https://www.campendium.com/lafayette-park
 tags:
   - loop3
   - county-park
