@@ -14,7 +14,7 @@ campground: Laramie KOA Journey
 hookups: Partial
 nights: 3
 cost: 120
-review: 
+review: https://www.campendium.com/laramie-koa
 tags:
   - loop3
 ---
