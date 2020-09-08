@@ -20,7 +20,7 @@ tags:
   - state-park
 ---
 
-We just drove across most of the state of Wyoming and are now at Bear Lake, which is right at the corner of Utah, Idaho, and Wyoming. The wind on the drive here was absolutely brutal. Wyoming is so open and vast that there's nothing to break it. The weather app said the winds were 30-40mph, and I have no clue what the gusts were, but they were strong enough to jerk me around on the road. I ended up pulling over and taking the bike off the rack and moving it into the camper because I was worried about it breaking off the rack. Fortunately we got through it without any damage or issues. 
+We just drove across most of the state of Wyoming and are now at Bear Lake, which is right at the corner of Utah, Idaho, and Wyoming. The wind on the drive here was brutal. Wyoming is so open and vast that there's nothing to break it. The weather app said the winds were 30-40mph, and I have no clue what the gusts were, but they were strong enough to jerk me around on the road. I ended up pulling over and taking the bike off the rack and moving it into the camper because I was worried about it breaking off the rack. Fortunately we got through it without any damage or issues. 
 
 Bear Lake was never really a destination for me. I honestly had never even heard of it until I happened to see it was on my route to Idaho and would make a good stopover. As soon as I saw the lake and started driving by some of the sites I knew I was going to be happy to spend a week here though. I have to say that this is one of the coolest campsites I've had yet. And since we got here in the afternoon on Labor Day after everyone had cleared out, we almost have the place to ourselves. 
 
