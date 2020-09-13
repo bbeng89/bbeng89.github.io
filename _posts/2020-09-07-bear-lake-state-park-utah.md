@@ -4,8 +4,8 @@ date: 2020-09-07
 category: destinations
 layout: destination
 update_tag: bear-lake
-lat: 41.9656008
-lng: -111.3255126
+lat: 41.97512
+lng: -111.27035
 city: Bear Lake State Park
 state: Utah
 miles: 344
