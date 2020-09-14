@@ -1,6 +1,6 @@
 ---
 title:  Logan, Utah
-date: 2020-09-13
+date: 2020-09-12
 category: updates
 layout: update
 banner: /assets/img/banners/utah/banner-logan.jpg
