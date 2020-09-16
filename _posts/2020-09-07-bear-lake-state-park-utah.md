@@ -14,7 +14,7 @@ campground: Rainbow Cove Campground
 hookups: None
 nights: 6
 cost: 120
-review: 
+review: https://www.campendium.com/rainbow-cove-campground
 tags:
   - loop3
   - state-park
