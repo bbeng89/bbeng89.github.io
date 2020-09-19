@@ -17,6 +17,7 @@ cost: 120
 review: https://www.campendium.com/laramie-koa
 tags:
   - loop3
+  - rv-park
 ---
 
 ---
