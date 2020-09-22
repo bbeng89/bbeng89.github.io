@@ -14,7 +14,7 @@ campground: Bonneville Salt Flats BLM
 hookups: None
 nights: 1
 cost: 0
-review: 
+review: https://www.campendium.com/bonneville-salt-flats-wendover-ut
 tags:
   - loop3
   - boondocking

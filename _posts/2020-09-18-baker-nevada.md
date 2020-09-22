@@ -14,7 +14,7 @@ campground: Sacramento Pass BLM
 hookups: None
 nights: 2
 cost: 0
-review: 
+review: https://www.campendium.com/sacramento-pass-recreation-area
 tags:
   - loop3
   - boondocking
