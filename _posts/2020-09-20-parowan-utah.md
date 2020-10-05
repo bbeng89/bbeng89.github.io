@@ -12,7 +12,7 @@ miles: 136
 banner: /assets/img/banners/utah/banner-parowan.jpg
 campground: Parowan Gap Petroglyphs - BLM
 hookups: None
-nights: 
+nights: 7
 cost: 0
 review: https://www.campendium.com/parowan-gap-petroglyphs
 tags:
