@@ -4,7 +4,7 @@ date: 2020-10-03
 category: updates
 layout: update
 banner: /assets/img/banners/arizona/banner-antelope-canyon.jpg
-override_home_banner: true
+override_home_banner: false
 tags:
   - marble-canyon
 ---
