@@ -4,7 +4,7 @@ date: 2020-10-05
 category: updates
 layout: update
 banner: /assets/img/banners/arizona/banner-petrified-forest.jpg
-override_home_banner: true
+override_home_banner: false
 tags:
   - holbrook
   - national-park
