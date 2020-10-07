@@ -1,0 +1,384 @@
+{
+    "contiguous": [
+        {
+            "name": "Acadia",
+            "lat": 44.3193806,
+            "lng": -68.2968099,
+            "visited": false
+        },
+        {
+            "name": "Arches",
+            "lat": 38.7317516,
+            "lng": -109.7257269,
+            "visited": true
+        },
+        {
+            "name": "Badlands",
+            "lat": 43.6830557,
+            "lng": -102.6622617,
+            "visited": true
+        },
+        {
+            "name": "Big Bend",
+            "lat": 29.3339532,
+            "lng": -103.5675796,
+            "visited": true
+        },
+        {
+            "name": "Biscayne",
+            "lat": 25.4541657,
+            "lng": -80.3239556,
+            "visited": false
+        },
+        {
+            "name": "Black Canyon of the Gunnison",
+            "lat": 38.574839,
+            "lng": -107.8052132,
+            "visited": false
+        },
+        {
+            "name": "Bryce Canyon",
+            "lat": 37.573297,
+            "lng": -112.3183991,
+            "visited": true
+        },
+        {
+            "name": "Canyonlands",
+            "lat": 38.2266203,
+            "lng": -110.1807812,
+            "visited": true
+        },
+        {
+            "name": "Capitol Reef",
+            "lat": 38.1199318,
+            "lng": -111.4258621,
+            "visited": true
+        },
+        {
+            "name": "Carlsbad Caverns",
+            "lat": 32.1221389,
+            "lng": -104.6733644,
+            "visited": true
+        },
+        {
+            "name": "Channel Islands",
+            "lat": 33.9627382,
+            "lng": -120.4520538,
+            "visited": false
+        },
+        {
+            "name": "Congaree",
+            "lat": 33.7966618,
+            "lng": -80.8381373,
+            "visited": true
+        },
+        {
+            "name": "Crater Lake",
+            "lat": 42.9357625,
+            "lng": -122.2756426,
+            "visited": false
+        },
+        {
+            "name": "Cuyahoga Valley",
+            "lat": 41.2492159,
+            "lng": -81.7094751,
+            "visited": false
+        },
+        {
+            "name": "Death Valley",
+            "lat": 36.4777608,
+            "lng": -118.1708825,
+            "visited": false
+        },
+        {
+            "name": "Dry Tortugas",
+            "lat": 24.6333315,
+            "lng": -82.922107,
+            "visited": false
+        },
+        {
+            "name": "Everglades",
+            "lat": 25.3479634,
+            "lng": -81.2238381,
+            "visited": false
+        },
+        {
+            "name": "Gateway Arch",
+            "lat": 38.6269661,
+            "lng": -90.1876977,
+            "visited": false
+        },
+        {
+            "name": "Glacier",
+            "lat": 48.6587895,
+            "lng": -114.4062833,
+            "visited": true
+        },
+        {
+            "name": "Grand Canyon",
+            "lat": 36.0911046,
+            "lng": -113.403598,
+            "visited": true
+        },
+        {
+            "name": "Grand Teton",
+            "lat": 43.7616986,
+            "lng": -110.7887955,
+            "visited": true
+        },
+        {
+            "name": "Great Basin",
+            "lat": 38.941788,
+            "lng": -114.3828693,
+            "visited": true
+        },
+        {
+            "name": "Great Sand Dunes",
+            "lat": 37.7551467,
+            "lng": -105.7521341,
+            "visited": true
+        },
+        {
+            "name": "Great Smoky Mountains",
+            "lat": 35.6064789,
+            "lng": -83.8137609,
+            "visited": true
+        },
+        {
+            "name": "Guadalupe Mountains",
+            "lat": 31.9024233,
+            "lng": -104.878013,
+            "visited": true
+        },
+        {
+            "name": "Hot Springs",
+            "lat": 34.5222264,
+            "lng": -93.0947024,
+            "visited": false
+        },
+        {
+            "name": "Indiana Dunes",
+            "lat": 41.6505655,
+            "lng": -87.0795747,
+            "visited": false
+        },
+        {
+            "name": "Isle Royale",
+            "lat": 48.0074164,
+            "lng": -88.8288046,
+            "visited": false
+        },
+        {
+            "name": "Joshua Tree",
+            "lat": 33.8996647,
+            "lng": -116.1408736,
+            "visited": true
+        },
+        {
+            "name": "Kings Canyon",
+            "lat": 36.8482662,
+            "lng": -119.1556618,
+            "visited": false
+        },
+        {
+            "name": "Lassen Volcanic",
+            "lat": 40.4968779,
+            "lng": -121.5503014,
+            "visited": false
+        },
+        {
+            "name": "Mammoth Cave",
+            "lat": 37.1861589,
+            "lng": -86.1087301,
+            "visited": true
+        },
+        {
+            "name": "Mesa Verde",
+            "lat": 37.24284,
+            "lng": -108.5354972,
+            "visited": true
+        },
+        {
+            "name": "Mount Rainier",
+            "lat": 46.8623199,
+            "lng": -121.7691294,
+            "visited": false
+        },
+        {
+            "name": "North Cascades",
+            "lat": 48.7169482,
+            "lng": -121.4258956,
+            "visited": false
+        },
+        {
+            "name": "Olympic",
+            "lat": 47.7854541,
+            "lng": -123.9203788,
+            "visited": false
+        },
+        {
+            "name": "Petrified Forest",
+            "lat": 34.984704,
+            "lng": -109.9186132,
+            "visited": true
+        },
+        {
+            "name": "Pinnacles",
+            "lat": 36.4937321,
+            "lng": -121.246135,
+            "visited": false
+        },
+        {
+            "name": "Redwood",
+            "lat": 41.2131788,
+            "lng": -124.0746653,
+            "visited": false
+        },
+        {
+            "name": "Rocky Mountain",
+            "lat": 40.3503939,
+            "lng": -105.9566681,
+            "visited": false
+        },
+        {
+            "name": "Saguaro",
+            "lat": 32.2188916,
+            "lng": -111.1538644,
+            "visited": true
+        },
+        {
+            "name": "Sequoia",
+            "lat": 36.4846872,
+            "lng": -118.8631964,
+            "visited": false
+        },
+        {
+            "name": "Shenandoah",
+            "lat": 38.4380076,
+            "lng": -79.0551481,
+            "visited": false
+        },
+        {
+            "name": "Theodore Roosevelt",
+            "lat": 47.2578938,
+            "lng": -104.0282295,
+            "visited": false
+        },
+        {
+            "name": "Voyageurs",
+            "lat": 48.5000547,
+            "lng": -93.0651383,
+            "visited": false
+        },
+        {
+            "name": "White Sands",
+            "lat": 32.7872403,
+            "lng": -106.3278703,
+            "visited": true
+        },
+        {
+            "name": "Wind Cave",
+            "lat": 43.5644949,
+            "lng": -103.4686876,
+            "visited": true
+        },
+        {
+            "name": "Yellowstone",
+            "lat": 44.5844248,
+            "lng": -111.074498,
+            "visited": true
+        },
+        {
+            "name": "Yosemite",
+            "lat": 37.8529772,
+            "lng": -119.8313006,
+            "visited": false
+        },
+        {
+            "name": "Zion",
+            "lat": 37.3217618,
+            "lng": -113.323426,
+            "visited": true
+        }
+    ],
+    "alaska": [
+        {
+            "name": "Denali",
+            "lat": 63.2092487,
+            "lng": -152.2366835,
+            "visited": false
+        },
+        {
+            "name": "Gates of the Arctic",
+            "lat": 67.7152702,
+            "lng": -155.5372482,
+            "visited": false
+        },
+        {
+            "name": "Glacier Bay",
+            "lat": 58.579754,
+            "lng": -136.6645445,
+            "visited": false
+        },
+        {
+            "name": "Katmai",
+            "lat": 58.4936594,
+            "lng": -156.0188614,
+            "visited": false
+        },
+        {
+            "name": "Kenai Fjords",
+            "lat": 59.8310927,
+            "lng": -150.6203502,
+            "visited": false
+        },
+        {
+            "name": "Kobuk Valley",
+            "lat": 67.3709215,
+            "lng": -160.212867,
+            "visited": false
+        },
+        {
+            "name": "Lake Clark",
+            "lat": 60.650792,
+            "lng": -155.2203486,
+            "visited": false
+        },
+        {
+            "name": "Wrangell-St. Elias",
+            "lat": 61.2700476,
+            "lng": -144.4888265,
+            "visited": false
+        }
+    ],
+    "hawaii": [
+        {
+            "name": "Haleakalā",
+            "lat": 20.7341188,
+            "lng": -156.2473569,
+            "visited": false
+        },
+        {
+            "name": "Hawai'i Volcanoes",
+            "lat": 19.3833349,
+            "lng": -155.2087593,
+            "visited": false
+        }
+    ],
+    "american_samoa": [
+        {
+            "name": "American Samoa",
+            "lat": -14.2597625,
+            "lng": -170.7055723,
+            "visited": false
+        }
+    ],
+    "virgin_islands": [
+        {
+            "name": "Virgin Islands",
+            "lat": 18.3424047,
+            "lng": -64.7485759,
+            "visited": false
+        }
+    ]
+}
