@@ -154,7 +154,7 @@
             "name": "Hot Springs",
             "lat": 34.5222264,
             "lng": -93.0947024,
-            "visited": false
+            "visited": true
         },
         {
             "name": "Indiana Dunes",
