@@ -14,7 +14,7 @@ campground: Crystal Forest Gift Shop & Campground
 hookups: None
 nights: 2
 cost: 0
-review: 
+review: https://www.campendium.com/crystal-forest-gift-shop-campground
 tags:
   - loop3
   - boondocking
