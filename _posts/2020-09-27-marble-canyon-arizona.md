@@ -14,7 +14,7 @@ campground: Lee's Ferry Campground
 hookups: None
 nights: 7
 cost: 140
-review: 
+review: https://www.campendium.com/lees-ferry-campground
 tags:
   - loop3
 ---
