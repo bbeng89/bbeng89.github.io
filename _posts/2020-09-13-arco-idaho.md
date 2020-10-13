@@ -14,7 +14,7 @@ campground: Craters of the Moon / Arco KOA
 hookups: Partial
 nights: 4
 cost: 167
-review: 
+review: https://www.campendium.com/craters-of-the-moon-arco-koa
 tags:
   - loop3
   - rv-park
