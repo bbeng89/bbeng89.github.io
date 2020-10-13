@@ -14,7 +14,7 @@ campground: Amarillo KOA
 hookups: Full
 nights: 1
 cost: 51
-review: 
+review: https://www.campendium.com/amarillo-koa
 tags:
   - loop3
   - rv-park
