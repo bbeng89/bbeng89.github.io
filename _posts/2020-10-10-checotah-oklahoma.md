@@ -14,7 +14,7 @@ campground: Walmart
 hookups: None
 nights: 1
 cost: 0
-review: 
+review: https://www.campendium.com/walmart-checotah-ok
 tags:
   - loop3
   - boondocking
