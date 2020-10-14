@@ -32,7 +32,7 @@ Once I got into the mountains of Arkansas the fog actually came back a for a bit
 
 ![arkansas fog](/assets/img/destinations/arkansas/hot-springs/arkansas-fog.jpg)
 
-When I finally got to the campground the place felt like kind of a cluster, mostly from people trying to leave as I was pulling in and trying to get setup. Even though I showed up at checkout time on a Sunday, there was still only one site along the creek that was open (along the creek is the most popular spot). This site was one of the more challenging ones I've had to back into because there was a big tree right on the corner of the site. Luckily one of the campground workers came over and spotted for me so we got it in there pretty quickly.
+When I finally got to the campground the place was kind of chaotic, as a lot of people were trying to leave at the same time as a lot of people were arriving. There was only one site along the creek that was open (the most popular spot), even though I showed up at checkout time on a Sunday. This site was one of the more challenging ones I've had to back into because there was a big tree right on the corner of the site. Luckily one of the campground workers came over and spotted for me so we got it in there pretty quickly.
 
 ![campsite](/assets/img/destinations/arkansas/hot-springs/campsite.jpg)
 
