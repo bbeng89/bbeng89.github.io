@@ -14,7 +14,7 @@ campground: Gulpha Gorge Campground
 hookups: Full
 nights: 7
 cost: 210
-review: 
+review: https://www.campendium.com/gulpha-gorge-campground
 tags:
   - loop3
   - national-park-campground
