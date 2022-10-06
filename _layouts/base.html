@@ -16,6 +16,8 @@
         <link rel="stylesheet" href="/assets/css/site.css?{{site.time | date: '%s%N'}}">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
         <link rel="stylesheet" href="/assets/css/simpleLightbox.min.css">
+        <link rel="stylesheet" type="text/css" href="/assets/apps/slick/slick.css">
+        <link rel="stylesheet" type="text/css" href="/assets/apps/slick/slick-theme.css">
     </head>
     <body>
 
@@ -65,14 +67,25 @@
             </div>
 
         </footer>
+        <!--TODO: REMOVE insta-->
         <script async src="//www.instagram.com/embed.js"></script>
         <script src="/assets/js/simpleLightbox.min.js"></script>
+        <script src="/assets/apps/camping-map/js/chunk-vendors.js?{{site.time | date: '%s%N'}}"></script>
+        <script src="/assets/apps/camping-map/js/app.js?{{site.time | date: '%s%N'}}"></script>
+        <script src="/assets/js/jquery-1.11.0.min.js"></script>
+        <script src="/assets/js/jquery-migrate-1.2.1.min.js"></script>
+        <script src="/assets/apps/slick/slick.min.js"></script>
         <script>
             SimpleLightbox.defaults.showCaptions = false;
             SimpleLightbox.defaults.urlAttribute = 'src';
             new SimpleLightbox({elements: '.post img:not(.lightbox-ignore), .article img:not(.lightbox-ignore)'});
+
+            $(document).ready(function() {
+                $('.img-slider').slick({
+                    arrows: true,
+                    dots: true
+                });
+            })
         </script>
-        <script src="/assets/apps/camping-map/js/chunk-vendors.js?{{site.time | date: '%s%N'}}"></script>
-        <script src="/assets/apps/camping-map/js/app.js?{{site.time | date: '%s%N'}}"></script>
     </body>
 </html>
