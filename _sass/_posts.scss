@@ -20,6 +20,10 @@
     .img-slider {
         max-width: $post-img-width;
         margin: $post-img-margin;
+
+        @media (max-width: 576px) {
+            max-width: 300px;
+        }
     }
 
     .slick-prev:before, .slick-next:before {
