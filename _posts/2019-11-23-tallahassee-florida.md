@@ -22,4 +22,4 @@ tags:
 
 <img src="/assets/img/destinations/florida/tallahassee.jpg" />
 
-<p>Walmart boondocking for the night</p>
+<p class="text-center">Walmart boondocking for the night</p>
