@@ -20,7 +20,7 @@ tags:
   - family-friend
 ---
 
-<p>Spending a couple nights with my aunt and uncle in Franklin, Minnesota.</p>
+<p class="text-center">Spending a couple nights with my aunt and uncle in Franklin, Minnesota.</p>
 
 <img src="/assets/img/destinations/minnesota/franklin.jpg">
 <br/>
