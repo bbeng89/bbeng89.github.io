@@ -77,7 +77,7 @@ I have the [Viair 70P](https://www.amazon.com/dp/B0012WHBSO) and it works perfec
 
 Space is limited in an RV so having plenty of hooks around to hang things on can help prevent clutter. I got some over-the-door hooks to put over my closet door and hang jackets and sweatshirts on.
 
-![hooks]()/assets/img/articles/gear-mods/hooks1.jpg)
+![hooks](/assets/img/articles/gear-mods/hooks1.jpg)
 
 I also use [Command Hooks](https://www.amazon.com/dp/B0753P8GZQ) everywhere. I can't stress enough how awesome these are.
 
