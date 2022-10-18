@@ -22,10 +22,10 @@ Also I have no idea how to use the GoPro yet. I learned that putting it on your 
 
 
 <video muted controls width="720" style="margin-bottom: 20px">
-    <source src="https://dumphole.bbeng89.com/wheresblake/vid/updates/idaho/fall-creek-falls/walking-to-waterfall-no-gopro-thing.mp4" type="video/mp4">
+    <source src="{{ site.cdn }}/vid/updates/idaho/fall-creek-falls/walking-to-waterfall-no-gopro-thing.mp4" type="video/mp4">
 </video>
 
 <video muted controls width="720">
-    <source src="https://dumphole.bbeng89.com/wheresblake/vid/updates/idaho/fall-creek-falls/hiking-waterfall.mp4" type="video/mp4">
+    <source src="{{ site.cdn }}/vid/updates/idaho/fall-creek-falls/hiking-waterfall.mp4" type="video/mp4">
 </video>
 

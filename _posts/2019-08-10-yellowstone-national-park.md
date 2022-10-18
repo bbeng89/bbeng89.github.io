@@ -14,7 +14,7 @@ tags:
 <div class="img-slider">
     <img src="/assets/img/updates/wyoming/yellowstone/yellowstone-1.jpg">
     <video muted controls width="540">
-        <source src="https://dumphole.bbeng89.com/wheresblake/vid/updates/wyoming/yellowstone/ol-faithful.mp4" type="video/mp4">
+        <source src="{{ site.cdn }}/vid/updates/wyoming/yellowstone/ol-faithful.mp4" type="video/mp4">
     </video>
     <img src="/assets/img/updates/wyoming/yellowstone/yellowstone-2.jpg">
     <img src="/assets/img/updates/wyoming/yellowstone/yellowstone-3.jpg">

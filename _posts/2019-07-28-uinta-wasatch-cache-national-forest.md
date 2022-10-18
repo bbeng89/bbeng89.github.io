@@ -17,7 +17,7 @@ tags:
     <img src="/assets/img/updates/utah/uinta/4.jpg">
     <img src="/assets/img/updates/utah/uinta/5.jpg">
     <video controls muted width="540">
-        <source src="https://dumphole.bbeng89.com/wheresblake/vid/updates/utah/uinta/boat.mp4" type="video/mp4"> 
+        <source src="{{ site.cdn }}/vid/updates/utah/uinta/boat.mp4" type="video/mp4"> 
     </video>
     <img src="/assets/img/updates/utah/uinta/6.jpg">
 </div>

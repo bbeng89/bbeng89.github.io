@@ -21,6 +21,8 @@ url: "http://wheresblake.com" # the base hostname & protocol for your site, e.g.
 twitter_username: 
 github_username:  bbeng89
 
+cdn: "https://dumphole.bbeng89.com/wheresblake"
+
 # Build settings
 markdown: kramdown
 theme: null

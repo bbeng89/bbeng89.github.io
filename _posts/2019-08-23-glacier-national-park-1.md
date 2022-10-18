@@ -14,11 +14,11 @@ tags:
 <div class="img-slider">
     <img src="/assets/img/updates/montana/glacier-day-1-2/1.jpg">
     <video controls muted width="540">
-        <source src="https://dumphole.bbeng89.com/wheresblake/vid/updates/montana/glacier-day-1-2/bear.mp4" type="video/mp4"> 
+        <source src="{{ site.cdn }}/vid/updates/montana/glacier-day-1-2/bear.mp4" type="video/mp4"> 
     </video>
     <img src="/assets/img/updates/montana/glacier-day-1-2/2.jpg">
     <video controls muted width="540">
-        <source src="https://dumphole.bbeng89.com/wheresblake/vid/updates/montana/glacier-day-1-2/highline.mp4" type="video/mp4"> 
+        <source src="{{ site.cdn }}/vid/updates/montana/glacier-day-1-2/highline.mp4" type="video/mp4"> 
     </video>
     <img src="/assets/img/updates/montana/glacier-day-1-2/3.jpg">
     <img src="/assets/img/updates/montana/glacier-day-1-2/4.jpg">

@@ -21,5 +21,5 @@ tags:
 Awesome day in Custer. We went to Wind Cave NP but the cave was closed for maintenance. Then I braved the needles highway in a 3/4 ton truck to go hike the Cathedral Spires trail. Definitely worth it.
 
 <video controls muted width="540">
-    <source src="https://dumphole.bbeng89.com/wheresblake/vid/updates/south-dakota/wind-cave-cathedral-spires/needles.mp4" type="video/mp4">
+    <source src="{{ site.cdn }}/vid/updates/south-dakota/wind-cave-cathedral-spires/needles.mp4" type="video/mp4">
 </video>
