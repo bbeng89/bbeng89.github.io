@@ -11,10 +11,10 @@ tags:
 ---
 
 <div class="img-slider">
-    <img src="/assets/img/updates/new-mexico/sandia-mtns/sandia-1.jpg">
-    <img src="/assets/img/updates/new-mexico/sandia-mtns/sandia-2.jpg">
-    <img src="/assets/img/updates/new-mexico/sandia-mtns/sandia-3.jpg">
-    <img src="/assets/img/updates/new-mexico/sandia-mtns/sandia-4.jpg">
+    <img src="/assets/img/updates/new-mexico/sandia-mtns-2/sandia-1.jpg">
+    <img src="/assets/img/updates/new-mexico/sandia-mtns-2/sandia-2.jpg">
+    <img src="/assets/img/updates/new-mexico/sandia-mtns-2/sandia-3.jpg">
+    <img src="/assets/img/updates/new-mexico/sandia-mtns-2/sandia-4.jpg">
 </div>
 
 <p class="text-center">

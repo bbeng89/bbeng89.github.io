@@ -20,9 +20,9 @@ tags:
   - rv-park
 ---
 
-<p class="post-date">Sunday, May 12, 2019</p>
 <img src="/assets/img/destinations/new-mexico/albuquerque.jpg">
-<p>
+
+<p class="text-center">
     All set up in Albuquerque. I'm taking the next couple days to get caught 
     up with work and then the adventure will continue. 
 </p>
