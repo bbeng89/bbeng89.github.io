@@ -19,3 +19,5 @@ tags:
   - loop1
   - rv-park
 ---
+
+![campsite](/assets/img/destinations/texas/canyon/campsite.JPG)
