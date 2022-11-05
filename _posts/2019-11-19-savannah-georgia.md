@@ -9,7 +9,7 @@ lng: -81.3198062
 city: Savannah
 state: Georgia
 miles: 180
-banner: /assets/img/banners/georgia/banner-savannah.jpg
+banner: /img/banners/georgia/banner-savannah.jpg
 campground: Savannah Oaks RV Park
 hookups: Full
 nights: 5
@@ -20,4 +20,4 @@ tags:
   - rv-park
 ---
 
-<img src="/assets/img/destinations/georgia/savannah.jpg">
+<img src="{{ site.cdn }}/img/destinations/georgia/savannah.jpg">

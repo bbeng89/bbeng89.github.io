@@ -21,6 +21,6 @@ tags:
   - harvest-hosts
 ---
 
-<img src="/assets/img/destinations/kentucky/boundary-oaks.jpg">
+<img src="{{ site.cdn }}/img/destinations/kentucky/boundary-oaks.jpg">
 
-<p>Using my <a href="http://harvesthosts.refr.cc/blakeb" target="_blank">Harvest Hosts</a> membership to camp at Boundary Oak Distillery in Radcliffe, Kentucky</p>
+<p class="text-center">Using my <a href="http://harvesthosts.refr.cc/blakeb" target="_blank">Harvest Hosts</a> membership to camp at Boundary Oak Distillery in Radcliffe, Kentucky</p>

@@ -9,7 +9,7 @@ lng: -83.0113595
 city: Waynesville
 state: North Carolina
 miles: 283.2
-banner: /assets/img/banners/north-carolina/banner-waynesville.jpg
+banner: /img/banners/north-carolina/banner-waynesville.jpg
 campground: Pride RV Resort
 hookups: Full
 nights: 7
@@ -20,4 +20,4 @@ tags:
   - rv-park
 ---
 
-<img src="/assets/img/destinations/north-carolina/waynesville.jpg">
+<img src="{{ site.cdn }}/img/destinations/north-carolina/waynesville.jpg">

@@ -9,7 +9,7 @@ lng: -104.4343007
 miles: 231.1
 city: Carlsbad
 state: New Mexico
-banner: /assets/img/banners/new-mexico/banner-carlsbad.jpg
+banner: /img/banners/new-mexico/banner-carlsbad.jpg
 campground: Chosa Campground - BLM
 hookups: None
 nights: 7
@@ -20,6 +20,6 @@ tags:
   - boondocking
 ---
 
-<img src="/assets/img/destinations/new-mexico/carlsbad.jpg">
+<img src="{{ site.cdn }}/img/destinations/new-mexico/carlsbad.jpg">
 
 <p>Boondocking between Carlsbad Caverns National Park and Guadalupe Mountains National Park.</p>

@@ -20,19 +20,19 @@ First it's worth noting that there are two capacitors in most air conditioner un
 
 First and foremost, I completely unplugged my rig from shore power. Once I was disconnected, I climbed on the roof of my rig, removed the cover to the air conditioner, and unscrewed the side panel so that I could access the inside of the unit. On the inside of the panel was a wiring diagram which showed the locations of the capacitors (I outlined the run capacitor in red in the image below).
 
-![wiring diagram](/assets/img/articles/ac-repair/wiring-diagram.jpg)
+![wiring diagram]({{ site.cdn }}/img/articles/ac-repair/wiring-diagram.jpg)
 
 From this diagram I could see that the run capacitor had three wires attached to it: red, white, and yellow. So I just needed to find a capacitor with those wires attached to it.
 
 I could see that one of the capacitors was almost totally covered by a wasp nest. 
 
-![capacitors covered in wasp nest](/assets/img/articles/ac-repair/wasp-nest.jpg)
+![capacitors covered in wasp nest]({{ site.cdn }}/img/articles/ac-repair/wasp-nest.jpg)
 
 I very carefully removed the wasp nest, trying not to touch any of the wire terminals. Even though the rig was unplugged, it is possible for capacitors to still hold a charge, so you want to be very careful when handling them. 
 
 After cleaning it off I could see this was the one I was looking for. I think it's possible that this wasp nest could have been the cause of the issue too. 
 
-![cleaned capacitor](/assets/img/articles/ac-repair/cleaned-capacitor.jpg)
+![cleaned capacitor]({{ site.cdn }}/img/articles/ac-repair/cleaned-capacitor.jpg)
 
 ### Replacing the Run Capacitor
 
@@ -40,7 +40,7 @@ As I mentioned previously, it's possible that the capacitor still had a charge, 
 
 At this point I pulled it out of the brace it was stored in and then was able to find a part number printed on the side. I then took that part number and looked for a replacement online and was able to find one for $30 on Amazon. In the meantime, I left the wires all hooked to the capacitor so that I wouldn't forget how they were hooked up when the new one came in.
 
-![capacitor with part number](/assets/img/articles/ac-repair/part-number.jpg)
+![capacitor with part number]({{ site.cdn }}/img/articles/ac-repair/part-number.jpg)
 
 When I got the new capacitor I also treated it like it had a charge until I was able to verify with my multimeter that it didn't. You should always double check any time your handling a capacitor, even a new one. Once I was certain that it was safe, I simply unplugged the wires from the old one and plugged them into the new one, then screwed everything back together. To test it I let my air conditioner run off the generator for about 2 hours and it ran fine the entire time so the problem seemed to be solved. 
 

@@ -9,7 +9,7 @@ lng: -86.0978096
 city: Mammoth Cave
 state: Kentucky
 miles: 60
-banner: /assets/img/banners/kentucky/banner-mammoth-cave-campsite.jpg
+banner: /img/banners/kentucky/banner-mammoth-cave-campsite.jpg
 campground: Mammoth Cave National Park
 hookups: None
 nights: 2
@@ -20,4 +20,4 @@ tags:
   - national-park-cg
 ---
 
-<img src="/assets/img/destinations/kentucky/mammoth-cave.jpg">
+<img src="{{ site.cdn }}/img/destinations/kentucky/mammoth-cave.jpg">

@@ -9,7 +9,7 @@ lng: -111.7089488
 city: Provo
 state: Utah
 miles: 285 
-banner: /assets/img/banners/utah/banner-provo.jpg
+banner: /img/banners/utah/banner-provo.jpg
 campground: Utah Lake State Park
 hookups: Partial
 nights: 5
@@ -20,4 +20,4 @@ tags:
   - state-park
 ---
 
-<img src="/assets/img/destinations/utah/provo-campsite.jpg">
+<img src="{{ site.cdn }}/img/destinations/utah/provo-campsite.jpg">

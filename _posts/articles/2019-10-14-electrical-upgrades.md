@@ -3,7 +3,7 @@ title: Electrical Upgrades
 date: 2019-10-14
 category: articles
 layout: article
-banner: /assets/img/banners/articles/banner-electrical-upgrade.jpg
+banner: /img/banners/articles/banner-electrical-upgrade.jpg
 override_home_banner: false
 description: "A walkthrough of my DIY installation of an inverter, battery monitor, and battery disconnect switch"
 ---
@@ -21,7 +21,7 @@ One problem with my inverter solution was that the camper has a converter built 
 The obvious solution was to just flip the breaker that the converter is on, however, I realized that my outlets were all on the same circuit as my converter. Fortunately the breaker box had an empty slot and I was able to move the converter to a new breaker.
 
 <figure class="figure text-center">
-    <img src="/assets/img/articles/electrical-upgrade/1-breaker.jpg">
+    <img src="{{ site.cdn }}/img/articles/electrical-upgrade/1-breaker.jpg">
     <figcaption class="figure-caption text-muted">Moving the black converter wire into a new breaker</figcaption>
 </figure>
 
@@ -30,13 +30,13 @@ Now that I was able to turn off the converter, it was time to get started instal
 <div class="row">
     <div class="col">
         <figure class="figure text-center">
-            <img src="/assets/img/articles/electrical-upgrade/2-plans.jpg">
+            <img src="{{ site.cdn }}/img/articles/electrical-upgrade/2-plans.jpg">
             <figcaption class="figure-caption text-muted"></figcaption>
         </figure>
     </div>
     <div class="col">
         <figure class="figure text-center">
-            <img src="/assets/img/articles/electrical-upgrade/3-wiring-diagram.jpg">
+            <img src="{{ site.cdn }}/img/articles/electrical-upgrade/3-wiring-diagram.jpg">
             <figcaption class="figure-caption text-muted"></figcaption>
         </figure>
     </div>
@@ -47,28 +47,28 @@ One of the most important parts of this setup is the battery monitor. The monito
 Once I had the wiring figured out, I measured the inside of my front pass-through storage area and cut out a piece of plywood that would fit. I then started screwing the components into the plywood and wiring them together. Before mounting it all inside the storage area, I decided to test it outside to make sure everything worked correctly.
 
 <figure class="figure text-center">
-    <img src="/assets/img/articles/electrical-upgrade/5-testing.jpg">
+    <img src="{{ site.cdn }}/img/articles/electrical-upgrade/5-testing.jpg">
     <figcaption class="figure-caption text-muted">Testing the components before installing.</figcaption>
 </figure>
 
 After verifying everything was working, it was time to mount the plywood inside the storage compartment. From there I planned to run two large, 0 gauge battery cables from the battery box outside up through the floor into the pass-through storage area to connect to the two bus bars I mounted on the plywood. This was probably the most difficult part of the whole install. My camper has a sealed underbelly so I had to open that up first. 
 
 <figure class="figure text-center">
-    <img src="/assets/img/articles/electrical-upgrade/6-earl.jpg">
+    <img src="{{ site.cdn }}/img/articles/electrical-upgrade/6-earl.jpg">
     <figcaption class="figure-caption text-muted">Of course Earl had to jump in as soon as I got it open</figcaption>
 </figure>
 
 After opening the bottom plastic layer, there was another layer that was full of insulation that I had to go through as well. I eventually managed to get the holes drilled and ran the cable through to connect to the bus bars.
 
 <figure class="figure text-center">
-    <img src="/assets/img/articles/electrical-upgrade/7-installed.jpg">
-    <figcaption class="figure-caption text-muted">Everything installed in the pass-through storage area. Annotated image <a href="/assets/img/articles/electrical-upgrade/annotated.jpg">here</a>.</figcaption>
+    <img src="{{ site.cdn }}/img/articles/electrical-upgrade/7-installed.jpg">
+    <figcaption class="figure-caption text-muted">Everything installed in the pass-through storage area. Annotated image <a href="{{ site.cdn }}/img/articles/electrical-upgrade/annotated.jpg">here</a>.</figcaption>
 </figure>
 
 In the image above, you can see the shunt on far left side. The wire coming up through the floor is the battery cable, which connects to the shunt. Then another wire connects the shunt to the black bus bar. Above the shunt is the battery disconnect switch (you can also see the camper wires coming up through the floor), and on the far right is the 1200w inverter. To the left of the inverter, two additional wires are coming up through the floor. These wires connect to exterior terminals that I installed in the top of the battery box.
 
 <figure class="figure text-center">
-    <img src="/assets/img/articles/electrical-upgrade/12-exterior-terminals.jpg">
+    <img src="{{ site.cdn }}/img/articles/electrical-upgrade/12-exterior-terminals.jpg">
     <figcaption class="figure-caption text-muted">Exterior terminals installed in the battery box.</figcaption>
 </figure>
 
@@ -77,14 +77,14 @@ These exterior terminals will allow me to connect my solar panel, and also devic
 I only had to run two wires into the main living area of the camper, and those were the wires for the inverter remote and the battery monitor display.
 
 <figure class="figure text-center">
-    <img src="/assets/img/articles/electrical-upgrade/8-remotes.jpg">
+    <img src="{{ site.cdn }}/img/articles/electrical-upgrade/8-remotes.jpg">
     <figcaption class="figure-caption text-muted">Battery monitor display (top) and inverter remote (bottom).</figcaption>
 </figure>
 
 These are mounted in the night stand area to the left of my bed. The inverter remote allows me to turn the inverter on without having to go outside and reach in the pass-through storage area. The battery monitor display will show me voltage, current, estimated time remaining, and a bunch of other useful information. The monitor I got also came with a bluetooth module and an app so I can view all of this information on my phone.
 
 <figure class="figure text-center">
-    <img src="/assets/img/articles/electrical-upgrade/monitor-app.jpg">
+    <img src="{{ site.cdn }}/img/articles/electrical-upgrade/monitor-app.jpg">
     <figcaption class="figure-caption text-muted">Interface of the bluetooth battery monitor app (iPhone).</figcaption>
 </figure>
 
@@ -93,28 +93,28 @@ Now with everything installed, the last thing to do was run the outlet that woul
 I bought a metal outdoor box, a 30amp female outlet, and a cover plate to protect the outlet.
 
 <figure class="figure text-center">
-    <img src="/assets/img/articles/electrical-upgrade/9-outlet1.jpg">
+    <img src="{{ site.cdn }}/img/articles/electrical-upgrade/9-outlet1.jpg">
     <figcaption class="figure-caption text-muted">30 amp outlet, cover, and box</figcaption>
 </figure>
 
 Then I bought a standard 15 amp extension cord to use for the wiring of the outlet. I cut the female end off of it, as this would get wired into the 30 amp outlet. The male end would get plugged into the inverter. I also drilled a hole in the floor next to the inverter so that i could run this cable to the outlet.
 
 <figure class="figure text-center">
-    <img src="/assets/img/articles/electrical-upgrade/extension-cord.jpg">
+    <img src="{{ site.cdn }}/img/articles/electrical-upgrade/extension-cord.jpg">
     <figcaption class="figure-caption text-muted">15 amp extension cord with female end cut off.</figcaption>
 </figure>
 
 I then mounted the box onto the front of the camper frame. Fortunately there was already a hole drilled into the frame where I could run the extension cord wire. Then I wired the extension cord to the outlet, adding a ground wire that connected to the screw in the box.
 
 <figure class="figure text-center">
-    <img src="/assets/img/articles/electrical-upgrade/10-outlet2.jpg">
+    <img src="{{ site.cdn }}/img/articles/electrical-upgrade/10-outlet2.jpg">
     <figcaption class="figure-caption text-muted">Installed outlet box and wired outlet.</figcaption>
 </figure>
 
 Now it was just a matter of closing everything up and testing it out. I pulled out main power cord from the back of the camper and pulled it all the way around to the front and plugged it into the new outlet. 
 
 <figure class="figure text-center">
-    <img src="/assets/img/articles/electrical-upgrade/11-plugged-in.jpg">
+    <img src="{{ site.cdn }}/img/articles/electrical-upgrade/11-plugged-in.jpg">
     <figcaption class="figure-caption text-muted">Finished outlet with main camper wire plugged in</figcaption>
 </figure>
 

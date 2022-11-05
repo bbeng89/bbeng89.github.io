@@ -20,4 +20,4 @@ tags:
   - state-park
 ---
 
-![Sangchris Lake State Park](/assets/img/destinations/illinois/springfield-sangchris-1.jpg)
+![Sangchris Lake State Park]({{ site.cdn }}/img/destinations/illinois/springfield-sangchris-1.jpg)

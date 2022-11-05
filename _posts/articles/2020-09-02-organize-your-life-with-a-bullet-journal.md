@@ -35,13 +35,13 @@ People are often surprised to learn that I still use a pen and paper calendar/to
 <div class="row">
 	<div class="col">
 		<figure class="figure text-center">
-		    <img style="max-width:350px" src="/assets/img/articles/bullet-journal/cigar-wrapper.jpg">
+		    <img style="max-width:350px" src="{{ site.cdn }}/img/articles/bullet-journal/cigar-wrapper.jpg">
 		    <figcaption class="figure-caption text-muted">Wrapper from a memorable cigar</figcaption>
 		</figure>
 	</div>
 	<div class="col">
 		<figure class="figure text-center">
-		    <img style="max-width:350px" src="/assets/img/articles/bullet-journal/notes.jpg">
+		    <img style="max-width:350px" src="{{ site.cdn }}/img/articles/bullet-journal/notes.jpg">
 		    <figcaption class="figure-caption text-muted">Random notes from my travels that were stored in an old journal</figcaption>
 		</figure>
 	</div>
@@ -57,7 +57,7 @@ You really only need two things for a bullet journal: a notebook (any notebook) 
 
 While you're free to use any notebook you like, a good notebook can make a big difference. At the very least you will want to make sure it's durable since it will likely be with you all day every day for about a year. For this reason, and others I'll cover below, my notebook of choice is the [Leuchtturm 1917](https://www.amazon.com/gp/product/B002TSIMW4). 
 
-![leuchtturm 1917 notebook](/assets/img/articles/bullet-journal/notebook.jpg)
+![leuchtturm 1917 notebook]({{ site.cdn }}/img/articles/bullet-journal/notebook.jpg)
 
 This notebook is perfect for bullet journaling for a number of reasons.
 
@@ -78,7 +78,7 @@ The pen you use just comes down to personal preference. I like the [Pilot G2 .38
 
 This isn't a necessity, but being able to make straight lines will make your journal much cleaner. I would recommend keeping some kind of straight edge in the back pocket of your notebook.
 
-![my ruler](/assets/img/articles/bullet-journal/ruler.jpg)
+![my ruler]({{ site.cdn }}/img/articles/bullet-journal/ruler.jpg)
 
 
 
@@ -90,12 +90,12 @@ In the following sections I will be explaining the bullet journal system while s
 
 The first step is to set up your key. You want to be sure to always keep your table of contents up to date, so add the key to the table of contents first. 
 
-![adding key to table of contents](/assets/img/articles/bullet-journal/1-new-toc.jpg)
+![adding key to table of contents]({{ site.cdn }}/img/articles/bullet-journal/1-new-toc.jpg)
 
 My key looks like the following:
 
 
-![bullet journal key](/assets/img/articles/bullet-journal/2-key.jpg)
+![bullet journal key]({{ site.cdn }}/img/articles/bullet-journal/2-key.jpg)
 
 - A bullet represents a task
 - When a task is complete, mark an `X` through the bullet
@@ -120,17 +120,17 @@ The next step is to add the future log. The future log is essentially your calen
 
 For my future log I like to create mini calendars for each month along with ample room on the side of each calendar to add tasks and events. If you prefer just simple lists for the future log you can go that route too and I'm sure it will be much faster to set up. I just like the visual aspect of having the calendars.
 
-![future log](/assets/img/articles/bullet-journal/3-future-log.jpg)
+![future log]({{ site.cdn }}/img/articles/bullet-journal/3-future-log.jpg)
 
 Once all the months are created, I go through and add all my tasks and events for the year. I also like to highlight the days that have events just so they stand out a little more on my calendars. When I'm done I'll add the future log to the table of contents. 
 
-![future log events](/assets/img/articles/bullet-journal/4-future-log-events.jpg)
+![future log events]({{ site.cdn }}/img/articles/bullet-journal/4-future-log-events.jpg)
 
 ### Collections
 
 Collections can appear anywhere in your bullet journal, just make sure to add them to your table of contents so that you can easily find them later. In creating this new journal I already know of several collections I want to create right off the bat, so I'm going to go ahead and add them after the future log, then update my table of contents. 
 
-![table of contents with collections](/assets/img/articles/bullet-journal/5-full-toc.jpg)
+![table of contents with collections]({{ site.cdn }}/img/articles/bullet-journal/5-full-toc.jpg)
 
 You can see I added a couple collections for keeping track of various types of maintenance (I log things like oil changes, tire rotations, etc.), as well as collections for personal finance notes, blog ideas, and a general collection that contains various notes I may need to frequently reference. In the past I've also kept collections of things like my favorite music and movie releases of the year, and lists of books I want to get through. If you look online you can find all kinds of ideas for bullet journal collections.
 
@@ -138,15 +138,15 @@ You can see I added a couple collections for keeping track of various types of m
 
 With the future log complete, now we need to set up the first monthly log. I always use two pages for the monthly log. On the left page I write the days of the month in one column down the left side, then I refer back to my future log to write in any tasks or events next to their dates. This is also a good spot for me to keep track of where I'm camping so I split this page and on the right side keep track of all my campsites for the month. 
 
-![monthly log](/assets/img/articles/bullet-journal/6-month-log.jpg)
+![monthly log]({{ site.cdn }}/img/articles/bullet-journal/6-month-log.jpg)
 
 Here you can see another example from an older journal where I logged all my campsites for the month:
 
-![travel timeline](/assets/img/articles/bullet-journal/7-month-travel-timeline.jpg)
+![travel timeline]({{ site.cdn }}/img/articles/bullet-journal/7-month-travel-timeline.jpg)
 
 On the second page I have a list of tasks for the month. These are things that don't necessarily belong on a particular day but are tasks and goals that I want to try to accomplish that month. I also like to split this into two columns: "Personal" and "Work". Setting some realistic goals here is a good way to knock out those tasks you know you need to do eventually but keep putting off. 
 
-![monthly log tasks](/assets/img/articles/bullet-journal/8-full-month-log.jpg)
+![monthly log tasks]({{ site.cdn }}/img/articles/bullet-journal/8-full-month-log.jpg)
 
 Setting up the monthly log is something that you will do at the beginning of each month. You'll sit down and copy all the tasks over from the future log, then migrate any incomplete tasks from the previous month, making sure to update the previous months bullets with a right arrow (>) to indicate they've been migrated. 
 
@@ -163,7 +163,7 @@ Drilling down from the monthly log, we have the weekly and daily logs. Every Mon
 
 I didn't start out using a weekly log, and isn't mentioned in the original bullet journal system, but I incorporated it once I realized that all kinds of things would pop up that needed to be scheduled during the week and I needed more space than the monthly log provided. 
 
-![weekly and daily log](/assets/img/articles/bullet-journal/9-week-daily-log.jpg)
+![weekly and daily log]({{ site.cdn }}/img/articles/bullet-journal/9-week-daily-log.jpg)
 
 On the next page I start the daily log. Each day that week I start a new heading with the day, copy all the tasks over from the weekly log for that day, and then that becomes my "workspace" for the day. I leave notes here, brainstorm for work, jot down phone numbers, make lists, etc. Whatever I do for the day gets written here.
 
@@ -188,7 +188,7 @@ As you can see the system involves a lot of redundancy with copying over tasks m
 
 Once you fill up a notebook, you can use a sticker (the Leuchtturm notebook comes with them) to label it, then shelf it. You'd be surprised how handy it is to be able to come back to these notebooks and look at your old notes and ideas. Going through old notebooks can also be nostalgic and fun.
 
-![old journals](/assets/img/articles/bullet-journal/old-journals.jpg)
+![old journals]({{ site.cdn }}/img/articles/bullet-journal/old-journals.jpg)
 
 ## Make it your own
 

@@ -9,7 +9,7 @@ lng: -103.6098131
 city: Custer
 state: South Dakota
 miles: 392
-banner: /assets/img/banners/south-dakota/banner-custer.jpg
+banner: /img/banners/south-dakota/banner-custer.jpg
 campground: The Roost Resort
 hookups: Full
 nights: 5
@@ -20,6 +20,6 @@ tags:
   - rv-park
 ---
 
-<img src="/assets/img/destinations/south-dakota/custer-1.jpg">
+<img src="{{ site.cdn }}/img/destinations/south-dakota/custer-1.jpg">
 
-<img src="/assets/img/destinations/south-dakota/custer-2.jpg">
+<img src="{{ site.cdn }}/img/destinations/south-dakota/custer-2.jpg">

@@ -26,10 +26,10 @@ layout: base
 <div id="map"></div>
 <div id="map-legend">
     <ul class="list-inline">
-        <li class="list-inline-item"><img src="/assets/img/markers/pin-red.png"> Loop 1</li>
-        <li class="list-inline-item"><img src="/assets/img/markers/pin-blue.png"> Loop 2</li>
-        <li class="list-inline-item"><img src="/assets/img/markers/pin-green.png"> Loop 3</li>
-        <li class="list-inline-item"><img src="/assets/img/markers/bonfire.png"> Current</li>
+        <li class="list-inline-item"><img src="{{ site.cdn }}/img/markers/pin-red.png"> Loop 1</li>
+        <li class="list-inline-item"><img src="{{ site.cdn }}/img/markers/pin-blue.png"> Loop 2</li>
+        <li class="list-inline-item"><img src="{{ site.cdn }}/img/markers/pin-green.png"> Loop 3</li>
+        <li class="list-inline-item"><img src="{{ site.cdn }}/img/markers/bonfire.png"> Current</li>
     </ul>
 </div>
 
@@ -58,11 +58,11 @@ layout: base
                 url: "{{ post.url }}",
                 coords: { lat: {{ post.lat }}, lng: {{ post.lng }} },
                 {% if post.tags contains 'loop2' %}
-                pin: "{{ site.url }}/assets/img/markers/pin-blue.png"
+                pin: "{{ site.cdn }}/img/markers/pin-blue.png"
                 {% elsif post.tags contains 'loop3' %}
-                pin: "{{ site.url }}/assets/img/markers/pin-green.png"
+                pin: "{{ site.cdn }}/img/markers/pin-green.png"
                 {% else %}
-                pin: "{{ site.url }}/assets/img/markers/pin-red.png"
+                pin: "{{ site.cdn }}/img/markers/pin-red.png"
                 {% endif %}
             },
         {% endfor %}

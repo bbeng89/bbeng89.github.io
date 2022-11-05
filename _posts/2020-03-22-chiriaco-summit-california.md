@@ -9,7 +9,7 @@ lng: -115.81450
 city: Chiriaco Summit
 state: California
 miles: 94.4
-banner: /assets/img/banners/california/banner-indio.jpg
+banner: /img/banners/california/banner-indio.jpg
 campground: Joshua Tree South - BLM
 hookups: None
 nights: 11
@@ -26,7 +26,7 @@ tags:
 
 <p class="text-justify">Hope everyone is staying safe out there. </p>
 
-<img src="/assets/img/destinations/california/indio.jpg" />
+<img src="{{ site.cdn }}/img/destinations/california/indio.jpg" />
 
 
 

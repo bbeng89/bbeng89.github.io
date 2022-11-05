@@ -9,7 +9,7 @@ lng: -88.046543
 city: Mobile
 state: Alabama
 miles: 256.8
-banner: /assets/img/banners/alabama/banner-mobile.jpg
+banner: /img/banners/alabama/banner-mobile.jpg
 campground: Live Oak Landing County Park
 hookups: Full
 nights: 7
@@ -20,4 +20,4 @@ tags:
   - county-park
 ---
 
-<img src="/assets/img/destinations/alabama/mobile.jpg" />
+<img src="{{ site.cdn }}/img/destinations/alabama/mobile.jpg" />

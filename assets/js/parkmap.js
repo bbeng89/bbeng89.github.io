@@ -6,8 +6,8 @@ var ParkMap = function(parks, mapId, zoomLevel) {
     self.markers = [];
     self.parks = parks;
     self.infowindow = null;
-    self.visitedIcon = '/assets/img/markers/pin-green.png';
-    self.notVisitedIcon = '/assets/img/markers/pin-gray.png';
+    self.visitedIcon = 'https://dumphole.bbeng89.com/wheresblake/img/markers/pin-green.png';
+    self.notVisitedIcon = 'https://dumphole.bbeng89.com/wheresblake/img/markers/pin-gray.png';
 
     function addClickHandlerToMarker(marker, park) {
         marker.addListener("click", function() {

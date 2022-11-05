@@ -9,7 +9,7 @@ lng: -100.0709404
 city: Dodge City
 state: Kansas
 miles: 346
-banner: /assets/img/banners/kansas/banner-dodge-city.jpg
+banner: /img/banners/kansas/banner-dodge-city.jpg
 campground: Gunsmoke RV Park
 hookups: Full
 nights: 1
@@ -28,16 +28,16 @@ I decided I'm going to make the journey back to the Midwest so that I can visit 
 This actually ended up being awesome, not only because I managed to miss most of the really bad wind, but also because I got to see the sunrise as I was driving through the mountains.
 </p>
 
-![sunrise in colorado mountains](/assets/img/destinations/kansas/dodge-city-driving-1.jpg)
+![sunrise in colorado mountains]({{ site.cdn }}/img/destinations/kansas/dodge-city-driving-1.jpg)
 
 <p class="text-justify">
 Once you get over the mountains, Eastern Colorado is basically just flat plains, and the sunrise wasn't too shabby there either.
 </p>
 
-![sunrise in eastern colorado plains](/assets/img/destinations/kansas/dodge-city-driving-2.jpg)
+![sunrise in eastern colorado plains]({{ site.cdn }}/img/destinations/kansas/dodge-city-driving-2.jpg)
 
 <p class="text-justify">
 Now I'm staying the night at an RV park where I have hookups for the first time since Tucson, back in February. It looks like the Kansas winds are going to be howling again  tomorrow so it's probably going to be another early morning. 
 </p>
 
-![gunsmoke rv park](/assets/img/destinations/kansas/dodge-city.jpg)
+![gunsmoke rv park]({{ site.cdn }}/img/destinations/kansas/dodge-city.jpg)

@@ -9,7 +9,7 @@ lng: -80.9063387
 city: Columbia
 state: South Carolina
 miles: 223.2
-banner: /assets/img/banners/south-carolina/banner-congaree.jpg
+banner: /img/banners/south-carolina/banner-congaree.jpg
 campground: Sesquicentennial State Park
 hookups: Partial
 nights: 7
@@ -20,4 +20,4 @@ tags:
   - state-park
 ---
 
-<img src="/assets/img/destinations/south-carolina/columbia.jpg">
+<img src="{{ site.cdn }}/img/destinations/south-carolina/columbia.jpg">

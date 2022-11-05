@@ -9,7 +9,7 @@ lng: -111.9151805
 city: Rigby
 state: Idaho
 miles: 285   
-banner: /assets/img/banners/idaho/banner-rigby.jpg
+banner: /img/banners/idaho/banner-rigby.jpg
 campground: Aspen Grove Inn & RV Camp
 hookups: Partial
 nights: 7
@@ -20,6 +20,6 @@ tags:
   - rv-park
 ---
 
-<img src="/assets/img/destinations/idaho/rigby-campsite.jpg" />
+<img src="{{ site.cdn }}/img/destinations/idaho/rigby-campsite.jpg" />
 
 

@@ -19,6 +19,6 @@ tags:
   - family-friend
 ---
 
-![photo1](/assets/img/destinations/illinois/macomb-1.jpg)
+![photo1]({{ site.cdn }}/img/destinations/illinois/macomb-1.jpg)
 
-![photo2](/assets/img/destinations/illinois/macomb-2.jpg)
+![photo2]({{ site.cdn }}/img/destinations/illinois/macomb-2.jpg)

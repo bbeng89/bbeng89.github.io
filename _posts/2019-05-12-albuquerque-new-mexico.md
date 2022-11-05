@@ -9,7 +9,7 @@ lng: -106.8165647
 city: Albuquerque
 state: New Mexico
 miles: 207.3
-banner: /assets/img/banners/new-mexico/banner-albuquerque.jpg
+banner: /img/banners/new-mexico/banner-albuquerque.jpg
 campground: Enchanted Trails RV Park
 hookups: Full
 nights: 7
@@ -20,9 +20,9 @@ tags:
   - rv-park
 ---
 
-<p class="post-date">Sunday, May 12, 2019</p>
-<img src="/assets/img/destinations/new-mexico/albuquerque.jpg">
-<p>
+<img src="{{ site.cdn }}/img/destinations/new-mexico/albuquerque.jpg">
+
+<p class="text-center">
     All set up in Albuquerque. I'm taking the next couple days to get caught 
     up with work and then the adventure will continue. 
 </p>

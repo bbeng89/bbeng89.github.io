@@ -9,7 +9,7 @@ lng: -106.167717
 city: Edgewood
 state: New Mexico
 miles: 144
-banner: /assets/img/banners/new-mexico/banner-edgewood.jpg
+banner: /img/banners/new-mexico/banner-edgewood.jpg
 campground: Torrance County Park
 hookups: None
 nights: 15
@@ -20,4 +20,4 @@ tags:
   - boondocking
 ---
 
-![edgewood campsite](/assets/img/destinations/new-mexico/edgewood.jpg)
+![edgewood campsite]({{ site.cdn }}/img/destinations/new-mexico/edgewood.jpg)

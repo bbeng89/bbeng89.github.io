@@ -5,7 +5,7 @@ var TravelMap = function(locations) {
     self.path = [];
     self.locations = locations;
     //self.homeIcon = '🏠';
-    self.currentLocationIcon = '/assets/img/markers/bonfire.png';
+    self.currentLocationIcon = 'https://dumphole.bbeng89.com/wheresblake/img/markers/bonfire.png';
 
     // create path by extracting coords from locations
     for(var i = 0; i < self.locations.length; i++) {

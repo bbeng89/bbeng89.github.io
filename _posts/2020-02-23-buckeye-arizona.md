@@ -9,7 +9,7 @@ lng: -112.5605006
 city: Buckeye
 state: Arizona
 miles: 145
-banner: /assets/img/banners/arizona/banner-buckeye.jpg
+banner: /img/banners/arizona/banner-buckeye.jpg
 campground: Skyline Regional Park
 hookups: None
 nights: 7
@@ -20,4 +20,4 @@ tags:
   - regional-park
 ---
 
-<img src="/assets/img/destinations/arizona/buckeye.jpg">
+<img src="{{ site.cdn }}/img/destinations/arizona/buckeye.jpg">

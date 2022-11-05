@@ -47,8 +47,8 @@ title: National Parks
     </div>
     <div id="map-legend">
         <ul class="list-inline">
-            <li class="list-inline-item"><img src="/assets/img/markers/pin-green.png"> Visited</li>
-            <li class="list-inline-item"><img src="/assets/img/markers/pin-gray.png"> Not Visited</li>
+            <li class="list-inline-item"><img src="{{ site.cdn }}/img/markers/pin-green.png"> Visited</li>
+            <li class="list-inline-item"><img src="{{ site.cdn }}/img/markers/pin-gray.png"> Not Visited</li>
         </ul>
     </div>
     
@@ -64,7 +64,7 @@ title: National Parks
             {% assign button_attrs = 'class="btn btn-outline-primary"' %}
         {% endif %}
         
-        <div class="card mt-3 mb-3" style="border: none; background-image: url({{ post.banner }}); background-size:cover; min-height: 210px">
+        <div class="card mt-3 mb-3" style="border: none; background-image: url({{ site.cdn }}{{ post.banner }}); background-size:cover; min-height: 210px">
             <div class="card-body d-flex align-items-center justify-content-center" style="background-color: {{ bg_color }}; ">
                 <div style="width: 100%">
                     <h3 style="{{ text_style }}">{{ post.title }} </h3>

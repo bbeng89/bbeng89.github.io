@@ -9,7 +9,7 @@ lng: -115.3154295
 city: Las Vegas
 state: Nevada
 miles: 197.4
-banner: /assets/img/banners/nevada/banner-las-vegas.jpg
+banner: /img/banners/nevada/banner-las-vegas.jpg
 campground: Canyon Trail RV Park
 hookups: Full
 nights: 6
@@ -22,4 +22,4 @@ tags:
 
 <p>Just landed near vegas. It's over 100 degrees here. I'm staying a couple nights at an RV park with full hookups, then finding a boondocking site for the rest of my stay here.</p>
 
-<img src="/assets/img/destinations/nevada/las-vegas.jpg" />
+<img src="{{ site.cdn }}/img/destinations/nevada/las-vegas.jpg" />
