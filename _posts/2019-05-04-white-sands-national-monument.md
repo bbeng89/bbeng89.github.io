@@ -3,7 +3,7 @@ title: "White Sands National Monument"
 date: 2019-05-04
 category: updates
 layout: update
-banner: /assets/img/banners/new-mexico/banner-alamagordo.jpg
+banner: /img/banners/new-mexico/banner-alamagordo.jpg
 tags: 
   - alamogordo
   - national-park
@@ -11,16 +11,16 @@ tags:
 ---
 
 <div class="img-slider">
-    <img src="/assets/img/updates/new-mexico/white-sands/whitesands-1.jpg">
-    <img src="/assets/img/updates/new-mexico/white-sands/whitesands-2.jpg">
-    <img src="/assets/img/updates/new-mexico/white-sands/whitesands-3.jpg">
-    <img src="/assets/img/updates/new-mexico/white-sands/whitesands-4.jpg">
-    <img src="/assets/img/updates/new-mexico/white-sands/whitesands-5.jpg">
-    <img src="/assets/img/updates/new-mexico/white-sands/whitesands-6.jpg">
+    <img src="{{ site.cdn }}/img/updates/new-mexico/white-sands/whitesands-1.jpg">
+    <img src="{{ site.cdn }}/img/updates/new-mexico/white-sands/whitesands-2.jpg">
+    <img src="{{ site.cdn }}/img/updates/new-mexico/white-sands/whitesands-3.jpg">
+    <img src="{{ site.cdn }}/img/updates/new-mexico/white-sands/whitesands-4.jpg">
+    <img src="{{ site.cdn }}/img/updates/new-mexico/white-sands/whitesands-5.jpg">
+    <img src="{{ site.cdn }}/img/updates/new-mexico/white-sands/whitesands-6.jpg">
     <video controls muted>
         <source src="{{ site.cdn }}/vid/updates/new-mexico/white-sands/booker-white-sands.mp4" type="video/mp4"> 
     </video>
-    <img src="/assets/img/updates/new-mexico/white-sands/whitesands-7.jpg">
+    <img src="{{ site.cdn }}/img/updates/new-mexico/white-sands/whitesands-7.jpg">
 </div>
 
 <p>

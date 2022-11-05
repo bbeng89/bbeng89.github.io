@@ -9,7 +9,7 @@ lng: -111.38693
 city: Torrey
 state: Utah
 miles: 115
-banner: /assets/img/banners/utah/banner-torrey.jpg
+banner: /img/banners/utah/banner-torrey.jpg
 campground: Beas Lewis Flat - BLM
 hookups: None
 nights: 2
@@ -20,7 +20,7 @@ tags:
   - boondocking
 ---
 
-<img src="/assets/img/destinations/utah/torrey.jpg">
+<img src="{{ site.cdn }}/img/destinations/utah/torrey.jpg">
 
 <p class="text-center">
     Dry camping a couple nights by Capitol Reef. The drive out here was pretty wild.

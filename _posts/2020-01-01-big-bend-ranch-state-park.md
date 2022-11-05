@@ -3,7 +3,7 @@ title: Big Bend Ranch State Park
 date: 2020-01-01
 category: updates
 layout: update
-banner: /assets/img/banners/texas/banner-big-bend-sp-1.jpg
+banner: /img/banners/texas/banner-big-bend-sp-1.jpg
 override_home_banner: false
 tags:
   - presidio
@@ -11,11 +11,11 @@ tags:
 ---
 
 <div class="img-slider">
-    <img src="/assets/img/updates/texas/big-bend-sp/1.jpg">
-    <img src="/assets/img/updates/texas/big-bend-sp/2.jpg">
-    <img src="/assets/img/updates/texas/big-bend-sp/3.jpg">
-    <img src="/assets/img/updates/texas/big-bend-sp/4.jpg">
-    <img src="/assets/img/updates/texas/big-bend-sp/5.jpg">
+    <img src="{{ site.cdn }}/img/updates/texas/big-bend-sp/1.jpg">
+    <img src="{{ site.cdn }}/img/updates/texas/big-bend-sp/2.jpg">
+    <img src="{{ site.cdn }}/img/updates/texas/big-bend-sp/3.jpg">
+    <img src="{{ site.cdn }}/img/updates/texas/big-bend-sp/4.jpg">
+    <img src="{{ site.cdn }}/img/updates/texas/big-bend-sp/5.jpg">
 </div>
 
 <p class="text-center">

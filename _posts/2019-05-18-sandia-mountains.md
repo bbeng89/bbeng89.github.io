@@ -3,7 +3,7 @@ title: Sandia Mountains, Cibola National Forest
 date: 2019-05-18
 category: updates
 layout: update
-banner: /assets/img/banners/new-mexico/banner-sandia.jpg
+banner: /img/banners/new-mexico/banner-sandia.jpg
 tags:
   - albuquerque
   - hiking
@@ -17,13 +17,13 @@ tags:
 </p>
 
 <div class="img-slider">
-    <img src="/assets/img/updates/new-mexico/sandia-mtns-1/sandia-1.jpg">
-    <img src="/assets/img/updates/new-mexico/sandia-mtns-1/sandia-2.jpg">
-    <img src="/assets/img/updates/new-mexico/sandia-mtns-1/sandia-3.jpg">
-    <img src="/assets/img/updates/new-mexico/sandia-mtns-1/sandia-4.jpg">
-    <img src="/assets/img/updates/new-mexico/sandia-mtns-1/sandia-5.jpg">
-    <img src="/assets/img/updates/new-mexico/sandia-mtns-1/sandia-6.jpg">
+    <img src="{{ site.cdn }}/img/updates/new-mexico/sandia-mtns-1/sandia-1.jpg">
+    <img src="{{ site.cdn }}/img/updates/new-mexico/sandia-mtns-1/sandia-2.jpg">
+    <img src="{{ site.cdn }}/img/updates/new-mexico/sandia-mtns-1/sandia-3.jpg">
+    <img src="{{ site.cdn }}/img/updates/new-mexico/sandia-mtns-1/sandia-4.jpg">
+    <img src="{{ site.cdn }}/img/updates/new-mexico/sandia-mtns-1/sandia-5.jpg">
+    <img src="{{ site.cdn }}/img/updates/new-mexico/sandia-mtns-1/sandia-6.jpg">
 </div>
 
-<img src="/assets/img/updates/new-mexico/sandia-booker.jpg"/>
+<img src="{{ site.cdn }}/img/updates/new-mexico/sandia-booker.jpg"/>
 

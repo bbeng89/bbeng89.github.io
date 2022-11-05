@@ -9,7 +9,7 @@ lng: -90.710767
 city: Macomb
 state: Illinois
 miles: 118.4
-banner: /assets/img/banners/illinois/banner-macomb.jpg
+banner: /img/banners/illinois/banner-macomb.jpg
 campground:
 hookups:
 nights: 0
@@ -20,7 +20,7 @@ tags:
   - family-friend
 ---
 
-![blake and booker in the back of the truck](/assets/img/destinations/illinois/macomb-2/booker-blake-truck.jpg)
+![blake and booker in the back of the truck]({{ site.cdn }}/img/destinations/illinois/macomb-2/booker-blake-truck.jpg)
 
 <p class="text-center">
 Summer 2019 loop is complete! We are laying low in macomb for a couple weeks then heading back out for the winter. Some stats from the summer: 

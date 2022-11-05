@@ -9,7 +9,7 @@ lng: -112.4196015
 city: Butte
 state: Montana
 miles: 247
-banner: /assets/img/banners/montana/banner-homestake.jpg
+banner: /img/banners/montana/banner-homestake.jpg
 campground: Homestake Pass - BLM
 hookups: None
 nights: 2
@@ -20,7 +20,7 @@ tags:
   - boondocking
 ---
 
-<img src="/assets/img/destinations/montana/butte/homestake-pass.jpg">
+<img src="{{ site.cdn }}/img/destinations/montana/butte/homestake-pass.jpg">
 
 <p class="text-center">
     Spending the next couple nights boondocking on a mountain by Butte, Montana. Then I start the journey back east.

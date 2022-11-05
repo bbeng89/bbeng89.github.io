@@ -9,7 +9,7 @@ lng: -89.4901624
 city: Springfield
 state: Illinois
 miles: 241.8
-banner: /assets/img/banners/illinois/banner-sangchris.jpg
+banner: /img/banners/illinois/banner-sangchris.jpg
 campground: Sangchris Lake State Park
 hookups: Partial
 nights: 7
@@ -20,15 +20,15 @@ tags:
   - state-park
 ---
 
-<img src="/assets/img/destinations/illinois/springfield.jpg">
+<img src="{{ site.cdn }}/img/destinations/illinois/springfield.jpg">
 
-![booker](/assets/img/destinations/illinois/springfield/booker1.jpg)
+![booker]({{ site.cdn }}/img/destinations/illinois/springfield/booker1.jpg)
 
 <p class="text-center">
     Back in our old stompin' grounds.
 </p>
 
-![booker](/assets/img/destinations/illinois/springfield/walking.jpg)
+![booker]({{ site.cdn }}/img/destinations/illinois/springfield/walking.jpg)
 
 <p class="text-center">
     I never realized tall grass was such a problem for Booker until seeing this pic.

@@ -9,11 +9,11 @@ description: With storage space becoming limited, and after getting tired of dea
 ---
 
 <div class="img-slider mb-4">
-    <img src="/assets/img/articles/truck-cap/truck-cap-1.JPG">
-    <img src="/assets/img/articles/truck-cap/truck-cap-2.JPG">
-    <img src="/assets/img/articles/truck-cap/truck-cap-3.JPG">
-    <img src="/assets/img/articles/truck-cap/truck-cap-4.JPG">
-    <img src="/assets/img/articles/truck-cap/truck-cap-5.JPG">
+    <img src="{{ site.cdn }}/img/articles/truck-cap/truck-cap-1.JPG">
+    <img src="{{ site.cdn }}/img/articles/truck-cap/truck-cap-2.JPG">
+    <img src="{{ site.cdn }}/img/articles/truck-cap/truck-cap-3.JPG">
+    <img src="{{ site.cdn }}/img/articles/truck-cap/truck-cap-4.JPG">
+    <img src="{{ site.cdn }}/img/articles/truck-cap/truck-cap-5.JPG">
 </div>
 
 The longer I'm on the road the more stuff I seem to collect (mostly tools it seems!) and storage space was starting to get scarce. The bed of my truck was especially a pain point because it was completely full and closed off with a tonneau cover that leaked terribly. Trying to get anything out always involved unloading half the bed, and then I'd discover my stuff was always soaking wet whenever it rained. 

@@ -9,7 +9,7 @@ lng: -90.770249
 city: Redford
 state: Missouri
 miles: 310.4
-banner: /assets/img/banners/missouri/banner-redford.jpg
+banner: /img/banners/missouri/banner-redford.jpg
 banner_font: white
 campground: Family Member's House
 hookups: Partial
@@ -22,8 +22,8 @@ tags:
 ---
 
 <div class="img-slider">
-    <img src="/assets/img/destinations/missouri/redford-1/redford-1.jpg">
-    <img src="/assets/img/destinations/missouri/redford-1/redford-2.jpg">
+    <img src="{{ site.cdn }}/img/destinations/missouri/redford-1/redford-1.jpg">
+    <img src="{{ site.cdn }}/img/destinations/missouri/redford-1/redford-2.jpg">
 </div>
 
 <p class="text-center">

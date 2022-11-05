@@ -9,7 +9,7 @@ lng: -82.6318068
 city: Asheville
 state: North Carolina
 miles: 34
-banner: /assets/img/banners/north-carolina/banner-asheville.jpg
+banner: /img/banners/north-carolina/banner-asheville.jpg
 campground: Lake Powhatan Campground
 hookups: Full
 nights: 5
@@ -20,4 +20,4 @@ tags:
   - national-forest-cg
 ---
 
-<img src="/assets/img/destinations/north-carolina/asheville.jpg">
+<img src="{{ site.cdn }}/img/destinations/north-carolina/asheville.jpg">

@@ -9,7 +9,7 @@ lng: -109.2685186
 city: Columbus
 state: Montana
 miles: 179
-banner: /assets/img/banners/montana/banner-columbus-mt.jpg
+banner: /img/banners/montana/banner-columbus-mt.jpg
 campground: Itch-Kep-Pe Park
 hookups: None
 nights: 2
@@ -21,8 +21,8 @@ tags:
 ---
 
 <div class="img-slider">
-    <img src="/assets/img/destinations/montana/columbus/columbus-1.jpg">
-    <img src="/assets/img/destinations/montana/columbus/columbus-2.jpg">
+    <img src="{{ site.cdn }}/img/destinations/montana/columbus/columbus-1.jpg">
+    <img src="{{ site.cdn }}/img/destinations/montana/columbus/columbus-2.jpg">
 </div>
 
 <p class="text-center">

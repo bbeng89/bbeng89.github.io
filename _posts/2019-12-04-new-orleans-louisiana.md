@@ -9,7 +9,7 @@ lng: -90.1622084
 city: New Orleans
 state: Louisiana
 miles: 213.4
-banner: /assets/img/banners/louisiana/banner-new-orleans.jpg
+banner: /img/banners/louisiana/banner-new-orleans.jpg
 campground: Bayou Segnette State Park
 hookups: Partial
 nights: 4
@@ -20,4 +20,4 @@ tags:
   - state-park
 ---
 
-<img src="/assets/img/destinations/louisiana/new-orleans.jpg">
+<img src="{{ site.cdn }}/img/destinations/louisiana/new-orleans.jpg">

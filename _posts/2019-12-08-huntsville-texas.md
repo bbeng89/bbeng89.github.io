@@ -9,7 +9,7 @@ lng: -95.5223628
 city: Huntsville
 state: Texas
 miles: 394.5
-banner: /assets/img/banners/texas/banner-huntsville.jpg
+banner: /img/banners/texas/banner-huntsville.jpg
 campground: Huntsville State Park
 hookups: Partial
 nights: 7
@@ -20,4 +20,4 @@ tags:
   - state-park
 ---
 
-<img src="/assets/img/destinations/texas/huntsville.jpg" />
+<img src="{{ site.cdn }}/img/destinations/texas/huntsville.jpg" />

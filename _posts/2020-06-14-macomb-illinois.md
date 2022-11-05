@@ -9,7 +9,7 @@ lng: -90.6896089
 city: Macomb
 state: Illinois
 miles: 296
-banner: /assets/img/banners/illinois/banner-macomb-3.jpg
+banner: /img/banners/illinois/banner-macomb-3.jpg
 campground: Family's House
 hookups: Partial
 nights: 
@@ -20,4 +20,4 @@ tags:
   - family-friend
 ---
 
-![macomb](/assets/img/destinations/illinois/macomb-3.jpg)
+![macomb]({{ site.cdn }}/img/destinations/illinois/macomb-3.jpg)

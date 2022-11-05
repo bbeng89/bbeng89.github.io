@@ -9,9 +9,9 @@ tags:
 ---
 
 <div class="img-slider">
-    <img src="/assets/img/updates/texas/palo-duro-canyon/palo-duro-1.jpg">
-    <img src="/assets/img/updates/texas/palo-duro-canyon/palo-duro-2.jpg">
-    <img src="/assets/img/updates/texas/palo-duro-canyon/palo-duro-3.jpg">
+    <img src="{{ site.cdn }}/img/updates/texas/palo-duro-canyon/palo-duro-1.jpg">
+    <img src="{{ site.cdn }}/img/updates/texas/palo-duro-canyon/palo-duro-2.jpg">
+    <img src="{{ site.cdn }}/img/updates/texas/palo-duro-canyon/palo-duro-3.jpg">
 </div>
 
 <p class="text-center">

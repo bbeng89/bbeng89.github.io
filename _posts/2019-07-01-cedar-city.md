@@ -9,7 +9,7 @@ lng: -113.10205
 city: Cedar City
 state: Utah
 miles: 45
-banner: /assets/img/banners/utah/banner-cedar-city.jpg
+banner: /img/banners/utah/banner-cedar-city.jpg
 campground: Indian Peaks RV Park
 hookups: Full
 nights: 3
@@ -20,4 +20,4 @@ tags:
   - rv-park
 ---
 
-<img src="/assets/img/destinations/utah/cedar-city.jpg">
+<img src="{{ site.cdn }}/img/destinations/utah/cedar-city.jpg">

@@ -20,4 +20,4 @@ tags:
   - rv-park
 ---
 
-![Springfield KOA](/assets/img/destinations/illinois/springfield-koa.jpg)
+![Springfield KOA]({{ site.cdn }}/img/destinations/illinois/springfield-koa.jpg)

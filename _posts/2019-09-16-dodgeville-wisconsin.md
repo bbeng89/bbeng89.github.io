@@ -9,7 +9,7 @@ lng: -90.1111249
 city: Dodgeville
 state: Wisconsin
 miles: 322.6
-banner: /assets/img/banners/wisconsin/banner-dodgeville.jpg
+banner: /img/banners/wisconsin/banner-dodgeville.jpg
 campground: Governor Dodge State Park
 hookups: Partial
 nights: 4
@@ -20,13 +20,13 @@ tags:
   - state-park
 ---
 
-<img src="/assets/img/destinations/wisconsin/dodgeville/campsite.jpg">
+<img src="{{ site.cdn }}/img/destinations/wisconsin/dodgeville/campsite.jpg">
 
 <p class="text-center">
     Governor Dodge State Park
 </p>
 
-<img src="/assets/img/destinations/wisconsin/dodgeville/booker.jpg">
+<img src="{{ site.cdn }}/img/destinations/wisconsin/dodgeville/booker.jpg">
 
 <p class="text-center">
     Still finding some good hiking back in the midwest.

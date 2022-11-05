@@ -3,20 +3,20 @@ title: USS Alabama
 date: 2019-11-28
 category: updates
 layout: update
-banner: /assets/img/banners/alabama/banner-uss-alabama.jpg
+banner: /img/banners/alabama/banner-uss-alabama.jpg
 override_home_banner: true
 tags:
   - mobile
 ---
 
 <div class="img-slider">
-    <img src="/assets/img/updates/alabama/uss-alabama/1.jpg">
-    <img src="/assets/img/updates/alabama/uss-alabama/2.jpg">
-    <img src="/assets/img/updates/alabama/uss-alabama/3.jpg">
-    <img src="/assets/img/updates/alabama/uss-alabama/4.jpg">
-    <img src="/assets/img/updates/alabama/uss-alabama/5.jpg">
-    <img src="/assets/img/updates/alabama/uss-alabama/6.jpg">
-    <img src="/assets/img/updates/alabama/uss-alabama/7.jpg">
+    <img src="{{ site.cdn }}/img/updates/alabama/uss-alabama/1.jpg">
+    <img src="{{ site.cdn }}/img/updates/alabama/uss-alabama/2.jpg">
+    <img src="{{ site.cdn }}/img/updates/alabama/uss-alabama/3.jpg">
+    <img src="{{ site.cdn }}/img/updates/alabama/uss-alabama/4.jpg">
+    <img src="{{ site.cdn }}/img/updates/alabama/uss-alabama/5.jpg">
+    <img src="{{ site.cdn }}/img/updates/alabama/uss-alabama/6.jpg">
+    <img src="{{ site.cdn }}/img/updates/alabama/uss-alabama/7.jpg">
 </div>
 
 <div class="text-center">

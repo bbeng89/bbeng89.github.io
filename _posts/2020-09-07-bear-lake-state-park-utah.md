@@ -9,7 +9,7 @@ lng: -111.27035
 city: Bear Lake State Park
 state: Utah
 miles: 344
-banner: /assets/img/banners/utah/banner-bear-lake-2.jpg
+banner: /img/banners/utah/banner-bear-lake-2.jpg
 campground: Rainbow Cove Campground
 hookups: None
 nights: 6
@@ -24,30 +24,30 @@ We just drove across most of the state of Wyoming and are now at Bear Lake, whic
 
 Bear Lake was never really a destination for me. I honestly had never even heard of it until I happened to see it was on my route to Idaho and would make a good stopover. As soon as I saw the lake and started driving by some of the sites I knew I was going to be happy to spend a week here though. I have to say that this is one of the coolest campsites I've had yet. And since we got here in the afternoon on Labor Day after everyone had cleared out, we almost have the place to ourselves. 
 
-![campsite](/assets/img/destinations/utah/bear-lake/campsite.jpg)
+![campsite]({{ site.cdn }}/img/destinations/utah/bear-lake/campsite.jpg)
 
 Our campsite is basically right on the beach. This is my view when I open my door:
 
-![front door view](/assets/img/destinations/utah/bear-lake/door-view.jpg)
+![front door view]({{ site.cdn }}/img/destinations/utah/bear-lake/door-view.jpg)
 
 The campsite is up a little higher than the beach, so just in front of the door we have this short trail that takes you down to the beach.
 
-![trail](/assets/img/destinations/utah/bear-lake/trail.jpg)
+![trail]({{ site.cdn }}/img/destinations/utah/bear-lake/trail.jpg)
 
 I think Booker is going to really enjoy himself here.
 
-![booker with stick](/assets/img/destinations/utah/bear-lake/booker-stick.jpg)
+![booker with stick]({{ site.cdn }}/img/destinations/utah/bear-lake/booker-stick.jpg)
 
-![booker on the beach](/assets/img/destinations/utah/bear-lake/booker-beach.jpg)
+![booker on the beach]({{ site.cdn }}/img/destinations/utah/bear-lake/booker-beach.jpg)
 
 ---
 
 <div class="img-slider">
-    <img src="/assets/img/destinations/utah/bear-lake/insta/bear-lake-1.jpg">
-    <img src="/assets/img/destinations/utah/bear-lake/insta/bear-lake-2.jpg">
-    <img src="/assets/img/destinations/utah/bear-lake/insta/bear-lake-3.jpg">
-    <img src="/assets/img/destinations/utah/bear-lake/insta/bear-lake-4.jpg">
-    <img src="/assets/img/destinations/utah/bear-lake/insta/bear-lake-5.jpg">
+    <img src="{{ site.cdn }}/img/destinations/utah/bear-lake/insta/bear-lake-1.jpg">
+    <img src="{{ site.cdn }}/img/destinations/utah/bear-lake/insta/bear-lake-2.jpg">
+    <img src="{{ site.cdn }}/img/destinations/utah/bear-lake/insta/bear-lake-3.jpg">
+    <img src="{{ site.cdn }}/img/destinations/utah/bear-lake/insta/bear-lake-4.jpg">
+    <img src="{{ site.cdn }}/img/destinations/utah/bear-lake/insta/bear-lake-5.jpg">
 </div>
 
 Aside from some crazy winds Monday night that forced me to sleep in my truck, Bear Lake has been an absolute gem. One of my favorite campsites so far.

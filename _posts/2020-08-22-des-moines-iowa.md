@@ -9,7 +9,7 @@ lng: -93.47213
 city: Des Moines
 state: Iowa
 miles: 207
-banner: /assets/img/banners/iowa/banner-des-moines.jpg
+banner: /img/banners/iowa/banner-des-moines.jpg
 campground: Yellow Banks County Park
 hookups: Partial
 nights: 1
@@ -24,4 +24,4 @@ Loop 3 begins! This time I am kind of winging it and don't really have much of a
 
 Tonight we grabbed a site at a nice county park outside Des Moines (barely, the place is packed!). Tomorrow we head to Nebraska. 
 
-![des-moines](/assets/img/destinations/iowa/des-moines.jpg)
+![des-moines]({{ site.cdn }}/img/destinations/iowa/des-moines.jpg)

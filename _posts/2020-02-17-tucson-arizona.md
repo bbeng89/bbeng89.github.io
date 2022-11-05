@@ -9,7 +9,7 @@ lng: -111.1442103
 city: Tucson
 state: Arizona
 miles: 91
-banner: /assets/img/banners/arizona/banner-tucson-2.jpg
+banner: /img/banners/arizona/banner-tucson-2.jpg
 campground: Gilbert Ray Campground
 hookups: Partial
 nights: 6
@@ -20,14 +20,14 @@ tags:
   - county-park
 ---
 
-<img src="/assets/img/destinations/arizona/tucson.jpg" />
+<img src="{{ site.cdn }}/img/destinations/arizona/tucson.jpg" />
 
 <div class="img-slider">
-    <img src="/assets/img/destinations/arizona/tucson/tucson-1.jpg">
-    <img src="/assets/img/destinations/arizona/tucson/tucson-2.jpg">
-    <img src="/assets/img/destinations/arizona/tucson/tucson-3.jpg">
-    <img src="/assets/img/destinations/arizona/tucson/tucson-4.jpg">
-    <img src="/assets/img/destinations/arizona/tucson/tucson-5.jpg">
+    <img src="{{ site.cdn }}/img/destinations/arizona/tucson/tucson-1.jpg">
+    <img src="{{ site.cdn }}/img/destinations/arizona/tucson/tucson-2.jpg">
+    <img src="{{ site.cdn }}/img/destinations/arizona/tucson/tucson-3.jpg">
+    <img src="{{ site.cdn }}/img/destinations/arizona/tucson/tucson-4.jpg">
+    <img src="{{ site.cdn }}/img/destinations/arizona/tucson/tucson-5.jpg">
 </div>
 
 <p class="text-center">

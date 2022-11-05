@@ -20,6 +20,6 @@ tags:
   - rv-park
 ---
 
-![Spring Lake 1](/assets/img/destinations/illinois/spring-lake-1.jpg)
+![Spring Lake 1]({{ site.cdn }}/img/destinations/illinois/spring-lake-1.jpg)
 
-![Spring Lake 2](/assets/img/destinations/illinois/spring-lake-2.jpg)
+![Spring Lake 2]({{ site.cdn }}/img/destinations/illinois/spring-lake-2.jpg)

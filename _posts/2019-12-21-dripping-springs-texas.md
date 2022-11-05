@@ -9,7 +9,7 @@ lng: -98.2231801
 city: Dripping Springs
 state: Texas
 miles: 37
-banner: /assets/img/banners/texas/banner-dripping-springs.jpg
+banner: /img/banners/texas/banner-dripping-springs.jpg
 campground: Henly RV Park
 hookups: Full
 nights: 8
@@ -24,10 +24,10 @@ tags:
 
 <p>I was staying in McKinney Falls just outside Austin, but wasn't able to keep my spot through the holidays. Luckily I was able to find another campsite about 30 miles West of Austin in Dripping Springs.</p>
 
-<img src="/assets/img/destinations/texas/dripping-springs.jpg" />
+<img src="{{ site.cdn }}/img/destinations/texas/dripping-springs.jpg" />
 
 <p>This is where we ended up spending Christmas. My buddy Patrick was also in town so we spent Christmas Eve playing board games at his place.</p>
 
-<img src="/assets/img/destinations/texas/xmas-games.jpg" />
+<img src="{{ site.cdn }}/img/destinations/texas/xmas-games.jpg" />
 
-<img src="/assets/img/destinations/texas/xmas-driving.jpg" />
+<img src="{{ site.cdn }}/img/destinations/texas/xmas-driving.jpg" />

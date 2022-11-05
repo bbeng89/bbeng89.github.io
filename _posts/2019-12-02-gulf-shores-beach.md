@@ -3,15 +3,15 @@ title: Gulf Shores Beach
 date: 2019-12-02
 category: updates
 layout: update
-banner: /assets/img/banners/alabama/banner-gulf-shores-beach.jpg
+banner: /img/banners/alabama/banner-gulf-shores-beach.jpg
 override_home_banner: true
 tags:
   - gulf-shores
 ---
 
 <div class="img-slider">
-    <img src="/assets/img/updates/alabama/gulf-shores-beach/beach-1.jpg">
-    <img src="/assets/img/updates/alabama/gulf-shores-beach/beach-2.jpg">
+    <img src="{{ site.cdn }}/img/updates/alabama/gulf-shores-beach/beach-1.jpg">
+    <img src="{{ site.cdn }}/img/updates/alabama/gulf-shores-beach/beach-2.jpg">
 </div>
 
 <p class="text-center">

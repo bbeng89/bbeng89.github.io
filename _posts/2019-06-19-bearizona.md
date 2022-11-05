@@ -9,12 +9,12 @@ tags:
 ---
 
 <div class="img-slider">
-    <img src="/assets/img/updates/arizona/bearizona/bearizona-1.jpg">
-    <img src="/assets/img/updates/arizona/bearizona/bearizona-2.jpg">
-    <img src="/assets/img/updates/arizona/bearizona/bearizona-3.jpg">
-    <img src="/assets/img/updates/arizona/bearizona/bearizona-4.jpg">
-    <img src="/assets/img/updates/arizona/bearizona/bearizona-5.jpg">
-    <img src="/assets/img/updates/arizona/bearizona/bearizona-6.jpg">
+    <img src="{{ site.cdn }}/img/updates/arizona/bearizona/bearizona-1.jpg">
+    <img src="{{ site.cdn }}/img/updates/arizona/bearizona/bearizona-2.jpg">
+    <img src="{{ site.cdn }}/img/updates/arizona/bearizona/bearizona-3.jpg">
+    <img src="{{ site.cdn }}/img/updates/arizona/bearizona/bearizona-4.jpg">
+    <img src="{{ site.cdn }}/img/updates/arizona/bearizona/bearizona-5.jpg">
+    <img src="{{ site.cdn }}/img/updates/arizona/bearizona/bearizona-6.jpg">
 </div>
 
 <p class="text-center">

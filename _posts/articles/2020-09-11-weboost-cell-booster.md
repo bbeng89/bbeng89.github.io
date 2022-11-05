@@ -20,11 +20,11 @@ The directions that come with the booster instruct you to run wire through your 
 
 The booster comes with a normal 120v plug that you would plug into one of your wall outlets and it also comes with a  12v power supply that you would hard-wire into your 12v circuit so that it can run off the battery. I thought about using the regular plug but realized that would be a bigger mess with cables and would also mean that I'd have to run my inverter to use it when I'm boondocking. I decided the hard-wired 12v power supply would be the better way to go.
 
-![12v power supply](/assets/img/articles/cell-booster/1-power-supply.jpg)
+![12v power supply]({{ site.cdn }}/img/articles/cell-booster/1-power-supply.jpg)
 
 I looked around my rig and tried to think about the best location for the booster. I knew I needed to tap into the 12v circuit and also the coaxial outlets. The area around my television seemed like the perfect spot. I could splice the 12v power supply into the radio's power wires since it runs off 12v, and then I would also have access to the coax ports. The first thing to do was to pull the radio out.
 
-![radio removed](/assets/img/articles/cell-booster/2-radio-pulled.jpg)
+![radio removed]({{ site.cdn }}/img/articles/cell-booster/2-radio-pulled.jpg)
 
 The mess of wires when I pulled the radio was a bit daunting at first, so I decided to find the manual for the radio online and see if I could find a wiring diagram. A quick google search pulled it up and I was able to see that the black and white wires were the power wires. So all I needed to do was splice the booster power supply into these wires. 
 
@@ -32,11 +32,11 @@ The mess of wires when I pulled the radio was a bit daunting at first, so I deci
 
 As you can see in the earlier picture, the wires on the power supply were really short and I thought that would make it a little more difficult to deal with. So I ran to the hardware store and picked up about a foot or so of red and black wire, some butt connectors, and some T-Taps. I then used the T-Taps to splice the new wires into the black and white wires of the radio. Then, just to be certain that these were the correct wires, I used my multimeter to connect to these wires and verify it was around 12v.
 
-![t-taps splicing wires](/assets/img/articles/cell-booster/3-spliced-wires.jpg)
+![t-taps splicing wires]({{ site.cdn }}/img/articles/cell-booster/3-spliced-wires.jpg)
 
 When the multimeter checked out, I went ahead and used the butt connectors to crimp the new wires onto the power supply wires. 
 
-![extended power supply wires](/assets/img/articles/cell-booster/4-wire-extensions.jpg)
+![extended power supply wires]({{ site.cdn }}/img/articles/cell-booster/4-wire-extensions.jpg)
 
 At this point I was able to plug the power supply into the booster and see that it lit up, so now I knew I had power! Now all I needed to do was run the coax cable.
 
@@ -44,27 +44,27 @@ At this point I was able to plug the power supply into the booster and see that 
 
 The area behind the radio with the rats nest of wires had plenty of room for more, so I figured that would be a good place to stuff all the coax cable. To the right of the radio is an overhead cabinet, and I decided this would be a great place to mount the booster. I could then easily see the lights and unplug the booster when I'm not using it. I used some command strips to mount the booster to the ceiling in the cabinet, then drilled some holes to run the coax cables for the inside and outside antennas.
 
-![mounted booster](/assets/img/articles/cell-booster/5-mounted-booster.jpg)
+![mounted booster]({{ site.cdn }}/img/articles/cell-booster/5-mounted-booster.jpg)
 
 The compartment that had the radio already had a hole at the bottom so that the radio could connect into the TV. I used this hole to run the two coax cables out.
 
-![coax cable exit](/assets/img/articles/cell-booster/6-coax-exit.jpg)
+![coax cable exit]({{ site.cdn }}/img/articles/cell-booster/6-coax-exit.jpg)
 
 The "outside" connection needed to run to the coax port on the outside of the rig where I would plug in the antenna, so I needed to connect it to the coax port above the TV. This part was tricky because there are three separate coax connections and figuring out which one to use was confusing. I found [this forum post](https://www.jaycoowners.com/forums/f34/coax-connections-in-27dsrl-19274.html) which explained that Port A went directly to the outside port, so that was the one I wanted. 
 
-![coax port A](/assets/img/articles/cell-booster/7-to-outside.jpg)
+![coax port A]({{ site.cdn }}/img/articles/cell-booster/7-to-outside.jpg)
 
 The "inside" cable needed to run to the inside antenna provided with the booster. I just mounted this antenna to the wall using the command strips that were included and then connected the coax cable.
 
-![inside antenna](/assets/img/articles/cell-booster/8-to-inside.jpg)
+![inside antenna]({{ site.cdn }}/img/articles/cell-booster/8-to-inside.jpg)
 
 At this point everything was pretty much good to go, the only thing left to do was to put up the antenna. I put the antenna pole next to my ladder and used a combination of velcro straps and niteize gear ties to secure the pole to the ladder.
 
-![antenna raised](/assets/img/articles/cell-booster/9-antenna.jpg)
+![antenna raised]({{ site.cdn }}/img/articles/cell-booster/9-antenna.jpg)
 
 Then the outside coax port was just on the other side of the pole so all I had to do was screw in the wire from the antenna and it was all ready to go.
 
-![antenna coax connection](/assets/img/articles/cell-booster/10-antenna-connection.jpg)
+![antenna coax connection]({{ site.cdn }}/img/articles/cell-booster/10-antenna-connection.jpg)
 
 ## Thoughts on performance
 

@@ -9,7 +9,7 @@ lng: -89.977674
 city: Carlinville
 state: Illinois
 miles: 123.9
-banner: /assets/img/banners/illinois/banner-carlinville.jpg
+banner: /img/banners/illinois/banner-carlinville.jpg
 campground: Beaver Dam State Park
 hookups: Partial
 nights: 3
@@ -21,9 +21,9 @@ tags:
 ---
 
 <div class="img-slider">
-    <img src="/assets/img/updates/illinois/beaver-dam/1.jpg">
-    <img src="/assets/img/updates/illinois/beaver-dam/2.jpg">
-    <img src="/assets/img/updates/illinois/beaver-dam/3.jpg">
+    <img src="{{ site.cdn }}/img/updates/illinois/beaver-dam/1.jpg">
+    <img src="{{ site.cdn }}/img/updates/illinois/beaver-dam/2.jpg">
+    <img src="{{ site.cdn }}/img/updates/illinois/beaver-dam/3.jpg">
 </div>
 
 <p class="text-center">

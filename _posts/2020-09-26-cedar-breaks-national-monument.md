@@ -3,16 +3,16 @@ title: Cedar Breaks National Monument
 date: 2020-09-26
 category: updates
 layout: update
-banner: /assets/img/banners/utah/banner-cedar-breaks.jpg
+banner: /img/banners/utah/banner-cedar-breaks.jpg
 override_home_banner: false
 tags:
   - parowan
 ---
 
 <div class="img-slider">
-    <img src="/assets/img/updates/utah/cedar-breaks/cedar-breaks-1.jpg">
-    <img src="/assets/img/updates/utah/cedar-breaks/cedar-breaks-2.jpg">
-    <img src="/assets/img/updates/utah/cedar-breaks/cedar-breaks-3.jpg">
+    <img src="{{ site.cdn }}/img/updates/utah/cedar-breaks/cedar-breaks-1.jpg">
+    <img src="{{ site.cdn }}/img/updates/utah/cedar-breaks/cedar-breaks-2.jpg">
+    <img src="{{ site.cdn }}/img/updates/utah/cedar-breaks/cedar-breaks-3.jpg">
 </div>
 
 <p class="text-center">

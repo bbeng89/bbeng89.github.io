@@ -3,7 +3,7 @@ title: Ogeechee River
 date: 2019-11-20
 category: updates
 layout: update
-banner: /assets/img/banners/georgia/banner-ogeechee.jpg
+banner: /img/banners/georgia/banner-ogeechee.jpg
 override_home_banner: true
 tags:
   - savannah
@@ -11,8 +11,8 @@ tags:
 ---
 
 <div class="img-slider">
-    <img src="/assets/img/updates/georgia/ogeechee-river/1.jpg">
-    <img src="/assets/img/updates/georgia/ogeechee-river/2.jpg">
+    <img src="{{ site.cdn }}/img/updates/georgia/ogeechee-river/1.jpg">
+    <img src="{{ site.cdn }}/img/updates/georgia/ogeechee-river/2.jpg">
 </div>
 
 <p class="text-center">

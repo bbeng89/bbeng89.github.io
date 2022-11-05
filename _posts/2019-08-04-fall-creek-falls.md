@@ -3,7 +3,7 @@ title: Fall Creek Falls
 date: 2019-08-04
 category: updates
 layout: update
-banner: /assets/img/banners/idaho/banner-fall-creek-falls.jpg
+banner: /img/banners/idaho/banner-fall-creek-falls.jpg
 override_home_banner: false
 tags:
   - rigby
@@ -11,9 +11,9 @@ tags:
 ---
 
 <div class="img-slider">
-    <img src="/assets/img/updates/idaho/fall-creek-falls/1.jpg">
-    <img src="/assets/img/updates/idaho/fall-creek-falls/2.jpg">
-    <img src="/assets/img/updates/idaho/fall-creek-falls/3.jpg">
+    <img src="{{ site.cdn }}/img/updates/idaho/fall-creek-falls/1.jpg">
+    <img src="{{ site.cdn }}/img/updates/idaho/fall-creek-falls/2.jpg">
+    <img src="{{ site.cdn }}/img/updates/idaho/fall-creek-falls/3.jpg">
 </div>
 
 Some locals gave me the location to a hidden waterfall nearby. They said it would be kinda hard to get to but worth it. They were right about both.

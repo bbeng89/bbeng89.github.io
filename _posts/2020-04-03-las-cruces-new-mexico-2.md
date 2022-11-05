@@ -9,7 +9,7 @@ lng: -106.63108
 city: Las Cruces
 state: New Mexico
 miles: 362
-banner: /assets/img/banners/new-mexico/banner-las-cruces-2-3.jpg
+banner: /img/banners/new-mexico/banner-las-cruces-2-3.jpg
 campground: Sierra Vista Campground - BLM
 hookups: None
 nights: 11
@@ -20,6 +20,6 @@ tags:
   - boondocking
 ---
 
-<img src="/assets/img/destinations/new-mexico/las-cruces-2.jpg">
+<img src="{{ site.cdn }}/img/destinations/new-mexico/las-cruces-2.jpg">
 <br/>
-<img src="/assets/img/destinations/new-mexico/las-cruces-2-2.jpg">
+<img src="{{ site.cdn }}/img/destinations/new-mexico/las-cruces-2-2.jpg">

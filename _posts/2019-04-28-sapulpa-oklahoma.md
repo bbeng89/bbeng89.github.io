@@ -19,7 +19,7 @@ tags:
   - boondocking
 ---
 
-![walmart camping](/assets/img/destinations/oklahoma/sapulpa.jpg)
+![walmart camping]({{ site.cdn }}/img/destinations/oklahoma/sapulpa.jpg)
 
 <p class="text-center">
     ✅ Sleep in a Walmart parking lot

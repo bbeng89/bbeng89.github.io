@@ -3,7 +3,7 @@ title: Bryce Canyon National Park
 date: 2019-07-07
 category: updates
 layout: update
-banner: /assets/img/banners/utah/banner-bryce-canyon-np.jpg
+banner: /img/banners/utah/banner-bryce-canyon-np.jpg
 override_home_banner: true
 tags:
   - bryce
@@ -16,13 +16,13 @@ tags:
 <p>The trail was about 8 miles and took me 3 hours to complete. I can't recommend this trail enough.</p>
 
 <div class="img-slider">
-    <img src="/assets/img/updates/utah/bryce-canyon-np/bryce-1.jpg">
-    <img src="/assets/img/updates/utah/bryce-canyon-np/bryce-2.jpg">
-    <img src="/assets/img/updates/utah/bryce-canyon-np/bryce-3.jpg">
-    <img src="/assets/img/updates/utah/bryce-canyon-np/bryce-4.jpg">
-    <img src="/assets/img/updates/utah/bryce-canyon-np/bryce-5.jpg">
-    <img src="/assets/img/updates/utah/bryce-canyon-np/bryce-6.jpg">
-    <img src="/assets/img/updates/utah/bryce-canyon-np/bryce-7.jpg">
+    <img src="{{ site.cdn }}/img/updates/utah/bryce-canyon-np/bryce-1.jpg">
+    <img src="{{ site.cdn }}/img/updates/utah/bryce-canyon-np/bryce-2.jpg">
+    <img src="{{ site.cdn }}/img/updates/utah/bryce-canyon-np/bryce-3.jpg">
+    <img src="{{ site.cdn }}/img/updates/utah/bryce-canyon-np/bryce-4.jpg">
+    <img src="{{ site.cdn }}/img/updates/utah/bryce-canyon-np/bryce-5.jpg">
+    <img src="{{ site.cdn }}/img/updates/utah/bryce-canyon-np/bryce-6.jpg">
+    <img src="{{ site.cdn }}/img/updates/utah/bryce-canyon-np/bryce-7.jpg">
 </div>
 
 8 miles, 1,541 ft elevation gain, 3 hours , 241 photos, almost no one else on the trail. I think Fairyland Trail at Bryce is my favorite trail I’ve ever hiked.

@@ -9,7 +9,7 @@ lng: -113.4231771
 city: Hurricane
 state: Utah
 miles: 158
-banner: /assets/img/banners/utah/banner-hurricane.jpg
+banner: /img/banners/utah/banner-hurricane.jpg
 campground: Sand Hollow State Park
 hookups: Full
 nights: 2
@@ -20,6 +20,6 @@ tags:
   - state-park
 ---
 
-<img src="/assets/img/destinations/utah/hurricane/campsite.jpg">
+<img src="{{ site.cdn }}/img/destinations/utah/hurricane/campsite.jpg">
 
-<img src="/assets/img/destinations/utah/hurricane/sunset.jpg">
+<img src="{{ site.cdn }}/img/destinations/utah/hurricane/sunset.jpg">

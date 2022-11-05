@@ -9,8 +9,8 @@ tags:
   - coronado
 ---
 
-<img src="/assets/img/updates/arizona/tombstone-1.jpg" />
+<img src="{{ site.cdn }}/img/updates/arizona/tombstone-1.jpg" />
 <br/>
-<img src="/assets/img/updates/arizona/tombstone-2.jpg" />
+<img src="{{ site.cdn }}/img/updates/arizona/tombstone-2.jpg" />
 <br/>
-<img src="/assets/img/updates/arizona/tombstone-3.jpg" />
+<img src="{{ site.cdn }}/img/updates/arizona/tombstone-3.jpg" />

@@ -9,7 +9,7 @@ lng: -101.64974736
 city: Canyon
 state: Texas
 miles: 376.9
-banner: /assets/img/banners/texas/banner-amarillo.jpg
+banner: /img/banners/texas/banner-amarillo.jpg
 campground: Palo Duro Zipline
 hookups: Full
 nights: 3
@@ -20,4 +20,4 @@ tags:
   - rv-park
 ---
 
-![campsite](/assets/img/destinations/texas/canyon/campsite.JPG)
+![campsite]({{ site.cdn }}/img/destinations/texas/canyon/campsite.JPG)

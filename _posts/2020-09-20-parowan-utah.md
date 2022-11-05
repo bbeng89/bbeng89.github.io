@@ -9,7 +9,7 @@ lng: -112.9822122
 city: Parowan
 state: Utah
 miles: 136
-banner: /assets/img/banners/utah/banner-parowan.jpg
+banner: /img/banners/utah/banner-parowan.jpg
 campground: Parowan Gap Petroglyphs - BLM
 hookups: None
 nights: 7
@@ -20,9 +20,9 @@ tags:
   - boondocking
 ---
 
-![parowan gap dispersed campsite](/assets/img/destinations/utah/parowan/parowan-1.jpg)
+![parowan gap dispersed campsite]({{ site.cdn }}/img/destinations/utah/parowan/parowan-1.jpg)
 
-![parowan gap dispersed hike](/assets/img/destinations/utah/parowan/parowan-2.jpg)
+![parowan gap dispersed hike]({{ site.cdn }}/img/destinations/utah/parowan/parowan-2.jpg)
 
 <p class="text-center">
     Morning hike up the mountain behind our campsite.

@@ -9,7 +9,7 @@ lng: -105.59346
 city: Alamosa
 state: Colorado
 miles: 218
-banner: /assets/img/banners/colorado/banner-alamosa-2.jpg
+banner: /img/banners/colorado/banner-alamosa-2.jpg
 campground: Sacred White Shell Mountain - BLM
 hookups: None
 nights: 13
@@ -20,7 +20,7 @@ tags:
   - boondocking
 ---
 
-![alamosa co pic](/assets/img/destinations/colorado/alamosa.jpg)
+![alamosa co pic]({{ site.cdn }}/img/destinations/colorado/alamosa.jpg)
 
 <p class="text-center">
     Sacred white shell mountain 🙌

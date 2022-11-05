@@ -22,6 +22,6 @@ tags:
 
 <p class="text-center">Spending a couple nights with my aunt and uncle in Franklin, Minnesota.</p>
 
-<img src="/assets/img/destinations/minnesota/franklin.jpg">
+<img src="{{ site.cdn }}/img/destinations/minnesota/franklin.jpg">
 <br/>
-<img src="/assets/img/destinations/minnesota/franklin-guns.jpg">
+<img src="{{ site.cdn }}/img/destinations/minnesota/franklin-guns.jpg">

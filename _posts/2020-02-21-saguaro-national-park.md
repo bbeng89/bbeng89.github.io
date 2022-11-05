@@ -3,7 +3,7 @@ title: Saguaro National Park
 date: 2020-02-20
 category: updates
 layout: update
-banner: /assets/img/banners/arizona/banner-saguaro-2.jpg
+banner: /img/banners/arizona/banner-saguaro-2.jpg
 override_home_banner: false
 tags:
   - tucson
@@ -12,11 +12,11 @@ tags:
 ---
 
 <div class="img-slider">
-    <img src="/assets/img/updates/arizona/saguaro-np/saguaro-1.jpg">
-    <img src="/assets/img/updates/arizona/saguaro-np/saguaro-2.jpg">
-    <img src="/assets/img/updates/arizona/saguaro-np/saguaro-3.jpg">
-    <img src="/assets/img/updates/arizona/saguaro-np/saguaro-4.jpg">
-    <img src="/assets/img/updates/arizona/saguaro-np/saguaro-5-map.png">
+    <img src="{{ site.cdn }}/img/updates/arizona/saguaro-np/saguaro-1.jpg">
+    <img src="{{ site.cdn }}/img/updates/arizona/saguaro-np/saguaro-2.jpg">
+    <img src="{{ site.cdn }}/img/updates/arizona/saguaro-np/saguaro-3.jpg">
+    <img src="{{ site.cdn }}/img/updates/arizona/saguaro-np/saguaro-4.jpg">
+    <img src="{{ site.cdn }}/img/updates/arizona/saguaro-np/saguaro-5-map.png">
 </div>
 
 <p class="text-center">

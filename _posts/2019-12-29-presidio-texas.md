@@ -9,7 +9,7 @@ lng: -104.371581
 city: Presidio
 state: Texas
 miles: 465.5
-banner: /assets/img/banners/texas/banner-presidio.jpg
+banner: /img/banners/texas/banner-presidio.jpg
 campground: Loma Paloma RV Park
 hookups: Full
 nights: 28
@@ -20,10 +20,10 @@ tags:
   - rv-park
 ---
 
-![presidio](/assets/img/destinations/texas/presidio-2.jpg)
+![presidio]({{ site.cdn }}/img/destinations/texas/presidio-2.jpg)
 
 <p class="text-center">
     Feels good to be out of the cities and back in the desert.
 </p>
 
-<img src="/assets/img/destinations/texas/presidio.jpg" />
+<img src="{{ site.cdn }}/img/destinations/texas/presidio.jpg" />

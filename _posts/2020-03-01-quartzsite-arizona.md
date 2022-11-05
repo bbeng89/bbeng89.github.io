@@ -9,7 +9,7 @@ lng: -114.27577
 city: Quartzsite
 state: Arizona
 miles: 108.7
-banner: /assets/img/banners/arizona/banner-quartzsite.jpg
+banner: /img/banners/arizona/banner-quartzsite.jpg
 campground: Dome Rock Mountain - BLM
 hookups: None
 nights: 14
@@ -20,4 +20,4 @@ tags:
   - boondocking
 ---
 
-<img src="/assets/img/destinations/arizona/quartzsite.jpg">
+<img src="{{ site.cdn }}/img/destinations/arizona/quartzsite.jpg">

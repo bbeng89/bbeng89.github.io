@@ -9,7 +9,7 @@ lng: -95.53662
 city: Checotah
 state: Oklahoma
 miles: 367
-banner: /assets/img/banners/oklahoma/banner-checotah.jpg
+banner: /img/banners/oklahoma/banner-checotah.jpg
 campground: Walmart
 hookups: None
 nights: 1
@@ -20,6 +20,6 @@ tags:
   - boondocking
 ---
 
-![checotah walmart 1](/assets/img/destinations/oklahoma/checotah1.jpg)
+![checotah walmart 1]({{ site.cdn }}/img/destinations/oklahoma/checotah1.jpg)
 
-![checotah walmart 2](/assets/img/destinations/oklahoma/checotah2.jpg)
+![checotah walmart 2]({{ site.cdn }}/img/destinations/oklahoma/checotah2.jpg)

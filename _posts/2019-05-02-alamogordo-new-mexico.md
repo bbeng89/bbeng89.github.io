@@ -9,7 +9,7 @@ lng: -106.0374865
 city: Alamogordo
 state: New Mexico
 miles: 365.1
-banner: /assets/img/banners/new-mexico/banner-alamagordo.jpg
+banner: /img/banners/new-mexico/banner-alamagordo.jpg
 campground: Mountain Meadows RV Park
 hookups: Full
 nights: 10
@@ -20,10 +20,10 @@ tags:
   - rv-park
 ---
 
-<img src="/assets/img/destinations/new-mexico/alamogordo-1/campsite.jpg" />
+<img src="{{ site.cdn }}/img/destinations/new-mexico/alamogordo-1/campsite.jpg" />
 
 <p class="text-center">
     All set up near Tularosa. The drive through New Mexico was incredible.
 </p>
 
-<img src="/assets/img/destinations/new-mexico/alamogordo-1/adgators-nm.jpg" />
+<img src="{{ site.cdn }}/img/destinations/new-mexico/alamogordo-1/adgators-nm.jpg" />

@@ -3,7 +3,7 @@ title: Joshua Tree National Park
 date: 2020-03-29
 category: updates
 layout: update
-banner: /assets/img/banners/california/banner-joshua-tree.jpg
+banner: /img/banners/california/banner-joshua-tree.jpg
 override_home_banner: false
 tags:
   - chiriaco-summit
@@ -11,9 +11,9 @@ tags:
 ---
 
 <div class="img-slider">
-    <img src="/assets/img/updates/california/joshua-tree/jt-1.jpg">
-    <img src="/assets/img/updates/california/joshua-tree/jt-2.jpg">
-    <img src="/assets/img/updates/california/joshua-tree/jt-3.jpg">
+    <img src="{{ site.cdn }}/img/updates/california/joshua-tree/jt-1.jpg">
+    <img src="{{ site.cdn }}/img/updates/california/joshua-tree/jt-2.jpg">
+    <img src="{{ site.cdn }}/img/updates/california/joshua-tree/jt-3.jpg">
     <video controls preload muted autoplay loop>
         <source src="{{ site.cdn }}/vid/updates/california/joshua-tree/ridin.mp4" type="video/mp4">
     </video>

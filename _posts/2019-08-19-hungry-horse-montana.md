@@ -9,7 +9,7 @@ lng: -114.062226
 city: Hungry Horse
 state: Montana
 miles: 107.7
-banner: /assets/img/banners/montana/banner-hungry-horse.jpg
+banner: /img/banners/montana/banner-hungry-horse.jpg
 campground: Mountain Meadow RV Park
 hookups: Full
 nights: 7
@@ -20,7 +20,7 @@ tags:
   - rv-park
 ---
 
-![campsite](/assets/img/destinations/montana/hungry-horse/campsite.jpg)
+![campsite]({{ site.cdn }}/img/destinations/montana/hungry-horse/campsite.jpg)
 
 <p class="text-center">
     All set up in Hungry Horse, Montana, just a few miles from Glacier National Park.

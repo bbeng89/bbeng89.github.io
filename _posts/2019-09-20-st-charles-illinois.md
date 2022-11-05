@@ -20,5 +20,5 @@ tags:
   - family-friend
 ---
 
-<img src="/assets/img/destinations/illinois/st-charles.jpg">
+<img src="{{ site.cdn }}/img/destinations/illinois/st-charles.jpg">
 <p class="text-center">Staying with friends near Chicago this weekend.</p>

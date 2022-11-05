@@ -9,7 +9,7 @@ lng: -87.6441397
 city: Gulf Shores
 state: Alabama
 miles: 67 
-banner: /assets/img/banners/alabama/banner-gulf-shores-beach.jpg
+banner: /img/banners/alabama/banner-gulf-shores-beach.jpg
 campground: Gulf State Park
 hookups: Full
 nights: 3
@@ -20,4 +20,4 @@ tags:
   - state-park
 ---
 
-<img src="/assets/img/destinations/alabama/gulf-shores.jpg">
+<img src="{{ site.cdn }}/img/destinations/alabama/gulf-shores.jpg">

@@ -3,7 +3,7 @@ title: Great Smoky Mountains National Park
 date: 2019-10-29
 category: updates
 layout: update
-banner: /assets/img/banners/tennessee/banner-smoky-mountains.jpg
+banner: /img/banners/tennessee/banner-smoky-mountains.jpg
 override_home_banner: false
 tags:
   - waynesville
@@ -12,8 +12,8 @@ tags:
 ---
 
 <div class="img-slider">
-    <img src="/assets/img/updates/north-carolina/gsmnp/1.jpg">
-    <img src="/assets/img/updates/north-carolina/gsmnp/2.jpg">
+    <img src="{{ site.cdn }}/img/updates/north-carolina/gsmnp/1.jpg">
+    <img src="{{ site.cdn }}/img/updates/north-carolina/gsmnp/2.jpg">
 </div>
 
 <p class="text-center">

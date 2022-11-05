@@ -9,7 +9,7 @@ lng: -98.0176415
 city: Mitchell
 state: South Dakota
 miles: 234.2
-banner: /assets/img/banners/south-dakota/banner-mitchell.jpg
+banner: /img/banners/south-dakota/banner-mitchell.jpg
 campground: Cabela's
 hookups: None
 nights: 1
@@ -22,5 +22,5 @@ tags:
 
 <p>Boondocking at Cabela's tonight. I'm slowly working my way through South Dakota and already starting to miss the mountains.</p>
 
-<img src="/assets/img/destinations/south-dakota/cabelas-1.JPG">
-<img src="/assets/img/destinations/south-dakota/cabelas-2.JPG">
+<img src="{{ site.cdn }}/img/destinations/south-dakota/cabelas-1.JPG">
+<img src="{{ site.cdn }}/img/destinations/south-dakota/cabelas-2.JPG">

@@ -3,7 +3,7 @@ title: Capitol Reef National Park
 date: 2019-07-16
 category: updates
 layout: update
-banner: /assets/img/banners/utah/banner-capitol-reef.jpg
+banner: /img/banners/utah/banner-capitol-reef.jpg
 override_home_banner: false
 tags:
   - torry
@@ -13,9 +13,9 @@ tags:
 ---
 
 <div class="img-slider">
-    <img src="/assets/img/updates/utah/capitol-reef-np/capitol-reef-1.jpg">
-    <img src="/assets/img/updates/utah/capitol-reef-np/capitol-reef-2.jpg">
-    <img src="/assets/img/updates/utah/capitol-reef-np/capitol-reef-3.jpg">
+    <img src="{{ site.cdn }}/img/updates/utah/capitol-reef-np/capitol-reef-1.jpg">
+    <img src="{{ site.cdn }}/img/updates/utah/capitol-reef-np/capitol-reef-2.jpg">
+    <img src="{{ site.cdn }}/img/updates/utah/capitol-reef-np/capitol-reef-3.jpg">
 </div>
 
 <p class="text-center">

@@ -20,4 +20,4 @@ tags:
   - state-park
 ---
 
-![wading through creek](/assets/img/destinations/illinois/colchester/argyle.jpg)
+![wading through creek]({{ site.cdn }}/img/destinations/illinois/colchester/argyle.jpg)

@@ -10,12 +10,12 @@ tags:
 ---
 
 <div class="img-slider">
-    <img src="/assets/img/updates/utah/spring-creek-canyon/spring-creek-1.jpg">
-    <img src="/assets/img/updates/utah/spring-creek-canyon/spring-creek-2.jpg">
-    <img src="/assets/img/updates/utah/spring-creek-canyon/spring-creek-3.jpg">
-    <img src="/assets/img/updates/utah/spring-creek-canyon/spring-creek-4.jpg">
-    <img src="/assets/img/updates/utah/spring-creek-canyon/spring-creek-5.jpg">
-    <img src="/assets/img/updates/utah/spring-creek-canyon/spring-creek-6.jpg">
+    <img src="{{ site.cdn }}/img/updates/utah/spring-creek-canyon/spring-creek-1.jpg">
+    <img src="{{ site.cdn }}/img/updates/utah/spring-creek-canyon/spring-creek-2.jpg">
+    <img src="{{ site.cdn }}/img/updates/utah/spring-creek-canyon/spring-creek-3.jpg">
+    <img src="{{ site.cdn }}/img/updates/utah/spring-creek-canyon/spring-creek-4.jpg">
+    <img src="{{ site.cdn }}/img/updates/utah/spring-creek-canyon/spring-creek-5.jpg">
+    <img src="{{ site.cdn }}/img/updates/utah/spring-creek-canyon/spring-creek-6.jpg">
 </div>
 <p class="text-center">
     Squeezed in an early hike into a nearby canyon before work this morning.

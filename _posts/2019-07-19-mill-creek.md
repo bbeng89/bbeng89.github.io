@@ -3,7 +3,7 @@ title: Mill Creek
 date: 2019-07-19
 category: updates
 layout: update
-banner: /assets/img/banners/utah/banner-mill-creek.jpg
+banner: /img/banners/utah/banner-mill-creek.jpg
 override_home_banner: true
 tags:
   - moab
@@ -11,11 +11,11 @@ tags:
 ---
 
 <div class="img-slider">
-    <img src="/assets/img/updates/utah/mill-creek-moab/mill-creek1.jpg">
+    <img src="{{ site.cdn }}/img/updates/utah/mill-creek-moab/mill-creek1.jpg">
     <video muted controls>
         <source src="{{ site.cdn }}/vid/updates/utah/mill-creek-moab/booker.mp4" type="video/mp4"> 
     </video>
-    <img src="/assets/img/updates/utah/mill-creek-moab/mill-creek2.jpg">
+    <img src="{{ site.cdn }}/img/updates/utah/mill-creek-moab/mill-creek2.jpg">
 </div>
 
 <p class="text-center">

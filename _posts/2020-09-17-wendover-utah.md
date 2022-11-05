@@ -9,7 +9,7 @@ lng: -113.97987
 city: Wendover
 state: Utah
 miles: 288
-banner: /assets/img/banners/utah/banner-salt-flats-3.jpg
+banner: /img/banners/utah/banner-salt-flats-3.jpg
 campground: Bonneville Salt Flats BLM
 hookups: None
 nights: 1
@@ -24,8 +24,8 @@ tags:
     Crashing at the Bonneville Salt Flats for the night. Might try to set a land speed record with the rig later if I have time.
 </p>
 
-![campsite](/assets/img/destinations/utah/bonneville-salt-flats/campsite.jpg)
+![campsite]({{ site.cdn }}/img/destinations/utah/bonneville-salt-flats/campsite.jpg)
 
-![sign](/assets/img/destinations/utah/bonneville-salt-flats/sign.jpg)
+![sign]({{ site.cdn }}/img/destinations/utah/bonneville-salt-flats/sign.jpg)
 
-![bike](/assets/img/destinations/utah/bonneville-salt-flats/bike.jpg)
+![bike]({{ site.cdn }}/img/destinations/utah/bonneville-salt-flats/bike.jpg)

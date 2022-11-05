@@ -3,16 +3,16 @@ title: Hovenweep National Monument
 date: 2019-06-01
 category: updates
 layout: update
-banner: /assets/img/banners/colorado/banner-hovenweep.jpg
+banner: /img/banners/colorado/banner-hovenweep.jpg
 tags:
   - cortez
   - hiking
 ---
 
 <div class="img-slider">
-    <img src="/assets/img/updates/colorado/hovenweep/hovenweep-1.jpg">
-    <img src="/assets/img/updates/colorado/hovenweep/hovenweep-2.jpg">
-    <img src="/assets/img/updates/colorado/hovenweep/hovenweep-3.jpg">
+    <img src="{{ site.cdn }}/img/updates/colorado/hovenweep/hovenweep-1.jpg">
+    <img src="{{ site.cdn }}/img/updates/colorado/hovenweep/hovenweep-2.jpg">
+    <img src="{{ site.cdn }}/img/updates/colorado/hovenweep/hovenweep-3.jpg">
 </div>
 
 <p class="text-center">

@@ -3,14 +3,14 @@ title: Red Rock Canyon
 date: 2019-06-24
 category: updates
 layout: update
-banner: /assets/img/banners/nevada/banner-red-rock.jpg
+banner: /img/banners/nevada/banner-red-rock.jpg
 tags:
   - vegas
 ---
 
 <div class="img-slider">
-    <img src="/assets/img/updates/nevada/red-rock-canyon/red-rock-1.jpg">
-    <img src="/assets/img/updates/nevada/red-rock-canyon/red-rock-2.jpg">
+    <img src="{{ site.cdn }}/img/updates/nevada/red-rock-canyon/red-rock-1.jpg">
+    <img src="{{ site.cdn }}/img/updates/nevada/red-rock-canyon/red-rock-2.jpg">
 </div>
 
 <p class="text-center">

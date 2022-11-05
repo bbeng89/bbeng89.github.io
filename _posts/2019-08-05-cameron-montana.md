@@ -9,7 +9,7 @@ lng: -111.6811235
 city: Cameron
 state: Montana
 miles: 107
-banner: /assets/img/banners/montana/banner-cameron.jpg
+banner: /img/banners/montana/banner-cameron.jpg
 campground: Driftwaters Resort
 hookups: Full
 nights: 7
@@ -20,9 +20,9 @@ tags:
   - rv-park
 ---
 
-<img src="/assets/img/destinations/montana/cameron/cameron-campsite.jpg" />
+<img src="{{ site.cdn }}/img/destinations/montana/cameron/cameron-campsite.jpg" />
 
-<img src="/assets/img/destinations/montana/cameron/river.jpg" />
+<img src="{{ site.cdn }}/img/destinations/montana/cameron/river.jpg" />
 
 <p class="text-center">
     Montana is incredible. This is pretty much what it looks like everywhere here.

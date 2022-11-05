@@ -9,7 +9,7 @@ lng: -105.514678
 city: Capitan
 state: New Mexico
 miles: 98
-banner: /assets/img/banners/new-mexico/banner-capitan.jpg
+banner: /img/banners/new-mexico/banner-capitan.jpg
 campground: West Mesa Dispersed - BLM
 hookups: None
 nights: 14
@@ -22,35 +22,35 @@ tags:
 
 
 <div class="img-slider">
-    <img src="/assets/img/destinations/new-mexico/capitan/insta-1-1.jpg">
-    <img src="/assets/img/destinations/new-mexico/capitan/insta-1-2.jpg">
+    <img src="{{ site.cdn }}/img/destinations/new-mexico/capitan/insta-1-1.jpg">
+    <img src="{{ site.cdn }}/img/destinations/new-mexico/capitan/insta-1-2.jpg">
 </div>
 
 <p class="text-center">
     It got too hot in Alamogordo, so we moved an hour up into the mountains.
 </p>
 
-![badminton](/assets/img/destinations/new-mexico/capitan/capitan-badminton.jpg)
+![badminton]({{ site.cdn }}/img/destinations/new-mexico/capitan/capitan-badminton.jpg)
 
 <p class="text-center">
     We've got badminton set up (with a towel net)
 </p>
 
-![LED Lights](/assets/img/destinations/new-mexico/capitan/capitan-lights.jpg)
+![LED Lights]({{ site.cdn }}/img/destinations/new-mexico/capitan/capitan-lights.jpg)
 
 <p class="text-center">
     And a ton of LED lights
 </p>
 
-![elk leg](/assets/img/destinations/new-mexico/capitan/capitan-leg.jpg)
+![elk leg]({{ site.cdn }}/img/destinations/new-mexico/capitan/capitan-leg.jpg)
 
 <p class="text-center">
     And Booker is finding lots of cool stuff
 </p>
 
 <div class="img-slider">
-    <img src="/assets/img/destinations/new-mexico/capitan/insta-2-1.jpg">
-    <img src="/assets/img/destinations/new-mexico/capitan/insta-2-2.jpg">
+    <img src="{{ site.cdn }}/img/destinations/new-mexico/capitan/insta-2-1.jpg">
+    <img src="{{ site.cdn }}/img/destinations/new-mexico/capitan/insta-2-2.jpg">
 </div>
 
 <p class="text-center">
