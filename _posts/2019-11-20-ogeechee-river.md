@@ -20,5 +20,5 @@ tags:
 </p>
 
 <video controls muted>
-    <source src="/assets/img/updates/georgia/ogeechee-river/paddling.mp4" type="video/mp4">
+    <source src="{{ site.cdn }}/vid/updates/georgia/ogeechee-river/paddling.mp4" type="video/mp4">
 </video>

@@ -25,8 +25,8 @@ tags:
     This is peak camping. Boondocking at the base of the Dragoon Mountains.
 </p>
 
-<video controls muted>
-    <source src="/assets/img/destinations/arizona/tombstone/biking.mp4" type="video/mp4">
+<video controls muted width="540">
+    <source src="{{ site.cdn }}/vid/destinations/arizona/tombstone/biking.mp4" type="video/mp4">
 </video>
 
 <div class="img-slider">

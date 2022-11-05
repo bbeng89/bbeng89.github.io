@@ -19,5 +19,5 @@ tags:
 </p>
 
 <video controls muted>
-    <source src="/assets/img/updates/alabama/gulf-shores-beach/booker.mp4" type="video/mp4">
+    <source src="{{ site.cdn }}/vid/updates/alabama/gulf-shores-beach/booker.mp4" type="video/mp4">
 </video>

@@ -15,7 +15,7 @@ tags:
     <img src="/assets/img/updates/california/joshua-tree/jt-2.jpg">
     <img src="/assets/img/updates/california/joshua-tree/jt-3.jpg">
     <video controls preload muted autoplay loop>
-        <source src="/assets/img/updates/california/joshua-tree/ridin.mp4" type="video/mp4">
+        <source src="{{ site.cdn }}/vid/updates/california/joshua-tree/ridin.mp4" type="video/mp4">
     </video>
 </div>
 

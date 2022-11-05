@@ -20,7 +20,7 @@ tags:
     <img src="/assets/img/updates/arizona/antelope-canyon/antelope-canyon-8.jpg">
     <img src="/assets/img/updates/arizona/antelope-canyon/antelope-canyon-9.jpg">
     <video controls preload muted autoplay loop>
-        <source src="/assets/img/updates/arizona/antelope-canyon/paddling2.mp4" type="video/mp4">
+        <source src="{{ site.cdn }}/vid/updates/arizona/antelope-canyon/paddling2.mp4" type="video/mp4">
     </video>
 </div>
 
